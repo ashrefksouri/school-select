@@ -1,0 +1,360 @@
+{
+  "slug": "international-franco-british-school",
+  "school_id": "tn-tunis-ifbs",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "International Franco-British School",
+    "name_short": "IFBS",
+    "alternate_names": [
+      "IFBS Tunisia",
+      "International Franco British School",
+      "École Internationale Franco-Britannique"
+    ],
+    "founded_date_iso": "2021-09-01",
+    "official_website": "https://ifbschool.org",
+    "country_code": "TN",
+    "city": "La Marsa",
+    "city_slug": "la-marsa",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british",
+      "french_aefe",
+      "bilingual"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "age_min": 3,
+    "age_max": 11
+  },
+  "seo": {
+    "title": "IFBS · International Franco-British School — School Select",
+    "description": "Seule école TN offrant les 2 systèmes : britannique ET français. Préscolaire + primaire. Bilingue FR-EN, La Marsa Sidi Daoued. Fondée 2021.",
+    "og_title": "IFBS · International Franco-British School (bilingue)",
+    "og_description": "École bilingue FR-EN à La Marsa. Cursus britannique ou français au choix. Préscolaire + primaire. Seule école TN avec les 2 systèmes."
+  },
+  "hero": {
+    "logo_text": "IFBS",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École privée bilingue, fondée en 2021 à <strong>La Marsa (Sidi Daoued)</strong>. <strong>Seule école internationale en Tunisie offrant l'éducation bilingue en français ET anglais</strong>, avec le choix entre le <strong>curriculum britannique OU le système français</strong>. Cursus de la <strong>maternelle au primaire</strong>.",
+    "eyebrow_text": "Premium · Bilingue FR-UK · La Marsa",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Sidi Daoued, La Marsa"
+      },
+      {
+        "icon": "book",
+        "text": "British OU français"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 11 ans (maternelle + primaire)"
+      },
+      {
+        "icon": "globe",
+        "text": "Bilingue FR-EN"
+      },
+      {
+        "icon": "star",
+        "text": "Seule école 2 systèmes en TN"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://ifbschool.org",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "tel:+21671854033",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "IFBS se positionne en tier Premium (6-12k TND/an) estimé. La grille tarifaire n'est pas publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables bilingue FR-UK en Tunisie.",
+    "cta_email": "contact@ifbschool.org"
+  },
+  "accreditations": [
+    {
+      "short": "British",
+      "name": "British Curriculum",
+      "meta": "Système éducatif britannique au choix",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "French",
+      "name": "Système éducatif français",
+      "meta": "Programme français au choix",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "École privée agréée",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    }
+  ],
+  "distinction_text": "Seule école internationale en Tunisie offrant les deux systèmes éducatifs (britannique ET français) au choix",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Preschool / Maternelle (3-5 ans)",
+          "Elementary / Primaire (5-11 ans)"
+        ]
+      },
+      {
+        "label": "Systèmes au choix",
+        "items": [
+          "Curriculum britannique (UK National Curriculum)",
+          "Système français (programmes officiels)",
+          "Au choix selon le parcours souhaité"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Anglais (immersion bilingue)",
+          "Français (immersion bilingue)",
+          "Arabe (cours)"
+        ]
+      },
+      {
+        "label": "Pédagogie",
+        "items": [
+          "Bilinguisme complet visé",
+          "Développement de l'autonomie",
+          "Pensée critique encouragée",
+          "Environnement nourricier"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2021",
+        "label": "Année de fondation"
+      },
+      {
+        "value": "2",
+        "label": "Systèmes au choix (FR + UK)"
+      },
+      {
+        "value": "Bilingue",
+        "label": "Modèle pédagogique"
+      },
+      {
+        "value": "3-11",
+        "label": "Tranche d'âge"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Outils numériques bilingues."
+    },
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque bilingue",
+      "description": "Ressources en français et anglais."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Arts et créativité",
+      "description": "Activités artistiques intégrées."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Cantine",
+      "description": "Restauration sur site."
+    },
+    {
+      "icon_type": "infirmerie",
+      "name": "Santé scolaire",
+      "description": "Suivi santé des élèves."
+    }
+  ],
+  "clubs": {
+    "state": "empty",
+    "description_html": "IFBS propose un programme d'activités extrascolaires bilingues. La liste détaillée est communiquée aux familles inscrites.",
+    "cta": null,
+    "cards": []
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Maternelle",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Primaire",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Bilinguisme",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Arts",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Bibliothèque",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 71 854 033",
+    "phone_main_label": "Standard",
+    "phone_secondary": null,
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@ifbschool.org",
+    "email_admissions": "contact@ifbschool.org",
+    "map": {
+      "lat": 36.8889,
+      "lng": 10.3192,
+      "title": "IFBS — 66 rue de l'or, Sidi Daoued, La Marsa"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/InternationalFrancoBritishSchool",
+      "instagram": "https://www.instagram.com/ifbstunisie/",
+      "linkedin": "https://tn.linkedin.com/company/ifbschool",
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Sidi Daoued",
+      "type": "main",
+      "street": "66 rue de l'or, Sidi Daoued",
+      "postal_code": "2078",
+      "locality": "La Marsa",
+      "region": "Tunis",
+      "country_code": "TN",
+      "lat": 36.8889,
+      "lng": 10.3192,
+      "phone_local": "+216 71 854 033"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés publiquement. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Au choix de la famille : <strong>curriculum britannique</strong> (UK National Curriculum) <strong>OU système français</strong> (programmes officiels). IFBS est la <strong>seule école TN offrant les deux systèmes</strong>."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelle est la tranche d'âge accueillie ?",
+      "answer_html": "<strong>Maternelle (3-5 ans) et primaire (5-11 ans)</strong>. Pas de secondaire actuellement."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Bilinguisme FR-EN</strong>, c'est la mission centrale de l'école : former des enfants pleinement bilingues. L'arabe est également enseigné."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quand l'école a-t-elle été fondée ?",
+      "answer_html": "L'IFBS a été <strong>fondée en 2021</strong>. C'est une école privée et indépendante dirigée par un conseil administratif."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quelle est la pédagogie ?",
+      "answer_html": "Approche favorisant l'<strong>indépendance</strong>, la <strong>pensée critique</strong> et le bilinguisme complet. Environnement nourricier dans un cadre international."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "<strong>66 rue de l'or, Sidi Daoued, La Marsa (2078)</strong>. Quartier résidentiel calme de la banlieue nord de Tunis."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Quels sont les effectifs ?",
+      "answer_html": "Environ <strong>11 à 50 employés</strong> selon le profil LinkedIn officiel. Effectifs élèves non publiés."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Téléphone : <strong>+216 71 854 033</strong>. Email : contact@ifbschool.org. Site : ifbschool.org."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British COBIS · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "canopus-international-school-of-tunis",
+      "cover_text": "CIS",
+      "name": "Canopus International School of Tunis",
+      "meta": "British Cambridge · Charguia 1",
+      "tier": "premium"
+    },
+    {
+      "slug": "british-academy-of-tunis",
+      "cover_text": "BAT",
+      "name": "British Academy of Tunis",
+      "meta": "IB Continuum · Berges du Lac 1",
+      "tier": "premium"
+    }
+  ]
+}

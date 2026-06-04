@@ -1,0 +1,431 @@
+{
+  "slug": "british-international-school-of-tunis",
+  "school_id": "tn-tunis-bist",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "The British International School of Tunis",
+    "name_short": "BIST",
+    "alternate_names": [
+      "BIST"
+    ],
+    "founded_date_iso": "2019-05-03",
+    "official_website": "https://bistunis.info",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Ariana"
+  },
+  "classification": {
+    "tier": "premium_plus",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "languages": [
+      "en",
+      "ar",
+      "fr"
+    ],
+    "age_min": 2,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "The British International School of Tunis (BIST) — École britannique…",
+    "description": "Fiche détaillée de BIST. Première école COBIS et BSO de Tunisie. Accréditée Cambridge International, ISI, PSQM, Forest School. Curriculum britannique 2.5 à 18…",
+    "og_title": "The British International School of Tunis (BIST) — École britannique…",
+    "og_description": "BIST · Tunisia's First COBIS Accredited School · Cambridge Exam Centre · IGCSE / AS / A Levels · 2 campus à La Soukra et Le Kram"
+  },
+  "hero": {
+    "logo_text": "BIST",
+    "image_url": null,
+    "image_tag": "Photo officielle à venir",
+    "tagline_html": "École internationale britannique, <strong>première école COBIS et BSO de Tunisie</strong>. Curriculum britannique de <strong>2,5 à 18 ans</strong> (National Curriculum of England and Wales), sur deux campus à <strong>La Soukra</strong> (primaire) et <strong>Le Kram</strong> (secondaire et Sixth Form). <strong>+20 nationalités</strong> représentées · Centre d'examens Cambridge officiel.",
+    "eyebrow_text": "Fiche école · Premium+",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "La Soukra / Le Kram"
+      },
+      {
+        "icon": "book",
+        "text": "Curriculum britannique"
+      },
+      {
+        "icon": "users",
+        "text": "2,5 à 18 ans"
+      },
+      {
+        "icon": "home",
+        "text": "Externat"
+      },
+      {
+        "icon": "globe",
+        "text": "+20 nationalités"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://bistunis.info",
+      "label": "Préinscrire mon enfant"
+    },
+    "cta_secondary": {
+      "url": "mailto:admissions@bist.com.tn",
+      "label": "Planifier une visite"
+    }
+  },
+  "fees": {
+    "tier_active": "premium_plus",
+    "tier_intro_text": "BIST se situe dans la catégorie tarifaire suivante :",
+    "details_html": "<strong>Frais détaillés non publiés publiquement.</strong> Les frais varient selon le niveau scolaire (Pre-Nursery, Primary, Secondary, Sixth Form) et les services choisis.",
+    "publication_status": "non_published",
+    "note": "Frais d'application, caution et grille tarifaire : à vérifier directement auprès du service admissions.",
+    "cta_email": "admissions@bist.com.tn"
+  },
+  "accreditations": [
+    {
+      "short": "COBIS",
+      "name": "Council of British International Schools",
+      "meta": "Tunisia's First COBIS Accredited School",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1E3A6B"
+    },
+    {
+      "short": "BSO",
+      "name": "British Schools Overseas",
+      "meta": "Inspection rapport nov 2025 · ISI framework",
+      "gradient_start": "#4E5C7A",
+      "gradient_end": "#1E3A6B"
+    },
+    {
+      "short": "CIE",
+      "name": "Cambridge International",
+      "meta": "Centre d'examens officiel · IGCSE / AS / A Levels",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#14B8A6"
+    },
+    {
+      "short": "UK",
+      "name": "UK Department for Education",
+      "meta": "URN 147460 · DfE 000/6190",
+      "gradient_start": "#1A1814",
+      "gradient_end": "#4E5C7A"
+    },
+    {
+      "short": "ISI",
+      "name": "Independent Schools Inspectorate",
+      "meta": "Body indépendant reconnu UK · Inspections régulières",
+      "gradient_start": "#0A5853",
+      "gradient_end": "#0F766E"
+    },
+    {
+      "short": "PSQM",
+      "name": "Primary Science Quality Mark",
+      "meta": "Sciences en primaire · hands-on et innovant",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0A5853"
+    },
+    {
+      "short": "F&B",
+      "name": "Forest & Beach School",
+      "meta": "Apprentissage outdoor accredited",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#0F766E"
+    },
+    {
+      "short": "DofE",
+      "name": "Duke of Edinburgh's Award",
+      "meta": "Programme international jeunesse",
+      "gradient_start": "#4E5C7A",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "TN",
+      "name": "Ministère TN de l'Éducation",
+      "meta": "École privée autorisée",
+      "gradient_start": "#1A1814",
+      "gradient_end": "#4E5C7A"
+    }
+  ],
+  "distinction_text": "Distinction 2025 · African Excellence Awards",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Pre-Nursery (2,5+ ans)",
+          "Nursery + Reception (Early Years)",
+          "Primary · Year 1 à 6 (KS1 + KS2)",
+          "Secondary · Year 7 à 11 (KS3 + KS4)",
+          "Sixth Form · Year 12-13 (ouvert sept 2020)"
+        ]
+      },
+      {
+        "label": "Diplômes préparés",
+        "items": [
+          "Cambridge <strong>IGCSE</strong>",
+          "Cambridge <strong>AS Level</strong>",
+          "Cambridge <strong>A Level</strong>"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "<strong>Anglais</strong> · langue d'instruction",
+          "<strong>Arabe</strong> · enseigné",
+          "<strong>Français</strong> · MFL"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "<strong>EAL</strong> · English as Additional Language",
+          "<strong>SEND</strong> · Special Educational Needs",
+          "<strong>G&amp;T</strong> · Gifted &amp; Talented"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "+20",
+        "label": "Nationalités"
+      },
+      {
+        "value": "60%",
+        "label": "Enseignants expatriés"
+      },
+      {
+        "value": "2",
+        "label": "Campus"
+      },
+      {
+        "value": "13",
+        "label": "Ans d'expérience"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "Smart Classrooms",
+      "description": "Salles connectées · zones d'apprentissage flexibles"
+    },
+    {
+      "icon_type": "labs",
+      "name": "STEAM Room · Science Labs · ICT",
+      "description": "Espace dédié · Labos scientifiques · Salles informatiques"
+    },
+    {
+      "icon_type": "library",
+      "name": "Library & Reading Zones",
+      "description": "Bibliothèque · zones de lecture calmes"
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Music Rooms & Art Zones",
+      "description": "Studios musique · théâtre · espaces création"
+    },
+    {
+      "icon_type": "pool",
+      "name": "Outdoor Heated Pool",
+      "description": "Piscine chauffée extérieure · natation toute l'année"
+    },
+    {
+      "icon_type": "forest",
+      "name": "Forest & Beach School",
+      "description": "Treehouse · Animal Garden · Sensory Play Zones"
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Cantine — Maison L'olivier",
+      "description": "Menus équilibrés · halal-friendly · allergy-conscious · sourcing local"
+    },
+    {
+      "icon_type": "byod",
+      "name": "Politique BYOD",
+      "description": "Bring Your Own Device · culture d'innovation et collaboration"
+    }
+  ],
+  "clubs": {
+    "state": "empty",
+    "description_html": "<strong>Liste détaillée des clubs non publiée sur le site officiel.</strong><br/>Programme structuré autour de trois axes : <strong>Events · Clubs · Sports</strong>. Compétitions inter-houses mensuelles (sport, académique, arts), sports teams, tournois, Health Week, sorties locales, résidentiels (camping, beach clean-ups), voyages internationaux <strong>UK · France · Allemagne · MUN summits</strong>, placements work experience.",
+    "cta": {
+      "url": "https://bistunis.info/pupil-life/",
+      "label": "Consulter Pupil Life · bistunis.info"
+    },
+    "cards": []
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus La Soukra",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1E3A6B"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Campus Le Kram",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#14B8A6"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Science Labs",
+        "gradient_start": "#4E5C7A",
+        "gradient_end": "#1E3A6B"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Forest School",
+        "gradient_start": "#0A5853",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Library STEAM",
+        "gradient_start": "#1E3A6B",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sports Day",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#0F766E"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 94 232 720",
+    "phone_main_label": "Admissions · Téléphone principal",
+    "phone_secondary": "+216 70 240 880",
+    "office_hours": "Lundi-Vendredi · 8h00-17h00",
+    "email_main": "admissions@bist.com.tn",
+    "email_admissions": "admissions@bist.com.tn",
+    "map": {
+      "lat": 36.8687,
+      "lng": 10.2589,
+      "title": "Carte BIST La Soukra"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/people/BIST-Education/100087959296522/",
+      "instagram": "https://www.instagram.com/bist_education/",
+      "linkedin": "https://www.linkedin.com/company/the-british-international-school-of-tunis-bist-education/",
+      "youtube": "https://www.youtube.com/@thebritishinternationalsch6325",
+      "tiktok": null,
+      "wikipedia": "https://en.wikipedia.org/wiki/British_International_School_of_Tunis"
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus primaire",
+      "type": "primary",
+      "street": "49 Rue du Parc",
+      "postal_code": "2036",
+      "locality": "La Soukra",
+      "region": "Ariana",
+      "country_code": "TN",
+      "lat": 36.8687,
+      "lng": 10.2589,
+      "phone_local": null
+    },
+    {
+      "order": 2,
+      "name": "Campus secondaire",
+      "type": "secondary",
+      "street": "42 Rue Socrates",
+      "postal_code": "2015",
+      "locality": "Le Kram",
+      "region": "Tunis",
+      "country_code": "TN",
+      "lat": 36.8412,
+      "lng": 10.3169,
+      "phone_local": null
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "BIST se situe dans la catégorie <strong>Premium+ (12 000 - 20 000 TND/an estimé)</strong>. La grille tarifaire détaillée n'est pas publiée sur le site officiel. Pour obtenir les frais d'inscription, de scolarité et la caution, contactez directement <a href=\"mailto:admissions@bist.com.tn\">admissions@bist.com.tn</a>."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Comment se déroule le processus d'admission ?",
+      "answer_html": "5 étapes : (1) Enquête & visite (présentielle ou virtuelle), (2) Soumission du dossier (ID, bulletins, dossier médical), (3) Évaluation — observation par le jeu pour Primary, <strong>CAT4 + assessments par matière</strong> pour Secondary, (4) Offre de place, (5) Onboarding avec orientation pack et buddy system. Entrée flexible toute l'année, assessments à distance possibles."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelles tranches d'âge sont acceptées ?",
+      "answer_html": "<strong>Pre-Nursery dès 2,5 ans</strong> (toilet trained) jusqu'à Year 13 (18 ans). Nursery : 3 ans au 1er septembre. Reception : 4 ans au 1er septembre. Sixth Form ouvert depuis septembre 2020."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "L'école est-elle homologuée/reconnue ?",
+      "answer_html": "Oui — accréditations multiples : <strong>COBIS</strong> (première école de Tunisie), <strong>BSO</strong> (rapport inspection novembre 2025), <strong>ISI</strong>, <strong>Cambridge International Exam Centre</strong>, <strong>PSQM</strong>, <strong>Forest & Beach School</strong>, <strong>Duke of Edinburgh's Award</strong>. Reconnue par le <strong>UK Department for Education</strong> (URN 147460, DfE 000/6190) et le <strong>Ministère tunisien de l'Éducation</strong>."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "Langue d'instruction : <strong>Anglais</strong>. Arabe enseigné comme matière. Français en MFL (Modern Foreign Language). Programme EAL (English as Additional Language) robuste pour les non-anglophones."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quel soutien pour les besoins spécifiques ?",
+      "answer_html": "BIST dispose d'une équipe SEND expérimentée et propose : <strong>EAL</strong> (English as Additional Language), <strong>SEND</strong> (Special Educational Needs) avec plans personnalisés, <strong>G&T</strong> (Gifted & Talented). Head of Support : Sayda Brayek."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Y a-t-il un service de transport scolaire ?",
+      "answer_html": "Information non publiée sur le site officiel. Service probablement non assuré directement — à confirmer auprès du bureau admissions au <a href=\"tel:+21694232720\">+216 94 232 720</a>."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Quelles activités extrascolaires ?",
+      "answer_html": "Programme structuré autour des Houses (Primary) : compétitions inter-houses mensuelles, sports teams, Health Week, Forest & Beach School pour le primaire, Duke of Edinburgh's Award (secondary), MUN summits. Voyages internationaux UK, France, Allemagne. Placements work experience pour le secondary."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Quels sont les diplômes préparés ?",
+      "answer_html": "Cambridge <strong>IGCSE</strong> (Year 11), Cambridge <strong>AS Level</strong> (Year 12), Cambridge <strong>A Level</strong> (Year 13). Reconnus mondialement par plus de 25 000 universités, employeurs et gouvernements. Ouvre l'accès aux universités UK, US, Canada, Australie, Europe."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "oxford-international-school-of-tunis",
+      "cover_text": "OIST",
+      "name": "Oxford International School of Tunis",
+      "meta": "Le Kram · UK + US Common Core",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "international-maarif-schools-tunisia",
+      "cover_text": "IMST",
+      "name": "International Maarif Schools of Tunisia",
+      "meta": "Ariana · Cambridge International",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "british-academy-of-tunis",
+      "cover_text": "BAT",
+      "name": "British Academy of Tunis",
+      "meta": "Berges du Lac · UK + IB Continuum",
+      "tier": "premium_plus"
+    }
+  ]
+}

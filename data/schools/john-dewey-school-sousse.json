@@ -1,0 +1,379 @@
+{
+  "slug": "john-dewey-school-sousse",
+  "school_id": "tn-sousse-john-dewey",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "John Dewey School de Sousse",
+    "name_short": "John Dewey Sousse",
+    "alternate_names": [
+      "John Dewey School",
+      "JDS Sousse",
+      "Collège International John Dewey"
+    ],
+    "founded_date_iso": "2017-09-19",
+    "official_website": "https://johndewey-school.org/fr",
+    "country_code": "TN",
+    "city": "Sousse",
+    "city_slug": "sousse",
+    "gov": "Sousse"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "languages": [
+      "ar",
+      "fr",
+      "en"
+    ],
+    "age_min": 3,
+    "age_max": 12
+  },
+  "seo": {
+    "title": "John Dewey School Sousse · IB World depuis 2021",
+    "description": "École primaire IB World à Sahloul 4. École du monde IB depuis mai 2021. Programme tunisien + PYP. Trilingue, fondée 2017 par Dr Rached Chebil.",
+    "og_title": "John Dewey School de Sousse · IB World School",
+    "og_description": "École du monde IB depuis mai 2021. Programme tunisien + PYP. Sahloul 4 Sousse. Coopération École Internationale Montréal, GSING Djerba (jumelage IB)."
+  },
+  "hero": {
+    "logo_text": "JDS",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École primaire internationale, <strong>IB World School depuis mai 2021</strong>. <strong>Programme tunisien enrichi du PYP</strong> (Primary Years Programme). Fondée en septembre 2017 par <strong>Dr Rached Chebil</strong>, située à Sahloul 4, Sousse. Trilingue arabe-français-anglais.",
+    "eyebrow_text": "Premium · IB World · Sahloul 4, Sousse",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Sahloul 4, Sousse"
+      },
+      {
+        "icon": "book",
+        "text": "IB World depuis 2021 · PYP"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 12 ans"
+      },
+      {
+        "icon": "calendar",
+        "text": "Fondée 2017"
+      },
+      {
+        "icon": "globe",
+        "text": "Trilingue AR-FR-EN"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://johndewey-school.org/fr",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "mailto:administration@johndewey-school.org",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "John Dewey School se positionne en tier Premium estimé (6-12k TND/an). La grille tarifaire n'est pas publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'administration.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB primaire à Sousse.",
+    "cta_email": "administration@johndewey-school.org"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — PYP",
+      "meta": "École du monde depuis mai 2021 · Code 060676",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Homologation 19 septembre 2017 · Programme tunisien",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    }
+  ],
+  "distinction_text": "École du monde IB depuis mai 2021 · Jumelage IB avec GSING Djerba",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Préscolaire",
+          "Primaire 1 à 6 (3-12 ans)",
+          "Programme tunisien officiel",
+          "Programme IB PYP depuis 2021"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "IB Primary Years Programme (PYP)",
+          "Certificats fin de primaire TN",
+          "Profil de l'apprenant IB"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Arabe",
+          "Français",
+          "Anglais"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Ateliers ludiques et créatifs",
+          "Apprentissage par la recherche (inquiry-based)",
+          "Sorties terrain et échanges",
+          "Formation continue des enseignants"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2021",
+        "label": "Autorisation IB (mai)"
+      },
+      {
+        "value": "060676",
+        "label": "Code école IB"
+      },
+      {
+        "value": "2017",
+        "label": "Année de fondation"
+      },
+      {
+        "value": "PYP",
+        "label": "Programme IB"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "garderie",
+      "name": "Garderie",
+      "description": "Service de garde pour les plus jeunes."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Restauration",
+      "description": "Restaurant scolaire sur site."
+    },
+    {
+      "icon_type": "transport",
+      "name": "Transport scolaire",
+      "description": "Service de bus pour les familles."
+    },
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque",
+      "description": "Ressources documentaires."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Équipement pédagogique IB."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Vie scolaire dynamique inspirée par John Dewey et l'approche IB.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Ateliers créatifs",
+        "items": [
+          "Ateliers ludiques",
+          "Arts créatifs",
+          "Expression personnelle"
+        ]
+      },
+      {
+        "label": "Approche recherche",
+        "items": [
+          "Apprentissage par la recherche (inquiry-based)",
+          "Projets transdisciplinaires",
+          "Profil de l'apprenant IB"
+        ]
+      },
+      {
+        "label": "Sorties et échanges",
+        "items": [
+          "Sorties terrain (landmarks locaux)",
+          "Jumelage IB avec GSING Djerba",
+          "Coopération École Internationale Montréal"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Classes",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Bibliothèque",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Ateliers",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Cantine",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sortie",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 70 286 900",
+    "phone_main_label": "Standard",
+    "phone_secondary": null,
+    "office_hours": "Lun-Ven 8h-16h · Sam 8h30-12h30",
+    "email_main": "administration@johndewey-school.org",
+    "email_admissions": "administration@johndewey-school.org",
+    "map": {
+      "lat": 35.8328,
+      "lng": 10.6019,
+      "title": "John Dewey School — Sahloul 4, Sousse"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/johndeweyschoolsousse/",
+      "instagram": "https://www.instagram.com/johndewey_school",
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Sahloul 4",
+      "type": "main",
+      "street": "Lot 47-48, Sahloul 4, Sousse Jawhra",
+      "postal_code": "4054",
+      "locality": "Sousse",
+      "region": "Sahloul",
+      "country_code": "TN",
+      "lat": 35.8328,
+      "lng": 10.6019,
+      "phone_local": "+216 70 286 900"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>programme officiel tunisien</strong> enrichi du <strong>Programme Primaire IB (PYP)</strong>. École du monde IB depuis mai 2021, code 060676."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelle est la tranche d'âge ?",
+      "answer_html": "Préscolaire et primaire (1ère à 6e année), soit environ <strong>3 à 12 ans</strong>."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Trilingue arabe-français-anglais</strong> dès le préscolaire."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quand l'école a-t-elle été fondée ?",
+      "answer_html": "Fondée par <strong>Dr Rached Chebil</strong>, homologuée par le Ministère de l'Éducation le <strong>19 septembre 2017</strong>."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "L'école a-t-elle des partenariats internationaux ?",
+      "answer_html": "Oui : <strong>École Internationale de Montréal</strong>, <strong>Écoles Al Madina de Casablanca</strong>, et <strong>jumelage IB avec GSING (Les Nouvelles Générations) Djerba</strong>."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Y a-t-il un service de transport ?",
+      "answer_html": "Oui, un <strong>service de transport scolaire</strong> est proposé."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Quels sont les horaires ?",
+      "answer_html": "<strong>Lundi à vendredi 8h-16h</strong>. <strong>Samedi 8h30-12h30</strong>."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Téléphone : <strong>+216 70 286 900</strong>. Email : administration@johndewey-school.org."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "takiacademy-international-school-sousse",
+      "cover_text": "Taki",
+      "name": "Takiacademy International School of Sousse",
+      "meta": "IB DP · Sahloul Sousse",
+      "tier": "premium"
+    },
+    {
+      "slug": "gsing",
+      "cover_text": "GSING",
+      "name": "Groupe Scolaire International Les Nouvelles Générations",
+      "meta": "IB Continuum · Djerba",
+      "tier": "premium"
+    },
+    {
+      "slug": "ecole-canadienne-de-tunis",
+      "cover_text": "ECT",
+      "name": "École Canadienne de Tunis",
+      "meta": "IB World · Charguia",
+      "tier": "premium"
+    }
+  ]
+}

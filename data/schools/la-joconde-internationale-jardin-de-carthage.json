@@ -1,0 +1,379 @@
+{
+  "slug": "la-joconde-internationale-jardin-de-carthage",
+  "school_id": "tn-tunis-joconde-carthage",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "La Joconde Internationale Jardin de Carthage",
+    "name_short": "La Joconde Carthage",
+    "alternate_names": [
+      "Joconde Jardins de Carthage",
+      "École La Joconde Carthage",
+      "La Joconde International"
+    ],
+    "founded_date_iso": "1980-09-01",
+    "official_website": "https://www.lajoconde.tn",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "age_min": 3,
+    "age_max": 12
+  },
+  "seo": {
+    "title": "La Joconde Internationale Jardin de Carthage · IB PYP",
+    "description": "École primaire IB World à Jardins de Carthage. Programme PYP (Primary Years). Groupe Joconde fondé 1980 par Mme Boukhris Zeineb, doyenne enseignement privé TN.",
+    "og_title": "La Joconde Internationale · Jardin de Carthage · IB PYP",
+    "og_description": "École primaire IB World aux Jardins de Carthage. Programme PYP (Primary Years Programme). Code IB 062868. Petites classes et excellence pédagogique."
+  },
+  "hero": {
+    "logo_text": "Joconde",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École primaire internationale, <strong>IB World School</strong> proposant le <strong>Programme Primaire (PYP)</strong> du Baccalauréat International. Située aux <strong>Jardins de Carthage</strong>, héritière du <strong>groupe Joconde fondé en 1980</strong> par Mme Boukhris Zeineb, doyenne de l'enseignement privé en Tunisie.",
+    "eyebrow_text": "Premium · IB PYP · Jardins de Carthage",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Jardins de Carthage, Tunis"
+      },
+      {
+        "icon": "book",
+        "text": "IB PYP + Tunisien"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 12 ans (préscolaire + primaire)"
+      },
+      {
+        "icon": "calendar",
+        "text": "Héritage groupe Joconde 1980"
+      },
+      {
+        "icon": "star",
+        "text": "Petites classes"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://www.lajoconde.tn",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "mailto:lajoconde2carthage@gmail.com",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "La Joconde Carthage se positionne en tier Premium estimé (6-12k TND/an). La grille tarifaire n'est pas publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB primaire à Tunis.",
+    "cta_email": "lajoconde2carthage@gmail.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — PYP",
+      "meta": "École du monde IB · Code 062868 · Programme Primaire",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "École privée agréée · Programme tunisien",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    }
+  ],
+  "distinction_text": "Héritage pédagogique du groupe Joconde, fondé en 1980 par la doyenne de l'enseignement privé en Tunisie",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Préscolaire / Préparatoire",
+          "Primaire 1 à 6 (6-12 ans)",
+          "Programme tunisien",
+          "Programme IB PYP"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "IB Primary Years Programme (PYP)",
+          "Continuité vers IB MYP/DP via partenaires",
+          "Certificats fin de primaire TN"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Français",
+          "Anglais",
+          "Arabe"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Petites classes (effectifs réduits)",
+          "Enseignement personnalisé",
+          "Approche transdisciplinaire IB",
+          "Activités parascolaires variées"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "1980",
+        "label": "Année groupe Joconde"
+      },
+      {
+        "value": "PYP",
+        "label": "Programme IB autorisé"
+      },
+      {
+        "value": "062868",
+        "label": "Code école IB"
+      },
+      {
+        "value": "Petites",
+        "label": "Tailles de classes"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "cantine",
+      "name": "Cantine",
+      "description": "Restauration sur site."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "Salles connectées",
+      "description": "Équipement pédagogique IB."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Activités créatives",
+      "description": "Arts, musique et expression personnelle."
+    },
+    {
+      "icon_type": "library",
+      "name": "Espace lecture",
+      "description": "Ressources pédagogiques pour la classe."
+    },
+    {
+      "icon_type": "infirmerie",
+      "name": "Santé scolaire",
+      "description": "Suivi santé des élèves."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Vie scolaire active avec activités parascolaires variées et projets pédagogiques IB.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Activités créatives",
+        "items": [
+          "Arts plastiques",
+          "Musique",
+          "Expression corporelle"
+        ]
+      },
+      {
+        "label": "Sport et bien-être",
+        "items": [
+          "Activités sportives",
+          "Jeux collectifs",
+          "Sorties pédagogiques"
+        ]
+      },
+      {
+        "label": "Approche IB",
+        "items": [
+          "Profil de l'apprenant IB",
+          "Recherche transdisciplinaire",
+          "Sensibilité internationale"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Bâtiment",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Classes",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Préscolaire",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Cour",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Arts",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sortie",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 27 584 447",
+    "phone_main_label": "Standard",
+    "phone_secondary": "+216 26 784 002",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "lajoconde2carthage@gmail.com",
+    "email_admissions": "lajoconde2carthage@gmail.com",
+    "map": {
+      "lat": 36.8378,
+      "lng": 10.3127,
+      "title": "La Joconde Internationale — Jardins de Carthage"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ibprimaire/",
+      "instagram": null,
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Jardins de Carthage",
+      "type": "main",
+      "street": "Immeuble La Joconde Internationale, lot 1113, Résidence du Park",
+      "postal_code": "1090",
+      "locality": "Tunis",
+      "region": "Jardins de Carthage",
+      "country_code": "TN",
+      "lat": 36.8378,
+      "lng": 10.3127,
+      "phone_local": "+216 27 584 447"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Les frais détaillés ne sont pas publiés. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>programme tunisien</strong> enrichi du <strong>Programme Primaire IB (PYP)</strong>. Code école IB 062868."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelle est la tranche d'âge ?",
+      "answer_html": "L'école accueille les enfants <strong>du préscolaire jusqu'à la 6e année primaire</strong> (3 à 12 ans environ)."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Français, anglais, arabe</strong>. L'enseignement est trilingue dès le préscolaire."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "L'école fait-elle partie d'un groupe ?",
+      "answer_html": "Oui. Le <strong>groupe Joconde a été fondé en 1980</strong> par Mme Boukhris Zeineb, doyenne de l'enseignement privé en Tunisie. Plusieurs sites existent en Tunisie."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quels sont les effectifs ?",
+      "answer_html": "<strong>Petites classes à effectifs réduits</strong> pour un enseignement personnalisé. Effectifs exacts non publiés."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "<strong>Jardins de Carthage, Tunis 1090</strong>. Immeuble La Joconde Internationale, lot 1113, Résidence du Park."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Y a-t-il des activités extrascolaires ?",
+      "answer_html": "Oui : <strong>variété d'activités parascolaires</strong> pour développer les compétences et explorer les intérêts des élèves."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Contact : <strong>+216 27 584 447</strong> ou lajoconde2carthage@gmail.com. Visite recommandée avant inscription."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-academy-of-tunis",
+      "cover_text": "BAT",
+      "name": "British Academy of Tunis",
+      "meta": "IB Continuum · Berges du Lac 1",
+      "tier": "premium"
+    },
+    {
+      "slug": "ecole-canadienne-de-tunis",
+      "cover_text": "ECT",
+      "name": "École Canadienne de Tunis",
+      "meta": "IB World · Charguia",
+      "tier": "premium"
+    },
+    {
+      "slug": "idealeprimaire-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "École Primaire Idéale Nabeul",
+      "meta": "IB PP · Nabeul",
+      "tier": "premium"
+    }
+  ]
+}

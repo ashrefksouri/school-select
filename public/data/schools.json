@@ -1,0 +1,1024 @@
+[
+  {
+    "slug": "british-academy-of-tunis",
+    "name_full": "Advanced For Education — British Academy of Tunis",
+    "name_short": "BAT",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib"
+    ],
+    "age_min": 3,
+    "age_max": 16,
+    "hero_logo_text": "BAT",
+    "eyebrow_text": "Premium · IB Continuum · Berges du Lac 1",
+    "logo_url": null,
+    "url": "/british-academy-of-tunis/",
+    "name": "Advanced For Education — British Academy of Tunis",
+    "gov": "Tunis",
+    "curriculum": "IB",
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "langues": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2019",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — Continuum (PYP · MYP · DP)"
+      },
+      {
+        "short": "PYP",
+        "name": "IB Primary Years Programme"
+      },
+      {
+        "short": "MYP",
+        "name": "IB Middle Years Programme"
+      },
+      {
+        "short": "DP",
+        "name": "IB Diploma Programme"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.8323,
+    "lng": 10.2425
+  },
+  {
+    "slug": "british-international-school-of-tunis",
+    "name_full": "The British International School of Tunis",
+    "name_short": "BIST",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium_plus",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "age_min": 2,
+    "age_max": 18,
+    "hero_logo_text": "BIST",
+    "eyebrow_text": "Fiche école · Premium+",
+    "logo_url": null,
+    "url": "/british-international-school-of-tunis/",
+    "name": "The British International School of Tunis",
+    "gov": "Ariana",
+    "curriculum": "Britannique",
+    "languages": [
+      "en",
+      "ar",
+      "fr"
+    ],
+    "langues": [
+      "Anglais",
+      "Arabe",
+      "Français"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2019",
+    "accreditations": [
+      {
+        "short": "COBIS",
+        "name": "Council of British International Schools"
+      },
+      {
+        "short": "BSO",
+        "name": "British Schools Overseas"
+      },
+      {
+        "short": "CIE",
+        "name": "Cambridge International"
+      },
+      {
+        "short": "UK",
+        "name": "UK Department for Education"
+      },
+      {
+        "short": "ISI",
+        "name": "Independent Schools Inspectorate"
+      },
+      {
+        "short": "PSQM",
+        "name": "Primary Science Quality Mark"
+      },
+      {
+        "short": "F&B",
+        "name": "Forest & Beach School"
+      },
+      {
+        "short": "DofE",
+        "name": "Duke of Edinburgh's Award"
+      },
+      {
+        "short": "TN",
+        "name": "Ministère TN de l'Éducation"
+      }
+    ],
+    "lat": 36.8687,
+    "lng": 10.2589
+  },
+  {
+    "slug": "canopus-international-school-of-tunis",
+    "name_full": "Canopus International School of Tunis",
+    "name_short": "CIS Tunis",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "age_min": 3,
+    "age_max": 18,
+    "hero_logo_text": "CIS",
+    "eyebrow_text": "Premium · British · Charguia 1, Tunis",
+    "logo_url": null,
+    "url": "/canopus-international-school-of-tunis/",
+    "name": "Canopus International School of Tunis",
+    "gov": "Tunis",
+    "curriculum": "Britannique",
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "langues": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2015",
+    "accreditations": [
+      {
+        "short": "Cognia",
+        "name": "Cognia (USA)"
+      },
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment International"
+      },
+      {
+        "short": "Pearson",
+        "name": "Pearson Edexcel"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.8347,
+    "lng": 10.2086
+  },
+  {
+    "slug": "ecole-canadienne-de-tunis",
+    "name_full": "École Canadienne de Tunis",
+    "name_short": "ECT",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "quebec",
+      "ib"
+    ],
+    "age_min": 3,
+    "age_max": 18,
+    "hero_logo_text": "ECT",
+    "eyebrow_text": "Premium · IB World · Charguia",
+    "logo_url": null,
+    "url": "/ecole-canadienne-de-tunis/",
+    "name": "École Canadienne de Tunis",
+    "gov": "Tunis",
+    "curriculum": "IB",
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "langues": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2014",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — Continuum PYP/MYP/DP"
+      },
+      {
+        "short": "Québec",
+        "name": "Programme québécois (MEES)"
+      },
+      {
+        "short": "Boréal",
+        "name": "Collège Boréal (Ontario, Canada)"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.8313383,
+    "lng": 10.207502
+  },
+  {
+    "slug": "english-international-school-of-tunis",
+    "name_full": "English International School of Tunis",
+    "name_short": "EIST",
+    "city": "La Marsa",
+    "city_slug": "la-marsa",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "age_min": 3,
+    "age_max": 16,
+    "hero_logo_text": "EIST",
+    "eyebrow_text": "Premium · British · Gammarth, La Marsa",
+    "logo_url": null,
+    "url": "/english-international-school-of-tunis/",
+    "name": "English International School of Tunis",
+    "gov": "Tunis",
+    "curriculum": "Britannique",
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "langues": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2021",
+    "accreditations": [
+      {
+        "short": "British",
+        "name": "British National Curriculum"
+      },
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment International Education"
+      },
+      {
+        "short": "Descartes",
+        "name": "Groupe René Descartes"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.9117,
+    "lng": 10.294
+  },
+  {
+    "slug": "gsing",
+    "name_full": "Groupe Scolaire International Les Nouvelles Générations",
+    "name_short": "GSING",
+    "city": "Djerba",
+    "city_slug": "djerba",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib"
+    ],
+    "age_min": 4,
+    "age_max": 19,
+    "hero_logo_text": "GSING",
+    "eyebrow_text": "Premium · IB World · Djerba",
+    "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/nouvelle-generation-noir-300x111-1.png",
+    "url": "/gsing/",
+    "name": "Groupe Scolaire International Les Nouvelles Générations",
+    "gov": "Médenine",
+    "curriculum": "IB",
+    "languages": [
+      "fr",
+      "en",
+      "ar",
+      "de",
+      "es"
+    ],
+    "langues": [
+      "Français",
+      "Anglais",
+      "Arabe",
+      "Allemand",
+      "Espagnol"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2018",
+    "accreditations": [
+      {
+        "short": "IB World",
+        "name": "IB World School"
+      },
+      {
+        "short": "IB Cont.",
+        "name": "IB Continuum School"
+      },
+      {
+        "short": "PP",
+        "name": "Programme Primaire (PYP)"
+      },
+      {
+        "short": "PEI",
+        "name": "Programme d'Éducation Intermédiaire (MYP)"
+      },
+      {
+        "short": "DP",
+        "name": "Programme du Diplôme (DP)"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation de Tunisie"
+      }
+    ],
+    "lat": 33.756001,
+    "lng": 10.752432
+  },
+  {
+    "slug": "ideale-college-lycee-nabeul",
+    "name_full": "Collège & Lycée Idéale Nabeul",
+    "name_short": "L'Idéale Collège-Lycée",
+    "city": "Nabeul",
+    "city_slug": "nabeul",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "age_min": 12,
+    "age_max": 18,
+    "hero_logo_text": "Idéale",
+    "eyebrow_text": "Premium · IB PEI · Cap Bon",
+    "logo_url": null,
+    "url": "/ideale-college-lycee-nabeul/",
+    "name": "Collège & Lycée Idéale Nabeul",
+    "gov": "Nabeul",
+    "curriculum": "IB",
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "langues": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "levels": [
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "1998",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — PEI"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      },
+      {
+        "short": "DELF",
+        "name": "DELF / DALF"
+      },
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment English"
+      },
+      {
+        "short": "APTIS",
+        "name": "APTIS — British Council"
+      }
+    ],
+    "lat": 36.4501,
+    "lng": 10.7376
+  },
+  {
+    "slug": "ideale-el-ghazela-tunis",
+    "name_full": "Collège & Lycée Idéale El-Ghazela",
+    "name_short": "L'Idéale El-Ghazela",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium_plus",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "age_min": 12,
+    "age_max": 18,
+    "hero_logo_text": "Idéale",
+    "eyebrow_text": "Premium+ · IB candidat · Grand Tunis",
+    "logo_url": null,
+    "url": "/ideale-el-ghazela-tunis/",
+    "name": "Collège & Lycée Idéale El-Ghazela",
+    "gov": "Ariana",
+    "curriculum": "IB",
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "langues": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "levels": [
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2019",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — PEI"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      },
+      {
+        "short": "DELF",
+        "name": "DELF / DALF"
+      },
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment English"
+      }
+    ],
+    "lat": 36.8957,
+    "lng": 10.1894
+  },
+  {
+    "slug": "idealeprimaire-nabeul",
+    "name_full": "École Primaire Idéale de Nabeul",
+    "name_short": "L'Idéale Primaire",
+    "city": "Nabeul",
+    "city_slug": "nabeul",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "age_min": 6,
+    "age_max": 12,
+    "hero_logo_text": "Idéale",
+    "eyebrow_text": "Premium · IB World · Cap Bon",
+    "logo_url": null,
+    "url": "/idealeprimaire-nabeul/",
+    "name": "École Primaire Idéale de Nabeul",
+    "gov": "Nabeul",
+    "curriculum": "IB",
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "langues": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "levels": [
+      "primaire",
+      "college"
+    ],
+    "verification": "✅",
+    "founded": "2002",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — Programme Primaire (PP)"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      },
+      {
+        "short": "DELF",
+        "name": "DELF / DALF"
+      },
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment English"
+      }
+    ],
+    "lat": 36.4659,
+    "lng": 10.7906
+  },
+  {
+    "slug": "international-franco-british-school",
+    "name_full": "International Franco-British School",
+    "name_short": "IFBS",
+    "city": "La Marsa",
+    "city_slug": "la-marsa",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british",
+      "french_aefe",
+      "bilingual"
+    ],
+    "age_min": 3,
+    "age_max": 11,
+    "hero_logo_text": "IFBS",
+    "eyebrow_text": "Premium · Bilingue FR-UK · La Marsa",
+    "logo_url": null,
+    "url": "/international-franco-british-school/",
+    "name": "International Franco-British School",
+    "gov": "Tunis",
+    "curriculum": "Britannique",
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "langues": [
+      "Anglais",
+      "Français",
+      "Arabe"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire"
+    ],
+    "verification": "✅",
+    "founded": "2021",
+    "accreditations": [
+      {
+        "short": "British",
+        "name": "British Curriculum"
+      },
+      {
+        "short": "French",
+        "name": "Système éducatif français"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.8889,
+    "lng": 10.3192
+  },
+  {
+    "slug": "international-maarif-schools-tunisia",
+    "name_full": "International Maarif Schools of Tunisia",
+    "name_short": "IMST",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "age_min": 3,
+    "age_max": 18,
+    "hero_logo_text": "IMST",
+    "eyebrow_text": "Premium · British (Cambridge) · Lac 3 + Ariana",
+    "logo_url": null,
+    "url": "/international-maarif-schools-tunisia/",
+    "name": "International Maarif Schools of Tunisia",
+    "gov": "Tunis",
+    "curriculum": "Britannique",
+    "languages": [
+      "en",
+      "ar",
+      "fr",
+      "tr"
+    ],
+    "langues": [
+      "Anglais",
+      "Arabe",
+      "Français",
+      "Turc"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2017",
+    "accreditations": [
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment International Education"
+      },
+      {
+        "short": "Maarif",
+        "name": "Turkish Maarif Foundation"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.8459,
+    "lng": 10.2756
+  },
+  {
+    "slug": "john-dewey-school-sousse",
+    "name_full": "John Dewey School de Sousse",
+    "name_short": "John Dewey Sousse",
+    "city": "Sousse",
+    "city_slug": "sousse",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "age_min": 3,
+    "age_max": 12,
+    "hero_logo_text": "JDS",
+    "eyebrow_text": "Premium · IB World · Sahloul 4, Sousse",
+    "logo_url": null,
+    "url": "/john-dewey-school-sousse/",
+    "name": "John Dewey School de Sousse",
+    "gov": "Sousse",
+    "curriculum": "IB",
+    "languages": [
+      "ar",
+      "fr",
+      "en"
+    ],
+    "langues": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college"
+    ],
+    "verification": "✅",
+    "founded": "2017",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — PYP"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 35.8328,
+    "lng": 10.6019
+  },
+  {
+    "slug": "la-joconde-internationale-jardin-de-carthage",
+    "name_full": "La Joconde Internationale Jardin de Carthage",
+    "name_short": "La Joconde Carthage",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "age_min": 3,
+    "age_max": 12,
+    "hero_logo_text": "Joconde",
+    "eyebrow_text": "Premium · IB PYP · Jardins de Carthage",
+    "logo_url": null,
+    "url": "/la-joconde-internationale-jardin-de-carthage/",
+    "name": "La Joconde Internationale Jardin de Carthage",
+    "gov": "Tunis",
+    "curriculum": "IB",
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "langues": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college"
+    ],
+    "verification": "✅",
+    "founded": "1980",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — PYP"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.8378,
+    "lng": 10.3127
+  },
+  {
+    "slug": "marguerite-duras-nabeul",
+    "name_full": "Lycée Marguerite Duras",
+    "name_short": "Marguerite Duras",
+    "city": "Nabeul",
+    "city_slug": "nabeul",
+    "country_code": "TN",
+    "tier": "premium_plus",
+    "verified": true,
+    "curriculum_types": [
+      "french_aefe"
+    ],
+    "age_min": 3,
+    "age_max": 18,
+    "hero_logo_text": "MD",
+    "eyebrow_text": "Premium+ · École française AEFE · Cap Bon",
+    "logo_url": null,
+    "url": "/marguerite-duras-nabeul/",
+    "name": "Lycée Marguerite Duras",
+    "gov": "Nabeul",
+    "curriculum": "Français",
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "langues": [
+      "Français",
+      "Anglais",
+      "Arabe"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2021",
+    "accreditations": [
+      {
+        "short": "AEFE",
+        "name": "Agence pour l'Enseignement Français à l'Étranger"
+      },
+      {
+        "short": "MENJS",
+        "name": "Ministère Éducation Nationale (France)"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère Éducation Tunisie"
+      },
+      {
+        "short": "AmbassFR",
+        "name": "Ambassade de France en Tunisie"
+      }
+    ],
+    "lat": 36.4501,
+    "lng": 10.7376
+  },
+  {
+    "slug": "oxford-international-school-of-tunis",
+    "name_full": "Oxford International School of Tunis",
+    "name_short": "OIST",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british",
+      "american"
+    ],
+    "age_min": 3,
+    "age_max": 18,
+    "hero_logo_text": "OIST",
+    "eyebrow_text": "Premium · British + American · Le Kram",
+    "logo_url": null,
+    "url": "/oxford-international-school-of-tunis/",
+    "name": "Oxford International School of Tunis",
+    "gov": "Tunis",
+    "curriculum": "Britannique",
+    "languages": [
+      "en",
+      "ar",
+      "fr",
+      "es"
+    ],
+    "langues": [
+      "Anglais",
+      "Arabe",
+      "Français",
+      "Espagnol"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2017",
+    "accreditations": [
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment International Education"
+      },
+      {
+        "short": "American",
+        "name": "American Common Core Standards"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 36.8412,
+    "lng": 10.3169
+  },
+  {
+    "slug": "pristini-international-school",
+    "name_full": "Pristini International School",
+    "name_short": "Pristini",
+    "city": "Sousse",
+    "city_slug": "sousse",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "age_min": 5,
+    "age_max": 19,
+    "hero_logo_text": "Pristini",
+    "eyebrow_text": "Premium · Cambridge · Novation City Sousse",
+    "logo_url": null,
+    "url": "/pristini-international-school/",
+    "name": "Pristini International School",
+    "gov": "Sousse",
+    "curriculum": "Britannique",
+    "languages": [
+      "en",
+      "ar",
+      "fr"
+    ],
+    "langues": [
+      "Anglais",
+      "Arabe",
+      "Français"
+    ],
+    "levels": [
+      "maternelle",
+      "primaire",
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2020",
+    "accreditations": [
+      {
+        "short": "Cambridge",
+        "name": "Cambridge Assessment International Education"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      },
+      {
+        "short": "CDP",
+        "name": "Collège de Paris (partenariat)"
+      }
+    ],
+    "lat": 35.8311,
+    "lng": 10.5856
+  },
+  {
+    "slug": "takiacademy-international-school-sousse",
+    "name_full": "Takiacademy International School of Sousse",
+    "name_short": "TakiAcademy",
+    "city": "Sousse",
+    "city_slug": "sousse",
+    "country_code": "TN",
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "age_min": 12,
+    "age_max": 18,
+    "hero_logo_text": "Taki",
+    "eyebrow_text": "Premium · IB DP · Sousse",
+    "logo_url": null,
+    "url": "/takiacademy-international-school-sousse/",
+    "name": "Takiacademy International School of Sousse",
+    "gov": "Sousse",
+    "curriculum": "IB",
+    "languages": [
+      "ar",
+      "fr",
+      "en"
+    ],
+    "langues": [
+      "Arabe",
+      "Français",
+      "Anglais"
+    ],
+    "levels": [
+      "college",
+      "lycee"
+    ],
+    "verification": "✅",
+    "founded": "2020",
+    "accreditations": [
+      {
+        "short": "IB",
+        "name": "International Baccalaureate — Diploma Programme"
+      },
+      {
+        "short": "MEN-TN",
+        "name": "Ministère de l'Éducation tunisien"
+      }
+    ],
+    "lat": 35.82,
+    "lng": 10.6
+  }
+]

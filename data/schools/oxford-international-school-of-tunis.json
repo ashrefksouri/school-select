@@ -1,0 +1,389 @@
+{
+  "slug": "oxford-international-school-of-tunis",
+  "school_id": "tn-tunis-oist",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Oxford International School of Tunis",
+    "name_short": "OIST",
+    "alternate_names": [
+      "Oxford Tunis",
+      "OIST Tunis"
+    ],
+    "founded_date_iso": "2017-09-01",
+    "official_website": "https://oist.tn",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british",
+      "american"
+    ],
+    "languages": [
+      "en",
+      "ar",
+      "fr",
+      "es"
+    ],
+    "age_min": 3,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "OIST · Oxford International School of Tunis",
+    "description": "École internationale Cambridge + American Common Core au Kram (Berges du Lac 3). De la maternelle au lycée. IGCSE, AS, A Levels. Valeurs OIST.",
+    "og_title": "OIST · Cambridge + American · Berges du Lac 3",
+    "og_description": "École internationale hybride Cambridge + American Common Core. Maternelle au lycée. IGCSE, AS, A Levels. Berges du Lac 3, Le Kram."
+  },
+  "hero": {
+    "logo_text": "OIST",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École internationale combinant les <strong>standards britanniques Cambridge</strong> et les <strong>American Common Core</strong>, dans une approche interdisciplinaire adaptée au contexte tunisien. <strong>De la maternelle au lycée</strong>, avec IGCSE, AS et A Levels. Située aux <strong>Berges du Lac 3, Le Kram</strong>. Valeurs : Originality · Integrity · Success · Tolerance.",
+    "eyebrow_text": "Premium · British + American · Le Kram",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Berges du Lac 3, Le Kram"
+      },
+      {
+        "icon": "book",
+        "text": "Cambridge + American Core"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 18 ans"
+      },
+      {
+        "icon": "trophy",
+        "text": "IGCSE · AS · A Levels"
+      },
+      {
+        "icon": "star",
+        "text": "Valeurs OIST"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://oist.tn",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://oist.tn/welcome/",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "OIST se positionne en tier Premium (6-12k TND/an) estimé. Grille tarifaire non publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission via Apply Now.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables Cambridge à Tunis.",
+    "cta_email": "contact@oist.tn"
+  },
+  "accreditations": [
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment International Education",
+      "meta": "Cambridge Primary, Lower Secondary, IGCSE, AS, A Levels",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "American",
+      "name": "American Common Core Standards",
+      "meta": "Standards américains intégrés au curriculum",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    }
+  ],
+  "distinction_text": "Curriculum hybride Cambridge International + American Common Core, adapté au contexte tunisien",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Early Years / Maternelle (3-5 ans)",
+          "Primary School",
+          "Secondary School",
+          "Sixth Form (AS / A Levels)"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "Cambridge Lower Secondary Checkpoint",
+          "IGCSE (6+ matières)",
+          "Cambridge AS Levels",
+          "Cambridge A Levels"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Anglais (langue d'enseignement)",
+          "Arabe (2nde langue)",
+          "Français (LV étrangère)",
+          "Espagnol (option)"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Équipe internationale + native English teachers",
+          "Approche interdisciplinaire",
+          "Préparation universités mondiales",
+          "Robotics et clubs"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2017",
+        "label": "Année de fondation (estim.)"
+      },
+      {
+        "value": "Cambr.",
+        "label": "Curriculum principal"
+      },
+      {
+        "value": "OIST",
+        "label": "Valeurs : O · I · S · T"
+      },
+      {
+        "value": "3-18",
+        "label": "Tranche d'âge complète"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Technologies modernes intégrées."
+    },
+    {
+      "icon_type": "labs",
+      "name": "Laboratoires",
+      "description": "Sciences pour Cambridge IGCSE et A Levels."
+    },
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque",
+      "description": "Ressources Cambridge et internationales."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Arts & humanités",
+      "description": "Programmes artistiques intégrés."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Cantine",
+      "description": "Restauration sur site."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "OIST propose un éventail riche d'activités extrascolaires : robotique, Science Fair annuelle, MUN, leadership.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Sciences & technologie",
+        "items": [
+          "Robotics club",
+          "Annual Science Fair (tradition OIST)",
+          "Projets STEM"
+        ]
+      },
+      {
+        "label": "Leadership & arts",
+        "items": [
+          "Monthly assemblies",
+          "Public speaking",
+          "Leadership training",
+          "Educational trips"
+        ]
+      },
+      {
+        "label": "Vie scolaire",
+        "items": [
+          "Programmes parents-école",
+          "Activités sociales",
+          "Compétences de vie"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Maternelle",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Secondary",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Science Fair",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Robotics",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sports",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": "oist.tn/wp-content/uploads/2025/09/oistVideo.mp4"
+  },
+  "contact": {
+    "phone_main": "+216 71 000 000",
+    "phone_main_label": "Standard (à confirmer)",
+    "phone_secondary": null,
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@oist.tn",
+    "email_admissions": "admissions@oist.tn",
+    "map": {
+      "lat": 36.8412,
+      "lng": 10.3169,
+      "title": "OIST — Berges du Lac 3, Le Kram"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/OxfordTunisOist/",
+      "instagram": null,
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus OIST",
+      "type": "combined",
+      "street": "36 Rue Sokrate, Zone Industrielle Kheireddine, Berges du Lac 3",
+      "postal_code": "2060",
+      "locality": "Le Kram",
+      "region": "La Goulette / Tunis",
+      "country_code": "TN",
+      "lat": 36.8412,
+      "lng": 10.3169,
+      "phone_local": null
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Un <strong>curriculum hybride</strong> combinant <strong>Cambridge International</strong> et <strong>American Common Core Standards</strong>, enrichi d'une approche interdisciplinaire adaptée à la Tunisie."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quels diplômes sont préparés ?",
+      "answer_html": "<strong>Cambridge Lower Secondary Checkpoint</strong>, <strong>IGCSE</strong> (au moins 6 matières en Year 11), <strong>AS Levels</strong> et <strong>A Levels</strong>."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Anglais</strong> est la langue d'enseignement principale. <strong>Arabe</strong> comme seconde langue. <strong>Français</strong> comme langue étrangère. <strong>Espagnol</strong> en option."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quelles sont les valeurs de l'école ?",
+      "answer_html": "Les 4 valeurs OIST : <strong>O</strong>riginality, <strong>I</strong>ntegrity, <strong>S</strong>uccess, <strong>T</strong>olerance."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Y a-t-il des activités extrascolaires ?",
+      "answer_html": "Oui : <strong>Robotics club</strong>, <strong>Annual Science Fair</strong> (tradition OIST), <strong>monthly assemblies</strong>, voyages éducatifs, leadership training."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "<strong>36 Rue Sokrate, Zone Industrielle Kheireddine, Berges du Lac 3, Le Kram (2060)</strong>."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Quel est le profil des enseignants ?",
+      "answer_html": "Équipe internationale mêlant <strong>native English teachers</strong> et enseignants locaux avec niveau d'anglais avancé."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Via le formulaire <strong>Apply Now</strong> sur oist.tn."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British COBIS · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "canopus-international-school-of-tunis",
+      "cover_text": "CIS",
+      "name": "Canopus International School of Tunis",
+      "meta": "British Cambridge · Charguia 1",
+      "tier": "premium"
+    },
+    {
+      "slug": "british-academy-of-tunis",
+      "cover_text": "BAT",
+      "name": "British Academy of Tunis",
+      "meta": "IB Continuum · Berges du Lac 1",
+      "tier": "premium"
+    }
+  ]
+}

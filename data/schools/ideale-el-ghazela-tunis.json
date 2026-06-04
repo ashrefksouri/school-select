@@ -1,0 +1,402 @@
+{
+  "slug": "ideale-el-ghazela-tunis",
+  "school_id": "tn-tunis-ideale-el-ghazela",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Collège & Lycée Idéale El-Ghazela",
+    "name_short": "L'Idéale El-Ghazela",
+    "alternate_names": [
+      "Idéale Tunis",
+      "Idéale Ghazala",
+      "Idéale Ariana El-Ghazela"
+    ],
+    "founded_date_iso": "2019-09-14",
+    "official_website": "https://lesecolesideales.com",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Ariana"
+  },
+  "classification": {
+    "tier": "premium_plus",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "age_min": 12,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "Idéale El-Ghazela Tunis · IB PEI candidat — School Select",
+    "description": "Collège-lycée IB candidat PEI à Tunis (ZI El-Ghazela). Médiathèque 100m², 4 labos. Bac IB français ou anglais. Premier site groupe Idéales au Grand Tunis.",
+    "og_title": "Collège & Lycée Idéale El-Ghazela · IB candidat PEI",
+    "og_description": "Inauguré sept 2019 à la ZI El-Ghazela. Médiathèque 100m², 4 laboratoires. Bac IB en français ou anglais. Première implantation Idéales au Grand Tunis."
+  },
+  "hero": {
+    "logo_text": "Idéale",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "Collège et Lycée <strong>candidat IB PEI</strong> à la ZI El-Ghazela, inauguré en <strong>septembre 2019</strong>. <strong>Première implantation du groupe Idéales au Grand Tunis</strong>. Médiathèque 100m² · 4 laboratoires · <strong>Bac IB en français ou en anglais</strong>.",
+    "eyebrow_text": "Premium+ · IB candidat · Grand Tunis",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "ZI El-Ghazela, Tunis"
+      },
+      {
+        "icon": "book",
+        "text": "IB PEI candidat"
+      },
+      {
+        "icon": "globe",
+        "text": "Bac IB FR ou EN"
+      },
+      {
+        "icon": "calendar",
+        "text": "Inauguré sept. 2019"
+      },
+      {
+        "icon": "users",
+        "text": "12 à 18 ans"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://lesecolesideales.com",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://lesecolesideales.com/contact",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium_plus",
+    "tier_intro_text": "Tier Premium+ estimé (12-20k TND/an) pour la zone Grand Tunis avec infrastructure récente.",
+    "details_html": "Frais et modalités à demander auprès de l'admission. À l'inauguration (2019), des remises de -30% à -100% étaient appliquées selon le dossier.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après la zone (Ariana / Grand Tunis) et l'infrastructure récente.",
+    "cta_email": "Contact@lesecolesideales.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — PEI",
+      "meta": "Candidat depuis 2019-2020 · Bac IB FR ou EN",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "DELF",
+      "name": "DELF / DALF",
+      "meta": "Centre de certification en français",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment English",
+      "meta": "Centre de certifications anglais",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    }
+  ],
+  "distinction_text": "Première école IB du groupe Idéales au Grand Tunis · Bac IB option française OU anglaise",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Collège (12-15 ans)",
+          "Lycée 4 sections (15-18 ans)",
+          "Programme tunisien + IB"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "Bac tunisien",
+          "Bac IB en français OU en anglais",
+          "Certifications DELF",
+          "Certifications Cambridge"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Français (principale)",
+          "Anglais (renforcé)",
+          "Arabe",
+          "LV3 au choix"
+        ]
+      },
+      {
+        "label": "Infrastructure pédagogique",
+        "items": [
+          "Médiathèque 100 m²",
+          "Laboratoire génie électrique",
+          "Laboratoire génie mécanique",
+          "Laboratoire SVT",
+          "Laboratoire physique-chimie"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "100 m²",
+        "label": "Médiathèque"
+      },
+      {
+        "value": "4",
+        "label": "Laboratoires"
+      },
+      {
+        "value": "2019",
+        "label": "Année d'inauguration"
+      },
+      {
+        "value": "FR/EN",
+        "label": "Options Bac IB"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "library",
+      "name": "Médiathèque 100 m²",
+      "description": "Espace documentation et ressources numériques."
+    },
+    {
+      "icon_type": "labs",
+      "name": "4 laboratoires",
+      "description": "Génie électrique, génie mécanique, SVT, physique-chimie."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "École digitale",
+      "description": "TBI, TICE et partenariat Educaro."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Auditorium & arts",
+      "description": "Centre culturel pour spectacles et conférences."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Restauration scolaire",
+      "description": "Cantine sur site."
+    },
+    {
+      "icon_type": "pool",
+      "name": "Piscine couverte",
+      "description": "Installations sportives mutualisées (groupe Idéales)."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Vie scolaire stimulante avec partenariats universitaires et activités culturelles.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Partenariats",
+        "items": [
+          "SMU (South Mediterranean University)",
+          "Théâtre français Pantomimes Orthez",
+          "Club UNESCO"
+        ]
+      },
+      {
+        "label": "Itinéraires éducatifs",
+        "items": [
+          "Santé",
+          "Culture et Art",
+          "Écocitoyenneté",
+          "Orientation"
+        ]
+      },
+      {
+        "label": "Séjours internationaux",
+        "items": [
+          "Programmes Royal Paris",
+          "So British Londres",
+          "Joyaux d'Andalousie",
+          "Raid au Canada"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Médiathèque",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Laboratoires",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Cours",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sport",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Théâtre",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 71 000 000",
+    "phone_main_label": "À confirmer auprès du groupe Idéales",
+    "phone_secondary": null,
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "Contact@lesecolesideales.com",
+    "email_admissions": "Contact@lesecolesideales.com",
+    "map": {
+      "lat": 36.8957,
+      "lng": 10.1894,
+      "title": "Idéale El-Ghazela — ZI El-Ghazela"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ideale.ghazala",
+      "instagram": null,
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus El-Ghazela",
+      "type": "combined",
+      "street": "Zone Industrielle El-Ghazela",
+      "postal_code": "2083",
+      "locality": "Tunis (Ariana)",
+      "region": "Grand Tunis",
+      "country_code": "TN",
+      "lat": 36.8957,
+      "lng": 10.1894,
+      "phone_local": null
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Tier estimé <strong>Premium+ (12-20k TND/an)</strong> pour la zone Grand Tunis. Grille non publiée."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le programme tunisien et le <strong>Programme d'Éducation Intermédiaire IB (PEI)</strong> — école <strong>candidate</strong> depuis 2019-2020."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quel diplôme final ?",
+      "answer_html": "Bac tunisien et option <strong>Baccalauréat International en langue française OU en langue anglaise</strong>."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "À la <strong>Zone Industrielle El-Ghazela</strong>, à Tunis (Ariana). Première implantation du groupe Idéales au Grand Tunis."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quelle est l'infrastructure pédagogique ?",
+      "answer_html": "<strong>Médiathèque de 100 m²</strong> et <strong>4 laboratoires</strong> (génie électrique, génie mécanique, SVT, physique-chimie)."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quand a été inauguré le campus ?",
+      "answer_html": "Le campus a été <strong>inauguré le 14 septembre 2019</strong>, environ 20 ans après le collège-lycée de Nabeul."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Y a-t-il des partenariats universitaires ?",
+      "answer_html": "Oui, notamment avec la <strong>SMU (South Mediterranean University)</strong>."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Quelle langue principale ?",
+      "answer_html": "<strong>Trilingue FR-EN-AR + LV3</strong>. Le français reste la langue principale d'enseignement."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Contact : Contact@lesecolesideales.com. Coordonnées spécifiques au site El-Ghazela à confirmer auprès du groupe."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "ideale-college-lycee-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale Nabeul",
+      "meta": "IB PEI · Nabeul",
+      "tier": "premium"
+    },
+    {
+      "slug": "idealeprimaire-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "École Primaire Idéale Nabeul",
+      "meta": "IB PP · Nabeul",
+      "tier": "premium"
+    },
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British · La Soukra",
+      "tier": "premium_plus"
+    }
+  ]
+}

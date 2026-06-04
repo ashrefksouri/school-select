@@ -1,0 +1,403 @@
+{
+  "slug": "british-academy-of-tunis",
+  "school_id": "tn-tunis-bat",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Advanced For Education — British Academy of Tunis",
+    "name_short": "BAT",
+    "alternate_names": [
+      "British Academy of Tunis",
+      "Advanced For Education",
+      "BAT Lac 1",
+      "BAT Tunis"
+    ],
+    "founded_date_iso": "2019-09-01",
+    "official_website": "https://britishacademytunis.com",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "age_min": 3,
+    "age_max": 16
+  },
+  "seo": {
+    "title": "BAT · British Academy of Tunis — School Select",
+    "description": "École internationale IB Continuum (PYP/MYP/DP) à Tunis. Seule école TN pleinement accréditée IB en anglais. Berges du Lac 1, 3-16 ans.",
+    "og_title": "British Academy of Tunis · IB Continuum School",
+    "og_description": "IB Continuum School (PYP/MYP/DP). Seule école TN pleinement accréditée 3 programmes IB en anglais. Berges du Lac 1, code IB 061426."
+  },
+  "hero": {
+    "logo_text": "BAT",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École internationale, <strong>IB Continuum School pleinement accréditée pour les 3 programmes (PYP · MYP · DP)</strong>. <strong>Seule école en Tunisie pleinement accréditée IB avec l'anglais comme langue d'enseignement</strong>. Code IB 061426 · Berges du Lac 1, Tunis · 3 à 16 ans.",
+    "eyebrow_text": "Premium · IB Continuum · Berges du Lac 1",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Berges du Lac 1, Tunis"
+      },
+      {
+        "icon": "book",
+        "text": "IB Continuum (PYP/MYP/DP)"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 16 ans"
+      },
+      {
+        "icon": "globe",
+        "text": "Anglais (langue d'enseignement)"
+      },
+      {
+        "icon": "trophy",
+        "text": "Seule école IB anglophone TN"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://britishacademytunis.com/apply-now/",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://britishacademytunis.com/book-a-tour/",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "BAT se positionne en tier Premium (6-12k TND/an) estimé. La grille tarifaire n'est pas publiée publiquement sur le site officiel.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission via le formulaire <strong>Apply Now</strong> ou par téléphone.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB anglophones à Tunis.",
+    "cta_email": "administration@britishacademytunis.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — Continuum (PYP · MYP · DP)",
+      "meta": "École du monde IB · Code 061426 · Continuum complet autorisé",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "PYP",
+      "name": "IB Primary Years Programme",
+      "meta": "Programme Primaire (3-12 ans) autorisé",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "MYP",
+      "name": "IB Middle Years Programme",
+      "meta": "Programme d'Éducation Intermédiaire autorisé",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    },
+    {
+      "short": "DP",
+      "name": "IB Diploma Programme",
+      "meta": "Programme du Diplôme autorisé",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé",
+      "gradient_start": "#C2410C",
+      "gradient_end": "#7F1D1D"
+    }
+  ],
+  "distinction_text": "Seule école en Tunisie pleinement accréditée pour les 3 programmes IB avec l'anglais comme langue d'enseignement",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Early Years (3-5 ans)",
+          "Primary (5-12 ans) — PYP",
+          "Middle Years (12-16 ans) — MYP",
+          "Diploma (16+) — DP autorisé"
+        ]
+      },
+      {
+        "label": "Diplômes préparés",
+        "items": [
+          "IB Primary Years Programme (PYP)",
+          "IB Middle Years Programme (MYP)",
+          "IB Diploma Programme (DP)"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Anglais (langue d'enseignement)",
+          "Français",
+          "Arabe"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Petites classes (personalised instruction)",
+          "Approche transdisciplinaire IB",
+          "Pastoral care et well-being",
+          "Community service intégré"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "061426",
+        "label": "Code école IB"
+      },
+      {
+        "value": "3",
+        "label": "Programmes IB autorisés"
+      },
+      {
+        "value": "Anglais",
+        "label": "Langue d'enseignement"
+      },
+      {
+        "value": "3-16",
+        "label": "Tranche d'âge"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Salles équipées pour pédagogie IB transdisciplinaire."
+    },
+    {
+      "icon_type": "library",
+      "name": "Ressources documentaires",
+      "description": "Centre de documentation et ressources numériques."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Creative Arts",
+      "description": "Arts plastiques, musique, créativité intégrée au curriculum."
+    },
+    {
+      "icon_type": "infirmerie",
+      "name": "Well-being",
+      "description": "Santé et bien-être des élèves (Parent Health programme)."
+    },
+    {
+      "icon_type": "psy",
+      "name": "Pastoral care",
+      "description": "Accompagnement individuel et bien-être émotionnel."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "BAT propose une vie scolaire dynamique avec activités créatives, événements et engagement communautaire.",
+    "cta": {
+      "url": "https://britishacademytunis.com/school-life/",
+      "label": "Voir la vie scolaire"
+    },
+    "cards": [
+      {
+        "label": "Quotidien BAT",
+        "items": [
+          "Morning Assemblies",
+          "Creative Arts (arts plastiques, musique)",
+          "After-school activities"
+        ]
+      },
+      {
+        "label": "Événements et sorties",
+        "items": [
+          "School events",
+          "School trips",
+          "Community service projects"
+        ]
+      },
+      {
+        "label": "Vie de communauté",
+        "items": [
+          "Parent Association",
+          "Célébrations culturelles internationales",
+          "International Mindedness (profil apprenant IB)"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Classes",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Creative Arts",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Library",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Events",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Community",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 29 849 000",
+    "phone_main_label": "Administration",
+    "phone_secondary": "+216 70 294 550",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "administration@britishacademytunis.com",
+    "email_admissions": "administration@britishacademytunis.com",
+    "map": {
+      "lat": 36.8323,
+      "lng": 10.2425,
+      "title": "British Academy of Tunis — Berges du Lac 1"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/britishacademytunis",
+      "instagram": "https://www.instagram.com/british_academy_of_tunis/",
+      "linkedin": "https://www.linkedin.com/company/british-academy-of-tunis-lac1",
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Berges du Lac 1",
+      "type": "combined",
+      "street": "Boulevard de l'Environnement, Les Berges du Lac 1",
+      "postal_code": "1053",
+      "locality": "Tunis",
+      "region": "Tunis",
+      "country_code": "TN",
+      "lat": 36.8323,
+      "lng": 10.2425,
+      "phone_local": "+216 70 294 550"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Les frais détaillés ne sont pas publiés publiquement. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé pour la grille exacte."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "BAT est un <strong>IB Continuum School</strong> pleinement accrédité pour les 3 programmes : Primary Years Programme (PYP), Middle Years Programme (MYP) et Diploma Programme (DP). Code IB 061426."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelle est la langue d'enseignement ?",
+      "answer_html": "<strong>L'anglais</strong> est la langue principale d'enseignement. BAT est la <strong>seule école en Tunisie pleinement accréditée IB avec l'anglais comme langue d'enseignement</strong>. Français et arabe également enseignés."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelle est la tranche d'âge accueillie ?",
+      "answer_html": "BAT accueille les élèves de <strong>3 à 16 ans</strong>, du Early Years jusqu'au Middle Years. Le Diploma Programme (DP) est également autorisé."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "Le campus est situé au <strong>Boulevard de l'Environnement, Les Berges du Lac 1, Tunis (1053)</strong>, dans un quartier résidentiel international de la capitale."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quel est le profil de l'école ?",
+      "answer_html": "École internationale accueillant des enfants de patrimoine, cultures et langues divers. <strong>Petites classes</strong> permettant un enseignement personnalisé. Communauté multiculturelle."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Comment procéder à l'inscription ?",
+      "answer_html": "Via le formulaire <strong>Apply Now</strong> sur le site officiel, ou en contactant directement l'administration au +216 29 849 000 ou administration@britishacademytunis.com."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Peut-on visiter l'école avant l'inscription ?",
+      "answer_html": "Oui. Une visite peut être organisée via le service <strong>Book a Tour</strong> sur le site officiel."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Qui dirige l'école ?",
+      "answer_html": "L'école est dirigée par <strong>Sanaa Khelif</strong>, Directrice."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "ecole-canadienne-de-tunis",
+      "cover_text": "ECT",
+      "name": "École Canadienne de Tunis",
+      "meta": "IB World · Charguia",
+      "tier": "premium"
+    },
+    {
+      "slug": "gsing",
+      "cover_text": "GSING",
+      "name": "Groupe Scolaire International Les Nouvelles Générations",
+      "meta": "IB Continuum · Djerba",
+      "tier": "premium"
+    }
+  ]
+}

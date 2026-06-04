@@ -1,0 +1,1364 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Comparateur d'écoles · School Select</title>
+<meta name="description" content="Comparez jusqu'à 4 écoles privées internationales en Tunisie côte à côte : programmes, niveaux, langues, accréditations, distances. School Select ne note pas et ne classe pas — vous décidez." />
+<link rel="canonical" href="https://schoolselect.online/comparer/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="School Select" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:title" content="Comparateur d'écoles · School Select" />
+<meta property="og:description" content="Comparez jusqu'à 4 écoles privées internationales en Tunisie côte à côte : programmes, niveaux, langues, accréditations, distances. School Select ne note pas et ne classe pas — vous décidez." />
+<meta property="og:url" content="https://schoolselect.online/comparer/" />
+<meta property="og:image" content="https://schoolselect.online/og-default.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Comparateur d'écoles · School Select" />
+<meta name="twitter:description" content="Comparez jusqu'à 4 écoles privées internationales en Tunisie côte à côte : programmes, niveaux, langues, accréditations, distances. School Select ne note pas et ne classe pas — vous décidez." />
+<meta name="twitter:image" content="https://schoolselect.online/og-default.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@400..800&family=Inter:wght@400..700&family=JetBrains+Mono:wght@400..600&display=swap" rel="stylesheet">
+
+<style>
+/* ============ TOKENS ============ */
+:root{
+  /* Palette School Select v1.0 - ink-deep + jade */
+  --primary:#0E2A5C;--primary-dark:#0B214B;--primary-light:#1E3A6B;--primary-tint:#E8EAF0;
+  --secondary:#0F766E;--secondary-dark:#0a5853;--secondary-light:#14B8A6;--secondary-tint:#CCFBF1;
+  --text:#0E2A5C;--text-muted:#4E5C7A;--text-soft:#8A93A6;
+  --border:#E8EAF0;--border-soft:#F1F3F8;
+  --bg:#FFFFFF;--bg-offwhite:#FAF8F4;--bg-soft:#F1F3F8;
+  --amber:#F1AB23;--success:#0F766E;--warning:#F1AB23;--danger:#E5484D;
+  --g-aplus:#0F766E;--g-a:#14B8A6;--g-bplus:#5eead4;--g-b:#F1AB23;--g-c:#E89539;--g-d:#DC6B4F;--g-f:#C04646;
+  --display:"Fraunces",Georgia,serif;
+  --display-ui:"Inter Tight",-apple-system,BlinkMacSystemFont,sans-serif;
+  --body:"Inter",-apple-system,BlinkMacSystemFont,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+  --r-sm:8px;--r-md:12px;--r-lg:16px;--r-xl:24px;--r-full:999px;
+  --s-1:4px;--s-2:8px;--s-3:12px;--s-4:16px;--s-5:24px;--s-6:32px;--s-7:48px;--s-8:64px;--s-9:96px;
+  --sh-sm:0 1px 2px rgba(14,42,92,.06),0 1px 1px rgba(14,42,92,.04);
+  --sh-md:0 4px 12px -2px rgba(14,42,92,.08),0 2px 4px rgba(14,42,92,.04);
+  --sh-lg:0 16px 32px -8px rgba(14,42,92,.12),0 4px 8px rgba(14,42,92,.04);
+  --sh-xl:0 32px 64px -16px rgba(14,42,92,.18),0 8px 16px rgba(14,42,92,.06);
+  --ease:cubic-bezier(.22,1,.36,1);--d-fast:150ms;--d-base:250ms;--d-slow:400ms;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--body);font-size:16px;line-height:1.5;color:var(--text);background:var(--bg);font-feature-settings:"cv02","cv03","cv04","cv11"}
+img{max-width:100%;display:block}
+button{font:inherit;cursor:pointer;border:0;background:0}
+input,textarea,select{font:inherit;color:inherit}
+a{color:inherit;text-decoration:none}
+.h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:1.1}
+.h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1.15;font-size:clamp(24px,3.5vw,36px)}
+.h3{font-family:var(--display);font-weight:700;letter-spacing:-.01em;line-height:1.2;font-size:20px}
+.eyebrow{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted)}
+.container{max-width:1280px;margin:0 auto;padding:0 var(--s-5)}
+
+/* ============ HEADER ============ */
+.site-header{position:sticky;top:0;z-index:50;background:var(--primary);color:#fff;border-bottom:1px solid rgba(255,255,255,.1);transition:box-shadow var(--d-base) var(--ease)}
+.site-header.scrolled{box-shadow:var(--sh-md)}
+.header-inner{height:64px;display:flex;align-items:center;justify-content:space-between;gap:var(--s-5)}
+.logo{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:-.02em;color:#fff;display:flex;align-items:center;gap:var(--s-1)}
+.logo-dot{width:6px;height:6px;background:var(--secondary);border-radius:var(--r-full);display:inline-block}
+.nav-main{display:flex;gap:var(--s-5);align-items:center}
+.nav-main a{font-size:14px;font-weight:500;color:rgba(255,255,255,.85);transition:color var(--d-fast)}
+.nav-main a:hover{color:#fff}
+.nav-main a.active{color:#fff;font-weight:600}
+.lang-switch{display:flex;gap:var(--s-1);font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.1em}
+.lang-switch button{color:rgba(255,255,255,.6);padding:4px 6px;border-radius:var(--r-sm);transition:all var(--d-fast)}
+.lang-switch button.active{background:rgba(255,255,255,.18);color:#fff}
+.burger{display:none}
+@media (max-width:900px){
+  .nav-main{display:none}
+  .burger{display:flex;width:40px;height:40px;border-radius:var(--r-sm);background:rgba(255,255,255,.12);align-items:center;justify-content:center;color:#fff}
+}
+
+/* ============ BREADCRUMB ============ */
+.breadcrumb{background:#0A0E1A;color:#9CA3AF;font-size:13px;padding:14px 0}
+.breadcrumb-inner{display:flex;align-items:center;gap:var(--s-2);flex-wrap:wrap}
+.breadcrumb a{color:#9CA3AF;transition:color var(--d-fast)}
+.breadcrumb a:hover{color:#fff}
+.breadcrumb .crumb-current{color:#fff;font-weight:500}
+.breadcrumb svg{width:14px;height:14px;opacity:.5}
+
+/* ============ HERO ============ */
+.hero{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);color:#fff;padding:64px 0 56px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;width:600px;height:600px;background:radial-gradient(circle,rgba(0,190,153,.15) 0%,transparent 60%);top:-200px;right:-200px;pointer-events:none}
+.hero-eyebrow{display:inline-block;color:rgba(255,255,255,.7);margin-bottom:var(--s-4)}
+.hero h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:1.1;font-size:clamp(28px,4vw,42px);margin-bottom:var(--s-4);max-width:720px;margin-left:auto;margin-right:auto}
+.hero p{color:rgba(255,255,255,.9);font-size:17px;max-width:600px;margin:0 auto;line-height:1.5}
+
+/* ============ SELECTEUR SLOTS ============ */
+.selector-bar{position:sticky;top:64px;z-index:40;background:#fff;border-bottom:1px solid var(--border);transition:box-shadow var(--d-base);padding:20px 0}
+.selector-bar.scrolled{box-shadow:var(--sh-md)}
+.slots-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s-3);margin-bottom:var(--s-3)}
+@media (max-width:900px){.slots-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.slots-grid{grid-template-columns:1fr}}
+
+.slot{position:relative;height:84px;border-radius:var(--r-md);transition:all var(--d-base) var(--ease);overflow:hidden}
+.slot-empty{background:var(--bg-offwhite);border:2px dashed rgba(47,110,235,.3);display:flex;align-items:center;justify-content:center;gap:var(--s-2);color:var(--primary);font-weight:600;font-size:14px;cursor:pointer}
+.slot-empty:hover{background:var(--primary-tint);border-color:var(--primary);transform:translateY(-1px)}
+.slot-empty svg{width:20px;height:20px}
+
+.slot-filled{background:#fff;border:1px solid var(--border);display:flex;align-items:center;gap:var(--s-3);padding:0 var(--s-3);box-shadow:var(--sh-sm);position:relative;cursor:default}
+.slot-filled.partner::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--secondary),var(--secondary-light))}
+.slot-logo{flex:0 0 56px;height:56px;border-radius:var(--r-sm);background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;font-size:20px;overflow:hidden}
+.slot-logo.is-A1{background:linear-gradient(135deg,#5B8AF0,#2F6EEB)}
+.slot-logo.is-A2{background:linear-gradient(135deg,#33CBAD,#00BE99)}
+.slot-logo.is-A3{background:linear-gradient(135deg,#F1AB23,#E89539)}
+.slot-logo.is-A4{background:linear-gradient(135deg,#DC6B4F,#C04646)}
+.slot-info{flex:1;min-width:0}
+.slot-name{font-weight:600;font-size:14px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:2px}
+.slot-meta{font-size:12px;color:var(--text-muted);display:flex;align-items:center;gap:var(--s-2)}
+.slot-x{position:absolute;top:6px;right:6px;width:24px;height:24px;border-radius:var(--r-full);background:var(--bg-soft);color:var(--text-muted);display:flex;align-items:center;justify-content:center;font-size:14px;transition:all var(--d-fast)}
+.slot-x:hover{background:var(--danger);color:#fff}
+
+.action-bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--s-3);font-size:13px}
+.action-counter{color:var(--text-muted);font-family:var(--mono);font-size:12px}
+.action-counter strong{color:var(--text);font-weight:600}
+.action-buttons{display:flex;gap:var(--s-2);flex-wrap:wrap}
+
+/* ============ BOUTONS ============ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--s-2);font-family:var(--body);font-weight:600;font-size:14px;padding:8px 14px;border-radius:var(--r-sm);transition:all var(--d-fast);border:1px solid transparent;white-space:nowrap}
+.btn-primary{background:var(--secondary);color:#fff}
+.btn-primary:hover{background:var(--secondary-dark);transform:translateY(-1px);box-shadow:var(--sh-md)}
+.btn-dark{background:var(--text);color:#fff}
+.btn-dark:hover{background:#000;transform:translateY(-1px)}
+.btn-outline{border-color:var(--border);color:var(--text);background:#fff}
+.btn-outline:hover{border-color:var(--text);box-shadow:var(--sh-sm)}
+.btn-ghost{color:var(--text-muted)}
+.btn-ghost:hover{color:var(--text);background:var(--bg-soft)}
+.btn-lg{padding:14px 24px;font-size:15px}
+.btn svg{width:16px;height:16px;flex:0 0 16px}
+
+/* ============ TABLEAU COMPARAISON ============ */
+.compare-section{padding:40px 0 64px}
+.compare-table{background:#fff;border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-sm)}
+.compare-controls{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--border-soft);background:var(--bg-offwhite);font-size:13px}
+.toggle-all-btn{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);font-weight:600;padding:6px 10px;border-radius:var(--r-sm);transition:all var(--d-fast)}
+.toggle-all-btn:hover{color:var(--text);background:var(--bg-soft)}
+
+.cat-block{border-bottom:1px solid var(--border-soft)}
+.cat-block:last-child{border-bottom:0}
+.cat-header{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;background:#fff;cursor:pointer;transition:background var(--d-fast);user-select:none}
+.cat-header:hover{background:var(--bg-offwhite)}
+.cat-header-left{display:flex;align-items:center;gap:var(--s-3)}
+.cat-icon{width:36px;height:36px;border-radius:var(--r-sm);background:var(--primary-tint);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:16px}
+.cat-title{font-family:var(--display);font-weight:700;font-size:17px}
+.cat-toggle{width:32px;height:32px;border-radius:var(--r-full);background:var(--bg-soft);display:flex;align-items:center;justify-content:center;transition:all var(--d-base)}
+.cat-block.open .cat-toggle{transform:rotate(180deg);background:var(--primary);color:#fff}
+.cat-rows{overflow:hidden;max-height:0;transition:max-height var(--d-slow) var(--ease)}
+.cat-block.open .cat-rows{max-height:3000px}
+
+.row{display:grid;grid-template-columns:200px repeat(4,1fr);border-top:1px solid var(--border-soft);font-size:14px}
+.row:nth-child(even){background:var(--bg-offwhite)}
+.row-label{padding:14px 16px;font-weight:500;color:var(--text-muted);font-size:13px;display:flex;align-items:center}
+.row-cell{padding:14px 16px;display:flex;align-items:center;border-left:1px solid var(--border-soft);position:relative}
+.row-cell.empty{color:var(--text-soft);font-style:italic;font-size:13px}
+.row-cell .check{color:var(--success);font-size:18px}
+.row-cell .cross{color:var(--text-soft);font-size:14px}
+
+/* Header sticky du tableau (les 4 écoles en haut) */
+.row-head{position:sticky;top:calc(64px + 124px);z-index:30;background:#fff;border-top:0;border-bottom:1px solid var(--border)}
+.row-head .row-label{background:var(--bg-soft);font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted)}
+.head-cell{padding:14px 16px;border-left:1px solid var(--border-soft);background:#fff}
+.head-photo{width:54px;height:42px;border-radius:var(--r-sm);background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:700;font-size:16px;margin-bottom:6px;overflow:hidden}
+.head-photo img{width:100%;height:100%;object-fit:cover}
+.head-name{font-weight:600;font-size:13px;line-height:1.3;margin-bottom:2px;color:var(--text)}
+.head-city{font-size:11px;color:var(--text-muted);font-family:var(--mono)}
+.head-partner{display:inline-block;font-family:var(--display);font-weight:700;font-size:11px;color:#fff;padding:1px 5px;border-radius:4px;background:var(--secondary);margin-top:4px;margin-right:4px}
+
+@media (max-width:900px){
+  .row{grid-template-columns:140px repeat(4,minmax(150px,1fr));overflow-x:auto}
+  .compare-table{overflow-x:auto}
+  .row-head{position:static}
+}
+
+/* ============ SYNTHESE ============ */
+.synthese{padding:48px 0;background:var(--bg-offwhite)}
+.synthese-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-5);margin-bottom:var(--s-6)}
+@media (max-width:900px){.synthese-grid{grid-template-columns:1fr}}
+.summary-card{background:#fff;padding:28px;border-radius:var(--r-lg);border:1px solid var(--border);box-shadow:var(--sh-sm)}
+.summary-card.accent{background:linear-gradient(135deg,var(--secondary-tint) 0%,#fff 100%);border-color:var(--secondary-light)}
+.summary-card .eyebrow{margin-bottom:var(--s-3)}
+.summary-card.accent .eyebrow{color:var(--secondary-dark)}
+.summary-card h3{font-family:var(--display);font-weight:700;font-size:22px;margin-bottom:var(--s-3);letter-spacing:-.01em}
+.summary-card p{color:var(--text-muted);font-size:15px;line-height:1.6;margin-bottom:var(--s-4)}
+
+.diff-block{background:#fff;padding:32px;border-radius:var(--r-lg);border:1px solid var(--border);box-shadow:var(--sh-sm)}
+.diff-block h3{font-family:var(--display);font-weight:700;font-size:22px;margin-bottom:var(--s-4);letter-spacing:-.01em}
+.diff-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--s-3)}
+.diff-card{background:var(--bg-offwhite);padding:16px;border-radius:var(--r-md);border:1px solid var(--border-soft);font-size:14px;line-height:1.5;display:flex;align-items:flex-start;gap:var(--s-3)}
+.diff-icon{flex:0 0 32px;height:32px;border-radius:var(--r-sm);background:var(--secondary-tint);color:var(--secondary-dark);display:flex;align-items:center;justify-content:center;font-size:16px}
+
+/* ============ MULTI CTA ============ */
+.multi-cta{padding:64px 0;background:linear-gradient(135deg,#fff 0%,var(--primary-tint) 100%)}
+.multi-cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-7);align-items:start}
+@media (max-width:900px){.multi-cta-grid{grid-template-columns:1fr;gap:var(--s-5)}}
+.multi-cta-text h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,3vw,36px);letter-spacing:-.02em;line-height:1.15;margin-bottom:var(--s-4)}
+.multi-cta-text p{color:var(--text-muted);font-size:16px;line-height:1.6;margin-bottom:var(--s-4)}
+.bullet-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:var(--s-3)}
+.bullet-list li{display:flex;gap:var(--s-3);font-size:15px;align-items:start}
+.bullet-list li::before{content:"";flex:0 0 22px;height:22px;border-radius:var(--r-full);background:var(--secondary-tint);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300A084'%3E%3Cpath d='M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center;background-size:14px;margin-top:1px}
+
+.form-card{background:#fff;padding:28px;border-radius:var(--r-lg);box-shadow:var(--sh-lg);border:1px solid var(--border)}
+.form-card h4{font-family:var(--display);font-weight:700;font-size:18px;margin-bottom:var(--s-3)}
+.school-checks{margin-bottom:var(--s-4)}
+.school-check{display:flex;align-items:center;gap:var(--s-2);padding:8px 10px;border-radius:var(--r-sm);font-size:13px;margin-bottom:4px;background:var(--bg-offwhite)}
+.school-check input[type="checkbox"]{margin:0}
+.school-check span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.field{margin-bottom:var(--s-3)}
+.field label{display:block;font-size:13px;font-weight:500;color:var(--text);margin-bottom:var(--s-1)}
+.field input,.field textarea,.field select{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--r-sm);background:#fff;transition:border-color var(--d-fast),box-shadow var(--d-fast);font-size:14px}
+.field input:focus,.field textarea:focus,.field select:focus{outline:0;border-color:var(--primary);box-shadow:0 0 0 3px rgba(47,110,235,.12)}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3)}
+.footnote{font-size:12px;color:var(--text-soft);margin-top:var(--s-3);line-height:1.5}
+
+/* ============ SAVE & SHARE ============ */
+.save-banner{background:var(--bg-offwhite);padding:32px 0;border-top:1px solid var(--border)}
+.save-grid{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--s-4)}
+.save-grid h3{font-family:var(--display);font-weight:700;font-size:20px}
+.save-grid p{color:var(--text-muted);font-size:14px;margin-top:4px}
+.save-buttons{display:flex;gap:var(--s-2);flex-wrap:wrap}
+
+/* ============ FAQ ============ */
+.faq-section{padding:64px 0;background:#fff}
+.faq-section h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,3vw,36px);letter-spacing:-.02em;margin-bottom:var(--s-2)}
+.faq-section .sig{width:64px;height:6px;display:block;margin-bottom:var(--s-6)}
+.faq-grid{display:grid;grid-template-columns:1fr 380px;gap:var(--s-7)}
+@media (max-width:900px){.faq-grid{grid-template-columns:1fr}}
+
+.acc-item{border-bottom:1px solid var(--border-soft)}
+.acc-q{display:flex;justify-content:space-between;align-items:center;padding:18px 0;cursor:pointer;font-family:var(--display);font-weight:600;font-size:16px;color:var(--text);user-select:none}
+.acc-q:hover{color:var(--primary)}
+.acc-q .chev{width:28px;height:28px;border-radius:var(--r-full);background:var(--bg-soft);display:flex;align-items:center;justify-content:center;transition:all var(--d-base)}
+.acc-item.open .acc-q .chev{transform:rotate(180deg);background:var(--primary);color:#fff}
+.acc-a{max-height:0;overflow:hidden;transition:max-height var(--d-slow) var(--ease);color:var(--text-muted);font-size:14px;line-height:1.65}
+.acc-item.open .acc-a{max-height:400px;padding-bottom:18px}
+
+.consult-card{background:var(--bg-offwhite);padding:28px;border-radius:var(--r-lg);border:1px solid var(--border);position:sticky;top:200px}
+.consult-card .eyebrow{color:var(--secondary-dark);margin-bottom:var(--s-2)}
+.consult-card h4{font-family:var(--display);font-weight:700;font-size:19px;margin-bottom:var(--s-2)}
+.consult-card > p{color:var(--text-muted);font-size:14px;margin-bottom:var(--s-4);line-height:1.5}
+
+/* ============ MODAL ============ */
+.modal-back{position:fixed;inset:0;background:rgba(3,9,21,.5);backdrop-filter:blur(4px);z-index:80;display:none;align-items:center;justify-content:center;padding:var(--s-4);opacity:0;transition:opacity var(--d-base)}
+.modal-back.show{display:flex;opacity:1}
+.modal{background:#fff;border-radius:var(--r-lg);max-width:600px;width:100%;max-height:80vh;display:flex;flex-direction:column;box-shadow:var(--sh-xl);overflow:hidden;transform:scale(.98);transition:transform var(--d-base) var(--ease)}
+.modal-back.show .modal{transform:scale(1)}
+.modal-header{padding:18px 20px;border-bottom:1px solid var(--border-soft);display:flex;justify-content:space-between;align-items:center}
+.modal-header h3{font-family:var(--display);font-weight:700;font-size:18px}
+.modal-close{width:32px;height:32px;border-radius:var(--r-full);background:var(--bg-soft);color:var(--text-muted);display:flex;align-items:center;justify-content:center;font-size:18px;transition:all var(--d-fast)}
+.modal-close:hover{background:var(--text);color:#fff}
+.modal-search{padding:12px 16px;border-bottom:1px solid var(--border-soft)}
+.modal-search input{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:var(--r-sm);font-size:14px}
+.modal-search input:focus{outline:0;border-color:var(--primary);box-shadow:0 0 0 3px rgba(47,110,235,.12)}
+.modal-filters{display:flex;gap:8px;margin-top:8px}
+.modal-filters select{flex:1;min-width:0;padding:8px 10px;border:1px solid var(--border);border-radius:var(--r-sm);font-size:13px;background:#fff;color:var(--text);cursor:pointer}
+.modal-filters select:focus{outline:0;border-color:var(--primary)}
+.modal-list{overflow-y:auto;flex:1;padding:8px}
+.modal-school{display:flex;align-items:center;gap:var(--s-3);padding:10px 12px;border-radius:var(--r-sm);cursor:pointer;transition:background var(--d-fast)}
+.modal-school:hover{background:var(--primary-tint)}
+.modal-school.disabled{opacity:.4;cursor:not-allowed}
+.modal-school .ms-logo{width:40px;height:40px;border-radius:var(--r-sm);background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:700;font-size:14px;flex:0 0 40px}
+.ms-info{flex:1;min-width:0}
+.ms-name{font-weight:600;font-size:14px;line-height:1.3}
+.ms-meta{font-size:12px;color:var(--text-muted);font-family:var(--mono);margin-top:2px}
+
+/* ============ TOAST ============ */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--text);color:#fff;padding:12px 20px;border-radius:var(--r-md);font-size:14px;font-weight:500;box-shadow:var(--sh-xl);z-index:90;opacity:0;transition:all var(--d-base) var(--ease);pointer-events:none;display:flex;align-items:center;gap:var(--s-2)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ============ EMPTY STATE ============ */
+.empty-table{padding:80px 32px;text-align:center;color:var(--text-muted)}
+.empty-table .empty-icon{width:80px;height:80px;border-radius:var(--r-full);background:var(--primary-tint);color:var(--primary);display:flex;align-items:center;justify-content:center;margin:0 auto var(--s-4);font-size:32px}
+.empty-table h3{font-family:var(--display);font-weight:700;font-size:22px;color:var(--text);margin-bottom:var(--s-2)}
+.empty-table p{font-size:15px;max-width:400px;margin:0 auto var(--s-4)}
+
+/* ============ FOOTER ============ */
+.site-footer{background:#0A0E1A;color:#9CA3AF;padding:64px 0 24px;font-size:14px}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1.5fr;gap:var(--s-6);padding-bottom:var(--s-6);border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:var(--s-5)}
+@media (max-width:900px){.foot-grid{grid-template-columns:1fr 1fr;gap:var(--s-5)}}
+.foot-col h5{font-family:var(--display);font-weight:700;color:#fff;font-size:14px;margin-bottom:var(--s-3)}
+.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:var(--s-2)}
+.foot-col a{color:#9CA3AF;font-size:13px;transition:color var(--d-fast)}
+.foot-col a:hover{color:#fff}
+.foot-brand{font-family:var(--display);font-weight:800;font-size:22px;color:#fff;margin-bottom:var(--s-3);display:flex;align-items:center;gap:6px}
+.foot-brand .logo-dot{background:var(--secondary)}
+.foot-brand-desc{color:#9CA3AF;font-size:13px;line-height:1.6;margin-bottom:var(--s-4);max-width:280px}
+.foot-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--s-3);font-size:12px;color:#6B7280}
+.foot-bottom-links{display:flex;gap:var(--s-4)}
+
+/* ============ PRINT ============ */
+@media print{
+  .site-header,.breadcrumb,.action-bar,.save-banner,.faq-section,.multi-cta,.synthese,.site-footer,.modal-back,.toast{display:none !important}
+  .selector-bar{position:static;box-shadow:none;border:0}
+  .compare-table{box-shadow:none;page-break-inside:avoid}
+  .cat-block{break-inside:avoid}
+  .cat-rows{max-height:none !important}
+  body{font-size:11px}
+  .row{font-size:11px}
+  .row-cell,.row-label,.head-cell{padding:8px}
+}
+
+/* ============ UTILITAIRES ============ */
+.hidden{display:none !important}
+
+/* ============ CIRCLE NUMÉROTÉ POUR PIN MAP ============ */
+.pin-num{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:var(--r-full);background:var(--primary);color:#fff;font-family:var(--display);font-weight:700;font-size:12px;margin-right:6px}
+.pin-num.p2{background:var(--secondary)}
+.pin-num.p3{background:var(--amber)}
+.pin-num.p4{background:var(--danger)}
+
+.distance-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px;color:var(--text-muted)}
+.distance-grid div{padding:6px 10px;background:var(--bg-offwhite);border-radius:var(--r-sm)}
+
+
+/* ════════════════════════════════════════════════════════════════════════════
+   WORLDCLASS PATCH — Comparateur design refresh
+   Aligné sur design system School Select v1.0
+   ════════════════════════════════════════════════════════════════════════════ */
+
+body { font-feature-settings: "ss01" on, "cv11" on; }
+
+/* ━━━ TITRES : Fraunces avec letter-spacing serré ━━━ */
+.h1, .h2, h1, h2, h3,
+.intro h1, .hero h1, .page-hero h1,
+.section-title, .compare-title {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  letter-spacing: -.025em !important;
+  line-height: 1.05 !important;
+}
+
+.h2, h3 { letter-spacing: -.018em !important; }
+
+/* Italique Fraunces sur <em> */
+.h1 em, .h2 em, h1 em, h2 em, h3 em {
+  font-style: italic;
+  font-variation-settings: 'opsz' 144;
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+/* ━━━ LOGO HEADER : Fraunces light ━━━ */
+.logo, .brand {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  font-size: 19px !important;
+  letter-spacing: -.015em !important;
+}
+.logo em, .brand em {
+  font-style: italic;
+  font-variation-settings: 'opsz' 144;
+  color: var(--secondary-light);
+}
+
+/* ━━━ HEADER : ink-deep marine ━━━ */
+.site-header { background: var(--text) !important; }
+.nav-main a { font-family: var(--display-ui) !important; }
+.lang-switch { font-family: var(--mono) !important; }
+
+/* ━━━ HERO / PAGE HEADER : éditorial ━━━ */
+.intro, .hero, .page-hero, .comparer-hero {
+  background: linear-gradient(135deg, #0E2A5C 0%, #1E3A6B 60%, #0F766E 140%) !important;
+  position: relative;
+}
+.intro::after, .hero::after, .page-hero::after, .comparer-hero::after {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse at 80% 20%, rgba(20,184,166,.22) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 80%, rgba(255,255,255,.05) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+.intro > *, .hero > *, .page-hero > *, .comparer-hero > * { position: relative; z-index: 1; }
+
+.intro h1, .hero h1, .page-hero h1, .comparer-hero h1 {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  font-size: clamp(40px, 6vw, 68px) !important;
+  letter-spacing: -.035em !important;
+  line-height: 0.98 !important;
+}
+
+.intro-eye, .hero-eye, .eyebrow-hero {
+  background: rgba(20,184,166,.16) !important;
+  border-color: rgba(20,184,166,.35) !important;
+  color: #5eead4 !important;
+  font-family: var(--mono) !important;
+}
+
+/* ━━━ BOUTONS ━━━ */
+.btn {
+  font-family: var(--display-ui) !important;
+  font-weight: 600 !important;
+  letter-spacing: -.005em !important;
+  transition: all var(--d-base) var(--ease) !important;
+}
+.btn-primary, .btn-dark, .btn-brand {
+  background: var(--text) !important;
+  color: #fff !important;
+}
+.btn-primary:hover, .btn-dark:hover, .btn-brand:hover {
+  background: var(--secondary) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(15,118,110,.25) !important;
+}
+.btn-outline {
+  border: 1.5px solid var(--border) !important;
+  background: #fff !important;
+}
+.btn-outline:hover {
+  border-color: var(--text) !important;
+  background: var(--bg-offwhite) !important;
+}
+
+/* ━━━ EYEBROW global ━━━ */
+.eyebrow {
+  font-family: var(--mono) !important;
+  font-weight: 600 !important;
+  letter-spacing: .14em !important;
+  color: var(--text-muted) !important;
+}
+
+/* ━━━ CARDS / SCHOOL SELECTORS ━━━ */
+.school-card, .compare-card, .selected-school, .school-option {
+  border-radius: 14px !important;
+  border: 1px solid var(--border) !important;
+  transition: all var(--d-base) var(--ease) !important;
+}
+.school-card:hover, .compare-card:hover, .school-option:hover {
+  border-color: var(--secondary) !important;
+  box-shadow: 0 12px 32px rgba(14,42,92,.08) !important;
+  transform: translateY(-2px);
+}
+.school-card.featured, .compare-card.partner, .selected-school.partner {
+  border-color: var(--secondary) !important;
+  background: linear-gradient(135deg, #f0fdfa 0%, #fff 60%) !important;
+}
+
+/* ━━━ COMPARISON TABLE ━━━ */
+.compare-table, table.compare {
+  border-color: var(--border) !important;
+}
+.compare-table th, table.compare th {
+  background: var(--bg-offwhite) !important;
+  color: var(--text) !important;
+  font-family: var(--mono) !important;
+  font-weight: 600 !important;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: 11px !important;
+}
+.compare-table td, table.compare td {
+  border-color: var(--border-soft) !important;
+}
+/* ━━━ SECTIONS DARK ━━━ */
+.cta-section, .save-section, .footer-cta {
+  background: var(--text) !important;
+  color: #fff !important;
+}
+.cta-section h2, .save-section h2, .footer-cta h2 { color: #fff !important; }
+.cta-section .btn-primary, .save-section .btn-primary {
+  background: #fff !important;
+  color: var(--text) !important;
+}
+.cta-section .btn-primary:hover {
+  background: var(--secondary-light) !important;
+  color: var(--text) !important;
+}
+
+/* ━━━ TAGS / PILLS ━━━ */
+.tag, .pill, .chip {
+  font-family: var(--mono) !important;
+  font-weight: 600 !important;
+  letter-spacing: .1em !important;
+  text-transform: uppercase;
+  font-size: 10.5px !important;
+  background: var(--bg-offwhite) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text-muted) !important;
+}
+.tag.partner, .pill.partner, .chip.partner {
+  background: var(--secondary) !important;
+  color: #fff !important;
+  border-color: var(--secondary) !important;
+}
+
+/* ━━━ MOBILE refinements ━━━ */
+@media(max-width: 768px) {
+  .intro h1, .hero h1, .page-hero h1 { font-size: clamp(32px, 8vw, 44px) !important; }
+}
+
+</style>
+<link rel="stylesheet" href="/design/chrome.css" />
+</head>
+<body>
+<header class="ss-header">
+  <div class="ss-header__inner">
+    <a class="ss-brand" href="/">School<em>·</em>Select</a>
+    <nav class="ss-nav">
+      <a href="/ecoles/">Écoles</a>
+      <a href="/comparer/" class="is-active">Comparer</a>
+      <a href="/quiz/">Quiz</a>
+      <a href="/blog/">Blog</a>
+      <a href="/a-propos/">À propos</a>
+    </nav>
+    <div class="ss-lang">
+      <a href="#" class="is-active">FR</a>
+      <span class="sep">/</span>
+      <a href="#">AR</a>
+    </div>
+  </div>
+</header>
+
+
+<!-- ============ HEADER ============ -->
+<!-- ============ BREADCRUMB ============ -->
+<nav class="breadcrumb" aria-label="Fil d'Ariane">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="/">Accueil</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      <span class="crumb-current">Comparateur</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container">
+    <span class="hero-eyebrow eyebrow">OUTIL DE COMPARAISON</span>
+    <h1><em>Comparez</em> jusqu'à 4 écoles côte à côte</h1>
+    <p>Frais, programmes, accréditations, avis : tous les critères qui comptent pour décider en confiance.</p>
+  </div>
+</section>
+
+<!-- ============ SELECTEUR SLOTS ============ -->
+<section class="selector-bar" id="selectorBar">
+  <div class="container">
+    <div class="slots-grid" id="slotsGrid"></div>
+    <div class="action-bar">
+      <div class="action-counter" id="actionCounter">0 école sélectionnée · 4 emplacements libres</div>
+      <div class="action-buttons">
+        <button class="btn btn-outline" id="shareBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Partager
+        </button>
+        <button class="btn btn-outline" onclick="window.print()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Exporter PDF
+        </button>
+        <button class="btn btn-ghost" id="resetBtn">Réinitialiser</button>
+        <a href="/quiz" class="btn btn-primary">
+          Quiz besoin parent
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TABLEAU COMPARAISON ============ -->
+<section class="compare-section">
+  <div class="container">
+    <div class="compare-table" id="compareTable"></div>
+  </div>
+</section>
+
+<!-- ============ SYNTHESE ============ -->
+<section class="synthese" id="syntheseSection">
+  <div class="container">
+    <div class="synthese-grid">
+      <div class="summary-card accent">
+        <span class="eyebrow">SYNTHÈSE FACTUELLE</span>
+        <h3 id="reco1Title">Sélectionnez au moins 2 écoles</h3>
+        <p id="reco1Body">Choisissez 2 à 4 écoles pour visualiser leurs différences factuelles côte à côte. School Select ne note pas et ne classe pas.</p>
+        <a href="#" class="btn btn-outline hidden" id="reco1Btn">Voir la fiche →</a>
+      </div>
+      <div class="summary-card">
+        <span class="eyebrow">BESOIN D'AIDE POUR CHOISIR ?</span>
+        <h3>Affinez avec le quiz</h3>
+        <p>Notre quiz en 8 questions filtre les écoles selon les critères de votre enfant : niveau, programme, gouvernorat, langues.</p>
+        <a href="/quiz" class="btn btn-primary">Démarrer le quiz →</a>
+      </div>
+    </div>
+
+    <div class="diff-block">
+      <h3>Différenciateurs clés entre vos sélections</h3>
+      <div class="diff-grid" id="diffGrid">
+        <div class="diff-card">
+          <div class="diff-icon">⚡</div>
+          <div>Sélectionnez 2 à 4 écoles dans le sélecteur ci-dessus pour découvrir les différences les plus marquantes entre elles.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MULTI CTA ============ -->
+<section class="multi-cta">
+  <div class="container">
+    <div class="multi-cta-grid">
+      <div class="multi-cta-text">
+        <span class="eyebrow" style="color:var(--secondary-dark);margin-bottom:16px;display:inline-block">RÉPONSES SOUS 24H</span>
+        <h2>Un seul formulaire, plusieurs écoles contactées</h2>
+        <p>Plutôt que de remplir un formulaire sur chaque site, envoyez votre demande aux écoles que vous comparez en une seule fois.</p>
+        <ul class="bullet-list">
+          <li>Vos coordonnées partagées uniquement avec les écoles cochées</li>
+          <li>Réponses reçues directement par email ou téléphone</li>
+          <li>Vous gardez le contrôle de votre choix final</li>
+          <li>Service 100% gratuit, sans engagement</li>
+        </ul>
+      </div>
+      <div class="form-card">
+        <h4>Demander aux écoles sélectionnées</h4>
+        <div class="school-checks" id="multiSchoolChecks">
+          <div style="color:var(--text-soft);font-size:13px;font-style:italic;text-align:center;padding:20px">Sélectionnez d'abord vos écoles à comparer</div>
+        </div>
+        <div class="field">
+          <label>Nom complet</label>
+          <input type="text" placeholder="Prénom Nom" />
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label>Téléphone</label>
+            <input type="tel" placeholder="+216 XX XXX XXX" />
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" placeholder="vous@email.com" />
+          </div>
+        </div>
+        <div class="field">
+          <label>Année de rentrée souhaitée</label>
+          <select>
+            <option>2026 - 2027</option>
+            <option>2027 - 2028</option>
+            <option>2028 - 2029</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Message (optionnel)</label>
+          <textarea rows="3" placeholder="Ex : Je souhaite organiser une visite avec mon enfant cet été."></textarea>
+        </div>
+        <button class="btn btn-primary btn-lg" style="width:100%">Envoyer ma demande</button>
+        <p class="footnote">Vos données restent confidentielles. Conformité RGPD et loi tunisienne sur la protection des données personnelles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SAVE & SHARE ============ -->
+<section class="save-banner">
+  <div class="container">
+    <div class="save-grid">
+      <div>
+        <h3>Sauvegardez ou partagez cette comparaison</h3>
+        <p>Conservez vos résultats, partagez-les avec votre conjoint(e), ou imprimez-les pour discussion en famille.</p>
+      </div>
+      <div class="save-buttons">
+        <button class="btn btn-outline" id="copyLinkBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          Copier le lien
+        </button>
+        <button class="btn btn-outline" onclick="window.print()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Imprimer
+        </button>
+        <a href="#" class="btn btn-outline" id="emailShareBtn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq-section">
+  <div class="container">
+    <h2>Questions sur le comparateur</h2>
+    <svg class="sig" viewBox="0 0 64 6" preserveAspectRatio="none"><path d="M0 3 Q 16 0, 32 3 T 64 3" fill="none" stroke="#00BE99" stroke-width="2"/></svg>
+
+    <div class="faq-grid">
+      <div class="faq-list">
+        <div class="acc-item">
+          <div class="acc-q">Le comparateur classe-t-il les écoles ?<span class="chev"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+          <div class="acc-a"><p>Non. School Select ne note pas, ne classe pas et ne désigne aucune « meilleure » école. Le comparateur affiche uniquement des critères factuels (curriculum, niveaux, langues, région). Le choix vous appartient.</p></div>
+        </div>
+        <div class="acc-item">
+          <div class="acc-q">Comment obtenir les frais de scolarité ?<span class="chev"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+          <div class="acc-a"><p>Les frais varient selon le niveau, le campus et l'année scolaire. Contactez directement chaque école via le bouton « Demander » ou via leur formulaire d'admission officiel.</p></div>
+        </div>
+        <div class="acc-item">
+          <div class="acc-q">Comment fonctionne le formulaire multi-écoles ?<span class="chev"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+          <div class="acc-a"><p>Vous remplissez vos coordonnées une seule fois et cochez les écoles à contacter. Chaque école reçoit votre demande individuellement et vous répond directement par email ou téléphone.</p></div>
+        </div>
+        <div class="acc-item">
+          <div class="acc-q">Mes données sont-elles partagées avec d'autres ?<span class="chev"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+          <div class="acc-a"><p>Vos données sont transmises uniquement aux écoles que vous cochez. Aucune revente à des tiers. Vous pouvez exercer votre droit RGPD à tout moment via privacy@schoolselect.tn</p></div>
+        </div>
+        <div class="acc-item">
+          <div class="acc-q">Puis-je comparer plus de 4 écoles ?<span class="chev"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+          <div class="acc-a"><p>Le comparateur est limité à 4 écoles pour préserver la lisibilité. Au-delà, nous recommandons de faire le quiz besoin parent qui filtre l'ensemble des écoles selon votre profil.</p></div>
+        </div>
+      </div>
+
+      <aside class="consult-card">
+        <span class="eyebrow">CONSULTATION GRATUITE</span>
+        <h4>Besoin d'aide pour décider ?</h4>
+        <p>Posez votre question, un conseiller vous répond sous 24h.</p>
+        <div class="field">
+          <label>Type de demande</label>
+          <select><option>Choix d'école</option><option>Curriculum</option><option>Frais</option><option>Autre</option></select>
+        </div>
+        <div class="field"><label>Nom complet</label><input type="text"/></div>
+        <div class="field"><label>Téléphone</label><input type="tel" placeholder="+216 XX XXX XXX"/></div>
+        <div class="field"><label>Email</label><input type="email"/></div>
+        <div class="field"><label>Message</label><textarea rows="3"></textarea></div>
+        <button class="btn btn-primary" style="width:100%">Envoyer</button>
+        <p class="footnote">Vos données restent confidentielles.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<!-- ============ MODAL ============ -->
+<div class="modal-back" id="modalBack" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 id="modalTitle">Choisir une école à comparer</h3>
+      <button class="modal-close" id="modalClose" aria-label="Fermer">&times;</button>
+    </div>
+    <div class="modal-search">
+      <input type="text" id="modalSearch" placeholder="Rechercher une école..." />
+      <div class="modal-filters">
+        <select id="modalGov" aria-label="Filtrer par gouvernorat">
+          <option value="">Tous les gouvernorats</option>
+        </select>
+        <select id="modalCur" aria-label="Filtrer par programme">
+          <option value="">Tous les programmes</option>
+        </select>
+      </div>
+    </div>
+    <div class="modal-list" id="modalList"></div>
+  </div>
+</div>
+
+<!-- ============ TOAST ============ -->
+<div class="toast" id="toast"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg><span id="toastMsg">Lien copié</span></div>
+
+<script>
+/* ============ DATA — chargé depuis schools.json ============ */
+let SCHOOLS = [];
+
+// Présentation data-driven (codes → labels humains). Aligné avec le quiz :
+// on consomme curriculum_types[]/languages[] (structurés) — aucune valeur en dur.
+const CURRICULUM_TYPE_LABELS = {
+  ib:'International Baccalaureate (IB)', british:'Britannique (Cambridge / Pearson)',
+  french_aefe:'Français (AEFE)', french:'Français', quebec:'Québécois',
+  american:'Américain', german:'Allemand', italian:'Italien', spanish:'Espagnol',
+  tunisian:'Système tunisien', moroccan:'Système marocain', algerian:'Système algérien',
+  senegalese:'Système sénégalais', ivorian:'Système ivoirien',
+  bilingual:'Bilingue', multilingual:'Multilingue'
+};
+const LANGUAGE_LABELS = {
+  ar:'Arabe', en:'Anglais', fr:'Français', de:'Allemand', es:'Espagnol',
+  it:'Italien', tr:'Turc', pt:'Portugais', zh:'Chinois', ru:'Russe'
+};
+const COUNTRY_LABELS = { TN:'Tunisie', MA:'Maroc', DZ:'Algérie', FR:'France', SN:'Sénégal', CI:"Côte d'Ivoire" };
+const curLabel = c => CURRICULUM_TYPE_LABELS[c] || c;
+const langLabel = c => LANGUAGE_LABELS[c] || c;
+
+function compInitials(name) {
+  const stopwords = new Set(['de','la','le','les','des','du','et','à','au','aux','d','l','en']);
+  const words = name.split(/[\s\-'\u2019]+/);
+  let out = '';
+  for (const w of words) {
+    if (!stopwords.has(w.toLowerCase()) && w) out += w[0].toUpperCase();
+    if (out.length >= 2) break;
+  }
+  return out.slice(0, 2) || 'EC';
+}
+
+function adaptCompSchool(s, idx) {
+  // Map agrégat → modèle comparateur. 100 % data-driven : aucune valeur
+  // géographique / curriculum / langue codée en dur. Sûr pour le multi-pays.
+  return {
+    id: idx + 1,
+    n: s.name,
+    city: s.city,
+    region: s.gov,
+    countryCode: s.country_code || '',
+    curriculumTypes: Array.isArray(s.curriculum_types) ? s.curriculum_types : [],
+    languages: Array.isArray(s.languages) ? s.languages : [],
+    accreditations: Array.isArray(s.accreditations) ? s.accreditations : [],
+    ageMin: s.age_min ?? null,
+    ageMax: s.age_max ?? null,
+    levels: s.levels || [],
+    founded: s.founded || null,
+    verification: s.verification || '',
+    initials: compInitials(s.name),
+    slug: s.slug,
+    lat: s.lat,
+    lng: s.lng,
+  };
+}
+
+// Block UI tant que pas chargé
+function compBlockUI() {
+  // Disable add buttons or selectors until data ready
+  document.body.style.opacity = '.6';
+  document.body.style.pointerEvents = 'none';
+}
+function compUnblockUI() {
+  document.body.style.opacity = '';
+  document.body.style.pointerEvents = '';
+}
+
+compBlockUI();
+
+fetch('/data/schools.json')
+  .then(r => r.json())
+  .then(data => {
+    SCHOOLS = data.map(adaptCompSchool);
+    console.log('✓ Comparateur: ' + SCHOOLS.length + ' écoles chargées');
+    // Compteur footer data-driven (évite tout chiffre figé qui dériverait).
+    const fc = document.getElementById('footerCount');
+    if (fc) fc.textContent = SCHOOLS.length;
+    compUnblockUI();
+    // Re-trigger init: reload URL params and re-render
+    try {
+      if (typeof loadFromUrl === 'function') loadFromUrl();
+      if (typeof renderSlots === 'function') renderSlots();
+    } catch (e) {
+      console.error('Re-render error:', e);
+    }
+    document.dispatchEvent(new CustomEvent('schoolsLoaded', { detail: SCHOOLS }));
+  })
+  .catch(err => {
+    console.error('Failed to load schools.json:', err);
+    compUnblockUI();
+    alert('Erreur de chargement des écoles. Rechargez la page.');
+  });
+
+const LEVEL_LABELS={maternelle:"Maternelle",primaire:"Primaire",college:"Collège",lycee:"Lycée"};
+
+/* ============ STATE ============ */
+let slots = [null,null,null,null]; // 4 slots, chacun = id ou null
+let modalSlotIdx = -1; // quel slot on remplit
+
+/* ============ HELPERS ============ */
+function getSchool(id){ return SCHOOLS.find(s=>s.id===id); }
+function distance(s1,s2){
+  // Haversine
+  const R=6371;
+  const toRad=x=>x*Math.PI/180;
+  const dLat=toRad(s2.lat-s1.lat);
+  const dLng=toRad(s2.lng-s1.lng);
+  const a=Math.sin(dLat/2)**2+Math.cos(toRad(s1.lat))*Math.cos(toRad(s2.lat))*Math.sin(dLng/2)**2;
+  return Math.round(R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a)));
+}
+
+/* ============ RENDER SLOTS ============ */
+function renderSlots(){
+  const grid=document.getElementById("slotsGrid");
+  grid.innerHTML="";
+  slots.forEach((id,i)=>{
+    if(id==null){
+      const div=document.createElement("div");
+      div.className="slot slot-empty";
+      div.innerHTML=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>Ajouter une école`;
+      div.onclick=()=>openModal(i);
+      grid.appendChild(div);
+    } else {
+      const s=getSchool(id);
+      const div=document.createElement("div");
+      div.className="slot slot-filled"+(s.partner?" partner":"");
+      div.innerHTML=`
+        <div class="slot-logo is-A${i+1}">${s.initials}</div>
+        <div class="slot-info">
+          <div class="slot-name">${s.n}</div>
+          <div class="slot-meta">
+            <span>${s.city}</span>
+          </div>
+        </div>
+        <button class="slot-x" data-idx="${i}" aria-label="Retirer">&times;</button>
+      `;
+      div.querySelector(".slot-x").onclick=(e)=>{e.stopPropagation();removeSlot(i)};
+      grid.appendChild(div);
+    }
+  });
+  updateActionCounter();
+  renderTable();
+  renderSynthese();
+  renderMultiSchoolChecks();
+  updateUrl();
+}
+
+function updateActionCounter(){
+  const filled=slots.filter(s=>s!=null).length;
+  const empty=4-filled;
+  document.getElementById("actionCounter").innerHTML=
+    `<strong>${filled}</strong> école${filled>1?'s':''} sélectionnée${filled>1?'s':''} · <strong>${empty}</strong> emplacement${empty>1?'s':''} libre${empty>1?'s':''}`;
+}
+
+function removeSlot(i){
+  slots[i]=null;
+  renderSlots();
+}
+
+/* ============ MODAL ============ */
+function modalSchoolRow(s){
+  const used=slots.includes(s.id);
+  const div=document.createElement("div");
+  div.className="modal-school"+(used?" disabled":"");
+  // data-attributs pour le filtrage (gouvernorat + curriculums), data-driven.
+  div.dataset.gov=s.region||"";
+  div.dataset.curs=(s.curriculumTypes||[]).join("|");
+  const primary=(s.curriculumTypes||[])[0];
+  div.innerHTML=`
+    <div class="ms-logo">${s.initials}</div>
+    <div class="ms-info">
+      <div class="ms-name">${s.n}</div>
+      <div class="ms-meta">${s.city}${primary?" · "+curLabel(primary):""}</div>
+    </div>
+  `;
+  if(!used) div.onclick=()=>{slots[modalSlotIdx]=s.id;closeModal();renderSlots();};
+  return div;
+}
+// Remplit les filtres modal depuis les données (gouvernorats + curricula réels).
+// Scalable : à 80 écoles ou en multi-pays, les options apparaissent automatiquement.
+function populateModalFilters(){
+  const govSel=document.getElementById("modalGov");
+  const curSel=document.getElementById("modalCur");
+  if(govSel && govSel.options.length<=1){
+    [...new Set(SCHOOLS.map(s=>s.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"fr"))
+      .forEach(g=>{const o=document.createElement("option");o.value=g;o.textContent=g;govSel.appendChild(o);});
+  }
+  if(curSel && curSel.options.length<=1){
+    const set=new Set(); SCHOOLS.forEach(s=>(s.curriculumTypes||[]).forEach(c=>set.add(c)));
+    [...set].sort().forEach(c=>{const o=document.createElement("option");o.value=c;o.textContent=curLabel(c);curSel.appendChild(o);});
+  }
+}
+function openModal(idx){
+  modalSlotIdx=idx;
+  populateModalFilters();
+  const list=document.getElementById("modalList");
+  list.innerHTML="";
+  SCHOOLS.forEach(s=>list.appendChild(modalSchoolRow(s)));
+  document.getElementById("modalSearch").value="";
+  const gv=document.getElementById("modalGov"); if(gv) gv.value="";
+  const cv=document.getElementById("modalCur"); if(cv) cv.value="";
+  document.getElementById("modalBack").classList.add("show");
+  setTimeout(()=>document.getElementById("modalSearch").focus(),100);
+}
+function closeModal(){
+  document.getElementById("modalBack").classList.remove("show");
+}
+// Filtre combiné : nom + gouvernorat + curriculum.
+function filterModalList(){
+  const q=(document.getElementById("modalSearch").value||"").toLowerCase().trim();
+  const gov=(document.getElementById("modalGov")||{}).value||"";
+  const cur=(document.getElementById("modalCur")||{}).value||"";
+  document.querySelectorAll(".modal-school").forEach(el=>{
+    const okName=el.querySelector(".ms-name").textContent.toLowerCase().includes(q);
+    const okGov=!gov || el.dataset.gov===gov;
+    const okCur=!cur || (el.dataset.curs||"").split("|").includes(cur);
+    el.style.display=(okName&&okGov&&okCur)?"":"none";
+  });
+}
+document.getElementById("modalClose").onclick=closeModal;
+document.getElementById("modalBack").onclick=(e)=>{if(e.target.id==="modalBack")closeModal()};
+document.addEventListener("keydown",(e)=>{if(e.key==="Escape")closeModal()});
+document.getElementById("modalSearch").oninput=filterModalList;
+["modalGov","modalCur"].forEach(id=>{const el=document.getElementById(id); if(el) el.onchange=filterModalList;});
+
+/* ============ RENDER TABLE ============ */
+function renderTable(){
+  const tableEl=document.getElementById("compareTable");
+  const filledIds=slots.filter(s=>s!=null);
+
+  if(filledIds.length===0){
+    tableEl.innerHTML=`
+      <div class="empty-table">
+        <div class="empty-icon">⚖</div>
+        <h3>Aucune école sélectionnée</h3>
+        <p>Cliquez sur "Ajouter une école" dans le sélecteur ci-dessus pour commencer la comparaison. Vous pouvez ajouter jusqu'à 4 écoles.</p>
+        <button class="btn btn-primary" onclick="openModal(0)">Choisir ma première école</button>
+      </div>
+    `;
+    return;
+  }
+
+  const ss = slots.map(id=>id?getSchool(id):null);
+
+  // Affiche le pays seulement si l'on compare des écoles de pays différents.
+  const multiCountry = new Set(ss.filter(Boolean).map(s=>s.countryCode)).size > 1;
+
+  // Descripteurs de tableau (data-driven). Ajouter une dimension = ajouter une
+  // ligne ici (label + get). Une ligne sans valeur sur toutes les écoles
+  // comparées est automatiquement masquée (cf. renderRows). `when(filled)`
+  // permet une condition d'affichage (ex. Pays uniquement en multi-pays).
+  const cats=[
+    {
+      icon:"🏷",title:"Identité & Localisation",open:true,
+      rows:[
+        {label:"Pays", when:()=>multiCountry, get:s=>COUNTRY_LABELS[s.countryCode]||s.countryCode||"—"},
+        {label:"Ville", get:s=>s.city||"—"},
+        {label:"Région", get:s=>s.region||"—"},
+        {label:"Année de création", get:s=>s.founded||"—"},
+        {label:"Vérification", get:s=>s.verification?`<span class='check'>${s.verification}</span> Sources officielles`:"—"}
+      ]
+    },
+    {
+      icon:"📚",title:"Programme & Pédagogie",open:true,
+      rows:[
+        {label:"Curriculum", get:s=>(s.curriculumTypes||[]).map(curLabel).join(", ")||"—"},
+        {label:"Niveaux enseignés", get:s=>(s.levels||[]).map(l=>LEVEL_LABELS[l]).filter(Boolean).join(", ")||"—"},
+        {label:"Tranche d'âge", get:s=>(s.ageMin!=null&&s.ageMax!=null)?`${s.ageMin} – ${s.ageMax} ans`:"—"},
+        {label:"Langues", get:s=>(s.languages||[]).map(langLabel).join(", ")||"—"},
+        {label:"Accréditations", get:s=>(s.accreditations||[]).map(a=>a.short||a.name).filter(Boolean).join(", ")||"—"}
+      ]
+    },
+    {
+      icon:"📍",title:"Distances entre les écoles",open:false,
+      isCustom:true
+    },
+    {
+      icon:"🔗",title:"Fiche détaillée",open:true,
+      rows:[
+        {label:"Fiche complète", get:s=>`<a href="/${s.slug || "ecoles"}/" class="btn btn-outline" style="font-size:12px;padding:6px 10px">Voir la fiche →</a>`}
+      ]
+    }
+  ];
+
+  // Header row (école photos)
+  let html = `
+    <div class="compare-controls">
+      <button class="toggle-all-btn" id="toggleAllBtn">▼ TOUT DÉPLIER</button>
+    </div>
+    <div class="row row-head">
+      <div class="row-label">École</div>
+      ${ss.map((s,i)=>{
+        if(!s) return `<div class="head-cell"><div style="color:var(--text-soft);font-size:12px;font-style:italic">— Slot vide —</div></div>`;
+        return `
+          <div class="head-cell">
+            <div class="head-photo is-A${i+1}" style="background:linear-gradient(135deg,${i===0?"#5B8AF0,#2F6EEB":i===1?"#33CBAD,#00BE99":i===2?"#F1AB23,#E89539":"#DC6B4F,#C04646"})">${s.initials}</div>
+            <div class="head-name">${s.n}</div>
+            <div class="head-city">${s.city}</div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+
+  cats.forEach((cat,ci)=>{
+    html+=`
+      <div class="cat-block ${cat.open?'open':''}" data-cat="${ci}">
+        <div class="cat-header" onclick="toggleCat(${ci})">
+          <div class="cat-header-left">
+            <div class="cat-icon">${cat.icon}</div>
+            <div class="cat-title">${cat.title}</div>
+          </div>
+          <div class="cat-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="cat-rows">
+          ${cat.isCustom?renderDistanceRows(ss):renderRows(cat.rows,ss)}
+        </div>
+      </div>
+    `;
+  });
+
+  tableEl.innerHTML=html;
+}
+
+function renderRows(rows,ss){
+  const filled=ss.filter(Boolean);
+  return rows.filter(r=>{
+    // Condition d'affichage explicite (ex. Pays en multi-pays seulement).
+    if(typeof r.when==="function" && !r.when(filled)) return false;
+    // Saut gracieux : masquer la ligne si aucune école comparée n'a de valeur.
+    return filled.some(s=>{ const v=r.get(s); return v!=null && v!=="" && v!=="—"; });
+  }).map(r=>`
+    <div class="row">
+      <div class="row-label">${r.label}</div>
+      ${ss.map((s,i)=>{
+        if(!s) return `<div class="row-cell empty">—</div>`;
+        return `<div class="row-cell">${r.get(s,i)}</div>`;
+      }).join("")}
+    </div>
+  `).join("");
+}
+
+function renderDistanceRows(ss){
+  const filled=ss.filter(s=>s);
+  if(filled.length<2){
+    return `<div class="row" style="grid-template-columns:1fr"><div class="row-cell empty">Au moins 2 écoles requises pour calculer les distances.</div></div>`;
+  }
+  const labels=["A","B","C","D"];
+  let html=`<div class="row"><div class="row-label">Distances à vol d'oiseau</div><div class="row-cell" style="grid-column:span 4;flex-direction:column;align-items:flex-start;gap:8px;padding:16px">
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px">
+      ${ss.map((s,i)=>s?`<div style="display:flex;align-items:center;gap:6px"><span class="pin-num p${i+1}">${labels[i]}</span><span style="font-size:13px">${s.n}</span></div>`:'').join('')}
+    </div>
+    <div class="distance-grid">`;
+  for(let i=0;i<ss.length;i++){
+    for(let j=i+1;j<ss.length;j++){
+      if(ss[i] && ss[j]){
+        const d=distance(ss[i],ss[j]);
+        html+=`<div><strong>${labels[i]} ↔ ${labels[j]}</strong> : ${d} km <span style="color:var(--text-soft);font-size:11px">(${ss[i].city} - ${ss[j].city})</span></div>`;
+      }
+    }
+  }
+  html+=`</div></div></div>`;
+  return html;
+}
+
+function toggleCat(i){
+  const block=document.querySelectorAll(".cat-block")[i];
+  block.classList.toggle("open");
+}
+
+window.openModal = openModal;
+window.toggleCat = toggleCat;
+
+/* ============ TOGGLE ALL ============ */
+document.addEventListener("click",(e)=>{
+  if(e.target.id==="toggleAllBtn"){
+    const blocks=document.querySelectorAll(".cat-block");
+    const allOpen=Array.from(blocks).every(b=>b.classList.contains("open"));
+    blocks.forEach(b=>b.classList.toggle("open",!allOpen));
+    e.target.textContent=allOpen?"▼ TOUT DÉPLIER":"▲ TOUT REPLIER";
+  }
+});
+
+/* ============ SYNTHESE ============ */
+function renderSynthese(){
+  const filled=slots.filter(s=>s!=null).map(id=>getSchool(id));
+
+  if(filled.length<2){
+    document.getElementById("reco1Title").textContent="Sélectionnez au moins 2 écoles";
+    document.getElementById("reco1Body").textContent="Choisissez 2 à 4 écoles pour visualiser leurs différences factuelles côte à côte.";
+    document.getElementById("reco1Btn").classList.add("hidden");
+    document.getElementById("diffGrid").innerHTML=`
+      <div class="diff-card">
+        <div class="diff-icon">⚡</div>
+        <div>Sélectionnez 2 à 4 écoles dans le sélecteur ci-dessus pour découvrir leurs différences factuelles.</div>
+      </div>
+    `;
+    return;
+  }
+
+  // Pas de "winner" : School Select ne classe pas. On affiche un résumé neutre.
+  document.getElementById("reco1Title").textContent="Synthèse factuelle";
+  document.getElementById("reco1Body").textContent=`Vous comparez ${filled.length} école${filled.length>1?'s':''}. Les différences ci-dessous sont strictement factuelles — School Select ne classe pas et ne note pas les écoles. Le choix vous appartient.`;
+  document.getElementById("reco1Btn").classList.add("hidden");
+
+  // Différenciateurs factuels — uniquement champs réellement disponibles
+  const diffs=[];
+
+  // 1. IB : écoles le proposant vs non (curriculum_types multi-valué)
+  const ibs=filled.filter(s=>(s.curriculumTypes||[]).includes("ib"));
+  if(ibs.length>0 && ibs.length<filled.length){
+    diffs.push({icon:"🎓",text:`<strong>${ibs.map(s=>s.n).join(", ")}</strong> ${ibs.length>1?"proposent":"propose"} le programme IB ; les autres non.`});
+  }
+
+  // 2. Programmes différents (union de tous les curriculum_types)
+  const curSet=new Set(); filled.forEach(s=>(s.curriculumTypes||[]).forEach(c=>curSet.add(c)));
+  const curs=[...curSet];
+  if (curs.length > 1) {
+    diffs.push({icon:"📚",text:`Vos sélections couvrent <strong>${curs.length} programmes différents</strong> : ${curs.map(curLabel).join(', ')}.`});
+  }
+
+  // 3. Zones géographiques différentes (terme neutre, compatible multi-pays)
+  const regions = [...new Set(filled.map(s => s.region).filter(Boolean))];
+  if (regions.length > 1) {
+    diffs.push({icon:"📍",text:`Écoles réparties sur <strong>${regions.length} zones géographiques</strong> : ${regions.join(', ')}. Pensez aux trajets quotidiens.`});
+  }
+
+  // 4. Niveaux couverts
+  const allLevels = filled.map(s => new Set(s.levels||[]));
+  const lvlUnion = new Set();
+  allLevels.forEach(set => set.forEach(l => lvlUnion.add(l)));
+  const lvlDiffers = [...lvlUnion].some(l => allLevels.some(set => !set.has(l)));
+  if (lvlDiffers) {
+    diffs.push({icon:"🏫",text:`Les niveaux enseignés diffèrent selon les écoles. Vérifiez que chacune couvre le niveau scolaire visé.`});
+  }
+
+  // 5. Langues (codes structurés → labels)
+  const allLangs = filled.map(s => new Set(s.languages||[]));
+  const langUnion = new Set();
+  allLangs.forEach(set => set.forEach(l => langUnion.add(l)));
+  if (langUnion.size > 0) {
+    const shared = [...langUnion].filter(l => allLangs.every(set => set.has(l)));
+    if (shared.length > 0 && shared.length < langUnion.size) {
+      diffs.push({icon:"🗣",text:`Langues communes aux écoles comparées : <strong>${shared.map(langLabel).join(', ')}</strong>. Les autres langues varient selon l'établissement.`});
+    }
+  }
+
+  // Fallback
+  if (diffs.length === 0) {
+    diffs.push({icon:"⚡",text:`Les écoles comparées partagent les principaux critères factuels (curriculum, niveaux, langues, région). Consultez le tableau ci-dessus pour les détails.`});
+  }
+
+  const diffGrid=document.getElementById("diffGrid");
+  diffGrid.innerHTML=diffs.slice(0,6).map(d=>`
+    <div class="diff-card">
+      <div class="diff-icon">${d.icon}</div>
+      <div>${d.text}</div>
+    </div>
+  `).join("");
+}
+
+/* ============ MULTI SCHOOL CHECKS ============ */
+function renderMultiSchoolChecks(){
+  const filled=slots.filter(s=>s!=null).map(id=>getSchool(id));
+  const wrap=document.getElementById("multiSchoolChecks");
+  if(filled.length===0){
+    wrap.innerHTML=`<div style="color:var(--text-soft);font-size:13px;font-style:italic;text-align:center;padding:20px">Sélectionnez d'abord vos écoles à comparer</div>`;
+    return;
+  }
+  wrap.innerHTML=filled.map(s=>`
+    <label class="school-check">
+      <input type="checkbox" checked data-id="${s.id}">
+      <span>${s.n}</span>
+    </label>
+  `).join("");
+}
+
+/* ============ URL PARAMS ============ */
+function updateUrl(){
+  const ids=slots.filter(s=>s!=null).join(",");
+  const url=new URL(window.location);
+  if(ids) url.searchParams.set("ids",ids);
+  else url.searchParams.delete("ids");
+  window.history.replaceState({},"",url);
+}
+
+function loadFromUrl(){
+  const params=new URLSearchParams(window.location.search);
+  const ids=params.get("ids");
+  if(ids){
+    const arr=ids.split(",").map(Number).filter(n=>!isNaN(n));
+    arr.slice(0,4).forEach((id,i)=>{
+      if(SCHOOLS.find(s=>s.id===id)) slots[i]=id;
+    });
+  }
+}
+
+/* ============ SHARE ============ */
+function showToast(msg){
+  document.getElementById("toastMsg").textContent=msg;
+  document.getElementById("toast").classList.add("show");
+  setTimeout(()=>document.getElementById("toast").classList.remove("show"),2500);
+}
+
+document.getElementById("shareBtn").onclick=async()=>{
+  const url=window.location.href;
+  if(navigator.share){
+    try{ await navigator.share({title:"Comparateur School Select",url}); }
+    catch(e){}
+  } else {
+    navigator.clipboard.writeText(url);
+    showToast("Lien copié dans le presse-papier");
+  }
+};
+document.getElementById("copyLinkBtn").onclick=()=>{
+  navigator.clipboard.writeText(window.location.href);
+  showToast("Lien copié");
+};
+document.getElementById("emailShareBtn").onclick=(e)=>{
+  e.preventDefault();
+  const subject=encodeURIComponent("Ma comparaison d'écoles School Select");
+  const body=encodeURIComponent(`Bonjour,\n\nVoici ma comparaison d'écoles sur School Select :\n${window.location.href}\n\nÀ bientôt.`);
+  window.location.href=`mailto:?subject=${subject}&body=${body}`;
+};
+document.getElementById("resetBtn").onclick=()=>{
+  if(slots.some(s=>s!=null)){
+    if(confirm("Réinitialiser la comparaison ?")){
+      slots=[null,null,null,null];
+      renderSlots();
+      showToast("Comparaison réinitialisée");
+    }
+  }
+};
+
+/* ============ SCROLL EFFECTS ============ */
+const header=document.getElementById("siteHeader");
+const selBar=document.getElementById("selectorBar");
+window.addEventListener("scroll",()=>{
+  header.classList.toggle("scrolled",window.scrollY>10);
+  selBar.classList.toggle("scrolled",window.scrollY>80);
+});
+
+/* ============ FAQ ACCORDION ============ */
+document.querySelectorAll(".acc-q").forEach(q=>{
+  q.onclick=()=>q.parentElement.classList.toggle("open");
+});
+
+/* ============ INIT ============ */
+// Si l'URL contient ?ids=, on attend que SCHOOLS soit chargé (fetch.then)
+// Sinon on render direct (empty state)
+const __hasIdsInUrl = new URLSearchParams(window.location.search).has('ids');
+if (!__hasIdsInUrl) {
+  renderSlots();
+}
+// Si ?ids= présent, le fetch.then() s'occupera de loadFromUrl() + renderSlots()
+
+// Si premier load sans params, ouvre directement le modal slot 0 si on click "Choisir première école"
+window.openModal = openModal; // export
+</script>
+<footer class="ss-footer">
+  <div class="ss-footer__inner">
+    <div>
+      <a class="ss-foot-brand" href="/">School<em>·</em>Select</a>
+      <p>L'annuaire éditorial indépendant des écoles privées internationales en Tunisie. <span id="footerCount">17</span> écoles vérifiées, mises à jour trimestrielles.</p>
+    </div>
+    <div>
+      <h5>Naviguer</h5>
+      <ul>
+        <li><a href="/ecoles/">Toutes les écoles</a></li>
+        <li><a href="/comparer/">Comparer</a></li>
+        <li><a href="/quiz/">Quiz orientation</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Par curriculum</h5>
+      <ul>
+        <li><a href="/ecoles/?cur=IB">IB</a></li>
+        <li><a href="/ecoles/?cur=Fran%C3%A7ais">Français</a></li>
+        <li><a href="/ecoles/?cur=Britannique">Britannique</a></li>
+        <li><a href="/ecoles/?cur=Am%C3%A9ricain">Américain</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>À propos</h5>
+      <ul>
+        <li><a href="/a-propos/">L'éditorial</a></li>
+        <li><a href="/contact/">Nous contacter</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Légal</h5>
+      <ul>
+        <li><a href="/mentions-legales/">Mentions légales</a></li>
+        <li><a href="/confidentialite/">Confidentialité</a></li>
+        <li><a href="/cgu/">CGU</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ss-footer__bottom">
+    <span>© 2026 School Select · Tunis</span>
+    <span>Données vérifiées · Mai 2026</span>
+  </div>
+</footer>
+</body>
+</html>

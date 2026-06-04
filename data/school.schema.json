@@ -1,0 +1,1009 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schoolselect.online/schemas/school.schema.json",
+  "title": "School Select — Fiche école (v1.2)",
+  "description": "Schema officiel d'une fiche école pour School Select. Source de vérité unique par école → 1 fichier {slug}.json par école. · v1.1 : ajout identity.logo_url · v1.2 : ajout accreditation.logo_url",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "school_id",
+    "version_data",
+    "identity",
+    "classification",
+    "seo",
+    "hero",
+    "fees",
+    "accreditations",
+    "programme",
+    "pedagogy",
+    "services",
+    "clubs",
+    "gallery",
+    "video",
+    "contact",
+    "campuses",
+    "faq",
+    "similar_schools"
+  ],
+  "properties": {
+    "slug": {
+      "$ref": "#/$defs/slug"
+    },
+    "school_id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}-[a-z0-9\\-]+$",
+      "description": "Identifiant unique stable. Format: {country}-{locality}-{name}. Ex: tn-tunis-bist"
+    },
+    "version_data": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version semantique des données. Incrémentée à chaque update notable."
+    },
+    "identity": {
+      "$ref": "#/$defs/identity"
+    },
+    "classification": {
+      "$ref": "#/$defs/classification"
+    },
+    "seo": {
+      "$ref": "#/$defs/seo"
+    },
+    "hero": {
+      "$ref": "#/$defs/hero"
+    },
+    "fees": {
+      "$ref": "#/$defs/fees"
+    },
+    "accreditations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/accreditation"
+      },
+      "minItems": 0
+    },
+    "distinction_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Texte de distinction unique affiché sous les accréditations (ex: 'Première école COBIS de Tunisie')."
+    },
+    "programme": {
+      "$ref": "#/$defs/programme"
+    },
+    "pedagogy": {
+      "$ref": "#/$defs/pedagogy"
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/service"
+      }
+    },
+    "clubs": {
+      "$ref": "#/$defs/clubs"
+    },
+    "gallery": {
+      "$ref": "#/$defs/gallery"
+    },
+    "video": {
+      "$ref": "#/$defs/video"
+    },
+    "contact": {
+      "$ref": "#/$defs/contact"
+    },
+    "campuses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/campus"
+      },
+      "minItems": 1,
+      "description": "1..N campus. Multi-campus géré nativement via cet array."
+    },
+    "faq": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/faq_item"
+      }
+    },
+    "similar_schools": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/similar_school"
+      },
+      "minItems": 0,
+      "maxItems": 3,
+      "description": "Jusqu'à 3 écoles similaires pour la section bas de fiche. Slugs doivent exister."
+    }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 80,
+      "description": "Slug URL-safe en kebab-case. Ex: british-international-school-of-tunis"
+    },
+    "country_code": {
+      "type": "string",
+      "enum": [
+        "TN",
+        "MA",
+        "DZ",
+        "SN",
+        "CI"
+      ],
+      "description": "Code pays ISO 3166-1 alpha-2. Limité aux pays cibles School Select."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "url_nullable": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "email": {
+      "type": "string",
+      "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+    },
+    "phone_e164": {
+      "type": "string",
+      "pattern": "^\\+[0-9 ]+$",
+      "description": "Format international avec '+'. Ex: '+216 71 234 567'"
+    },
+    "hex_color": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name_full",
+        "name_short",
+        "founded_date_iso",
+        "official_website",
+        "country_code",
+        "city",
+        "city_slug",
+        "gov"
+      ],
+      "properties": {
+        "name_full": {
+          "type": "string",
+          "minLength": 3
+        },
+        "name_short": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alternate_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "founded_date_iso": {
+          "type": "string",
+          "format": "date",
+          "description": "Date de fondation ISO 8601."
+        },
+        "official_website": {
+          "$ref": "#/$defs/url"
+        },
+        "country_code": {
+          "$ref": "#/$defs/country_code"
+        },
+        "city": {
+          "type": "string"
+        },
+        "city_slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "gov": {
+          "type": "string",
+          "enum": [
+            "Ariana",
+            "Béja",
+            "Ben Arous",
+            "Bizerte",
+            "Gabès",
+            "Gafsa",
+            "Jendouba",
+            "Kairouan",
+            "Kasserine",
+            "Kébili",
+            "Le Kef",
+            "Mahdia",
+            "La Manouba",
+            "Médenine",
+            "Monastir",
+            "Nabeul",
+            "Sfax",
+            "Sidi Bouzid",
+            "Siliana",
+            "Sousse",
+            "Tataouine",
+            "Tozeur",
+            "Tunis",
+            "Zaghouan"
+          ],
+          "description": "Gouvernorat administratif officiel tunisien. Liste fermée (24 gouvernorats). Pour les agglomérations, utiliser le gouvernorat-mère (ex: La Marsa, Carthage, Gammarth → Tunis)."
+        },
+        "logo_url": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/url"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "URL du logo officiel de l'école (PNG/SVG/JPG). Optionnel. Affiché dans le hero si renseigné."
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tier",
+        "verified",
+        "curriculum_types",
+        "age_min",
+        "age_max",
+        "languages"
+      ],
+      "properties": {
+        "tier": {
+          "type": "string",
+          "enum": [
+            "economique",
+            "premium",
+            "premium_plus",
+            "ultra"
+          ],
+          "description": "Tier tarifaire. economique<6k, premium 6-12k, premium_plus 12-20k, ultra >20k TND/an."
+        },
+        "verified": {
+          "type": "boolean",
+          "description": "Indique que l'école a passé un contrôle éditorial initial (existence vérifiée, données croisées avec au moins 2 sources publiques : site officiel + registre d'accréditation IBO/AEFE/Cambridge ou équivalent). Toutes les écoles publiées doivent être vérifiées. La valeur false est réservée aux écoles en attente de validation et ne devrait jamais apparaître en production."
+        },
+        "curriculum_types": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": [
+              "british",
+              "french_aefe",
+              "ib",
+              "quebec",
+              "american",
+              "german",
+              "italian",
+              "spanish",
+              "tunisian",
+              "moroccan",
+              "algerian",
+              "senegalese",
+              "ivorian",
+              "bilingual",
+              "multilingual"
+            ]
+          }
+        },
+        "languages": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": [
+              "ar",
+              "en",
+              "fr",
+              "de",
+              "es",
+              "it",
+              "tr",
+              "pt",
+              "zh",
+              "ru"
+            ]
+          },
+          "description": "Langues d'enseignement / enseignées, codes ISO 639-1, liste fermée. Ordre significatif : la première est la langue d'enseignement principale. Source de vérité structurée (les cartes programme.cards restent du contenu éditorial libre, non agrégé)."
+        },
+        "age_min": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 25
+        },
+        "age_max": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 25
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "description",
+        "og_title",
+        "og_description"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "maxLength": 70
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "og_title": {
+          "type": "string",
+          "maxLength": 70
+        },
+        "og_description": {
+          "type": "string",
+          "maxLength": 200
+        }
+      }
+    },
+    "hero_tag_icon": {
+      "type": "string",
+      "enum": [
+        "location",
+        "book",
+        "users",
+        "home",
+        "globe",
+        "school",
+        "calendar",
+        "star",
+        "trophy"
+      ],
+      "description": "Type d'icône SVG (mappé à un catalogue côté template)."
+    },
+    "hero": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "logo_text",
+        "image_tag",
+        "tagline_html",
+        "eyebrow_text",
+        "tags",
+        "cta_primary",
+        "cta_secondary"
+      ],
+      "properties": {
+        "logo_text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 10,
+          "description": "Acronyme/logo court (ex: BIST, ECT)."
+        },
+        "image_url": {
+          "$ref": "#/$defs/url_nullable",
+          "default": null
+        },
+        "image_tag": {
+          "type": "string",
+          "description": "Légende/tag affiché sur la photo hero."
+        },
+        "tagline_html": {
+          "type": "string",
+          "minLength": 10,
+          "description": "HTML autorisé (<strong>, <em>). Rendu via {{{...}}} Mustache."
+        },
+        "eyebrow_text": {
+          "type": "string",
+          "description": "Petite eyebrow au-dessus du h1. Ex: 'Premium+ · COBIS member · Tunis'"
+        },
+        "tags": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "icon",
+              "text"
+            ],
+            "properties": {
+              "icon": {
+                "$ref": "#/$defs/hero_tag_icon"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "cta_primary": {
+          "$ref": "#/$defs/cta"
+        },
+        "cta_secondary": {
+          "$ref": "#/$defs/cta"
+        }
+      }
+    },
+    "cta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "label"
+      ],
+      "properties": {
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        }
+      }
+    },
+    "fees": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tier_active",
+        "tier_intro_text",
+        "details_html",
+        "publication_status",
+        "note",
+        "cta_email"
+      ],
+      "properties": {
+        "tier_active": {
+          "type": "string",
+          "enum": [
+            "economique",
+            "premium",
+            "premium_plus",
+            "ultra"
+          ]
+        },
+        "tier_intro_text": {
+          "type": "string"
+        },
+        "details_html": {
+          "type": "string",
+          "description": "HTML autorisé. Détail des frais ou note si non publiés."
+        },
+        "publication_status": {
+          "type": "string",
+          "enum": [
+            "published",
+            "non_published"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "cta_email": {
+          "$ref": "#/$defs/email"
+        }
+      }
+    },
+    "accreditation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "short",
+        "name",
+        "meta",
+        "gradient_start",
+        "gradient_end"
+      ],
+      "properties": {
+        "short": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 12,
+          "description": "Acronyme affiché dans le badge. Ex: COBIS, IB, AEFE."
+        },
+        "name": {
+          "type": "string",
+          "description": "Nom complet de l'accréditation."
+        },
+        "meta": {
+          "type": "string",
+          "description": "Précisions (date d'obtention, code, etc.)."
+        },
+        "gradient_start": {
+          "$ref": "#/$defs/hex_color"
+        },
+        "gradient_end": {
+          "$ref": "#/$defs/hex_color"
+        },
+        "logo_url": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/url"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "URL du logo officiel de l'accréditation (PNG/SVG). Optionnel. Si présent, remplace l'acronyme short dans le badge."
+        }
+      }
+    },
+    "programme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cards"
+      ],
+      "properties": {
+        "cards": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "Exactement 4 cards: Cycles enseignés, Diplômes préparés, Langues, Soutien spécialisé.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "items"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "pedagogy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "facts"
+      ],
+      "properties": {
+        "facts": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "Exactement 4 facts visuels (ex: '+20 Nationalités', '60% Enseignants expat').",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "label"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "maxLength": 12
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 40
+              }
+            }
+          }
+        }
+      }
+    },
+    "service": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "icon_type",
+        "name",
+        "description"
+      ],
+      "properties": {
+        "icon_type": {
+          "type": "string",
+          "enum": [
+            "smart_class",
+            "labs",
+            "library",
+            "music_art",
+            "pool",
+            "forest",
+            "cantine",
+            "byod",
+            "transport",
+            "infirmerie",
+            "garderie",
+            "psy"
+          ],
+          "description": "Type d'icône SVG (mappé à un catalogue côté template)."
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "clubs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "description_html",
+        "cta",
+        "cards"
+      ],
+      "properties": {
+        "state": {
+          "type": "string",
+          "enum": [
+            "empty",
+            "filled"
+          ],
+          "description": "empty = pas de liste détaillée, filled = cards renseignées."
+        },
+        "description_html": {
+          "type": "string"
+        },
+        "cta": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/cta"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "cards": {
+          "type": "array",
+          "description": "Cards d'activités si state=filled. Ignoré sinon.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "items"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "gallery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "items"
+      ],
+      "properties": {
+        "items": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "placeholder_label",
+              "gradient_start",
+              "gradient_end"
+            ],
+            "properties": {
+              "image_url": {
+                "$ref": "#/$defs/url_nullable",
+                "default": null
+              },
+              "placeholder_label": {
+                "type": "string"
+              },
+              "gradient_start": {
+                "$ref": "#/$defs/hex_color"
+              },
+              "gradient_end": {
+                "$ref": "#/$defs/hex_color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "video": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "youtube_id",
+        "iframe_title",
+        "source"
+      ],
+      "properties": {
+        "youtube_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ID YouTube (pas l'URL complète). Section affichée seulement si non-null."
+        },
+        "iframe_title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "social_links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "facebook": {
+          "$ref": "#/$defs/url_nullable"
+        },
+        "instagram": {
+          "$ref": "#/$defs/url_nullable"
+        },
+        "linkedin": {
+          "$ref": "#/$defs/url_nullable"
+        },
+        "youtube": {
+          "$ref": "#/$defs/url_nullable"
+        },
+        "tiktok": {
+          "$ref": "#/$defs/url_nullable"
+        },
+        "wikipedia": {
+          "$ref": "#/$defs/url_nullable"
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "phone_main",
+        "phone_main_label",
+        "phone_secondary",
+        "office_hours",
+        "email_main",
+        "email_admissions",
+        "map",
+        "social"
+      ],
+      "properties": {
+        "phone_main": {
+          "$ref": "#/$defs/phone_e164"
+        },
+        "phone_main_label": {
+          "type": "string"
+        },
+        "phone_secondary": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/phone_e164"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "office_hours": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "email_main": {
+          "$ref": "#/$defs/email"
+        },
+        "email_admissions": {
+          "$ref": "#/$defs/email"
+        },
+        "map": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "lat",
+            "lng",
+            "title"
+          ],
+          "properties": {
+            "lat": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            },
+            "lng": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            },
+            "title": {
+              "type": "string"
+            }
+          }
+        },
+        "social": {
+          "$ref": "#/$defs/social_links"
+        }
+      }
+    },
+    "campus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "order",
+        "name",
+        "type",
+        "street",
+        "postal_code",
+        "locality",
+        "country_code",
+        "lat",
+        "lng"
+      ],
+      "properties": {
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "name": {
+          "type": "string",
+          "description": "Nom affiché. Ex: 'Campus Primary', 'Campus A', 'Siège'."
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "main",
+            "primary",
+            "secondary",
+            "combined",
+            "annex"
+          ]
+        },
+        "street": {
+          "type": "string"
+        },
+        "postal_code": {
+          "type": "string"
+        },
+        "locality": {
+          "type": "string"
+        },
+        "region": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "country_code": {
+          "$ref": "#/$defs/country_code"
+        },
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lng": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "phone_local": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/phone_e164"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      }
+    },
+    "faq_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "order",
+        "open",
+        "question",
+        "answer_html"
+      ],
+      "properties": {
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "open": {
+          "type": "boolean",
+          "description": "true = ouverte par défaut (premier item généralement)."
+        },
+        "question": {
+          "type": "string"
+        },
+        "answer_html": {
+          "type": "string",
+          "description": "HTML autorisé."
+        }
+      }
+    },
+    "similar_school": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "cover_text",
+        "name",
+        "meta",
+        "tier"
+      ],
+      "properties": {
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "cover_text": {
+          "type": "string",
+          "maxLength": 10,
+          "description": "Acronyme affiché en gros sur la cover du card."
+        },
+        "name": {
+          "type": "string"
+        },
+        "meta": {
+          "type": "string",
+          "description": "Sous-titre (ex: 'IB World · Charguia')."
+        },
+        "tier": {
+          "type": "string",
+          "enum": [
+            "economique",
+            "premium",
+            "premium_plus",
+            "ultra"
+          ]
+        }
+      }
+    }
+  }
+}

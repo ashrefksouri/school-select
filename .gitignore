@@ -10,18 +10,9 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
 # misc
 .DS_Store
+**/.DS_Store
 *.pem
 
 # debug
@@ -30,12 +21,22 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
+.env*.local
 
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# P1 trash / logs / snapshots (audit-driven cleanup)
+_TRASH_P1/
+_LOG_P1_*.md
+_PRE_P1_SNAPSHOT.txt
+
+# Repo hygiene
+_RESET_TRASH/
+_archive/
+*.bak
+*.full-backup
+AUDIT.md
+*_REPORT.md

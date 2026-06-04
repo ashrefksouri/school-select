@@ -1,0 +1,51 @@
+/* ════════════════════════════════════════════════════════════════════════════
+   SCHOOL SELECT — EDITORIAL PAGES STYLES v1.0
+   Partagé par : a-propos, blog, contact, cgu, confidentialite, mentions-legales
+   Hérite de /design/tokens.css
+   ════════════════════════════════════════════════════════════════════════════ */
+/* Page-specific */
+.page-hero{background:var(--ivory);padding:80px 0 56px;border-bottom:1px solid var(--border)}
+.page-hero .wrap{max-width:880px}
+.page-hero .eyebrow{margin-bottom:18px}
+.page-hero h1{font-family:var(--display);font-size:clamp(40px,5vw,64px);font-weight:400;line-height:1;letter-spacing:-.035em;margin:0 0 18px;max-width:18ch}
+.page-hero h1 em{font-style:italic;font-variation-settings:'opsz' 144;color:var(--jade-deep);font-weight:400}
+.page-hero p.lede{font-family:var(--body);font-size:18px;line-height:1.55;color:var(--text-muted);max-width:60ch;margin:0}
+.page-hero p.lede strong{color:var(--text);font-weight:600}
+
+.content{padding:64px 0 96px}
+.content .wrap{max-width:880px}
+.content section{padding:48px 0;border-bottom:1px solid var(--border-soft)}
+.content section:last-child{border-bottom:0}
+.content section:first-child{padding-top:0}
+.content h2{font-family:var(--display);font-size:clamp(28px,3.2vw,40px);font-weight:400;line-height:1.05;letter-spacing:-.025em;margin:0 0 12px;max-width:20ch}
+.content h2 em{font-style:italic;font-variation-settings:'opsz' 144;color:var(--jade-deep);font-weight:400}
+.content h3{font-family:var(--display);font-size:22px;font-weight:500;letter-spacing:-.018em;margin:32px 0 12px}
+.content .section-meta{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faded);padding-top:12px;border-top:2px solid var(--ink-deep);margin-bottom:24px;display:inline-block}
+.content p{font-family:var(--body);font-size:17px;line-height:1.75;color:var(--text);max-width:62ch;margin:0 0 18px}
+.content p strong{font-weight:600;color:var(--ink-deep)}
+.content ul, .content ol{font-family:var(--body);font-size:17px;line-height:1.75;color:var(--text);max-width:62ch;padding-left:20px;margin:0 0 18px}
+.content li{margin-bottom:8px}
+.content a{color:var(--jade-deep);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;transition:color 150ms ease}
+.content a:hover{color:var(--ink-deep)}
+
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:32px}
+@media(max-width:720px){.contact-grid{grid-template-columns:1fr;gap:24px}}
+.contact-card{background:var(--ivory);border-left:3px solid var(--jade-deep);padding:24px}
+.contact-card h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--jade-deep);font-weight:600;margin:0 0 16px}
+.contact-card p{font-size:15px;margin:0 0 8px}
+
+.toc{background:var(--ivory);border-left:3px solid var(--jade-deep);padding:24px;margin:32px 0;max-width:62ch}
+.toc h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--jade-deep);font-weight:600;margin:0 0 16px}
+.toc ul{margin:0;padding-left:18px;font-size:15px;line-height:1.6}
+.toc a{color:var(--text);text-decoration:none;border-bottom:1px dashed var(--border-strong)}
+.toc a:hover{color:var(--jade-deep)}
+
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px;margin-top:32px}
+.blog-card{background:var(--paper);border:1px solid var(--border);border-radius:14px;padding:24px;text-decoration:none;color:inherit;transition:all 200ms cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;gap:14px}
+.blog-card:hover{border-color:var(--jade-deep);box-shadow:var(--shadow-lg);transform:translateY(-3px)}
+.blog-card .cat{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--jade-deep);font-weight:600}
+.blog-card h3{font-family:var(--display);font-size:20px;font-weight:500;letter-spacing:-.015em;line-height:1.2;margin:0;color:var(--text)}
+.blog-card p{font-family:var(--body);font-size:14px;line-height:1.55;color:var(--text-muted);margin:0;max-width:none}
+.blog-card .date{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faded);font-weight:600;margin-top:auto;padding-top:14px;border-top:1px solid var(--border-soft)}
+
+.empty-state{background:var(--ivory);border-left:3px solid var(--ink-faded);padding:32px;margin:32px 0;font-family:var(--display);font-size:20px;font-style:italic;font-variation-settings:'opsz' 96;color:var(--text-muted);max-width:62ch}

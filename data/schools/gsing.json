@@ -1,0 +1,435 @@
+{
+  "slug": "gsing",
+  "school_id": "tn-djerba-gsing",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Groupe Scolaire International Les Nouvelles Générations",
+    "name_short": "GSING",
+    "alternate_names": [
+      "Les Nouvelles Générations",
+      "GSING Djerba",
+      "Groupe Scolaire International NG"
+    ],
+    "founded_date_iso": "2018-09-01",
+    "official_website": "https://www.lesnouvellesgenerations.com",
+    "country_code": "TN",
+    "city": "Djerba",
+    "city_slug": "djerba",
+    "gov": "Médenine",
+    "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/nouvelle-generation-noir-300x111-1.png"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "ar",
+      "de",
+      "es"
+    ],
+    "age_min": 4,
+    "age_max": 19
+  },
+  "seo": {
+    "title": "GSING · Les Nouvelles Générations Djerba — School Select",
+    "description": "École IB Continuum à Djerba (code 061952). PP/PEI/DP + POP. Campus 35 ha, partenariat CECCE Canada, 350 élèves, ratio 9:1.",
+    "og_title": "GSING · Les Nouvelles Générations · IB World Djerba",
+    "og_description": "Première école IB du sud tunisien. IB World code 061952. Continuum complet PP/PEI/DP + POP. Campus 35 ha Bousmayel. 22 nationalités."
+  },
+  "hero": {
+    "logo_text": "GSING",
+    "image_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/lesnouvellesgenerations_cover-scaled.jpg",
+    "image_tag": "",
+    "tagline_html": "École internationale, <strong>IB World School (code 061952)</strong> avec continuum complet (PP · PEI · DP) <strong>de 4 à 19 ans</strong>. <strong>Première école IB du sud tunisien</strong>, campus de <strong>35 hectares</strong> à Bousmayel (Djerba). <strong>Première cohorte Bac IB diplômée en mai 2024</strong>. Trilingue FR-EN-AR · Partenariat <strong>CECCE Canada</strong> pour Bac canadien double diplôme · Internat disponible. <strong>22 nationalités</strong>, ratio 9:1.",
+    "eyebrow_text": "Premium · IB World · Djerba",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Bousmayel, Djerba"
+      },
+      {
+        "icon": "book",
+        "text": "Continuum IB (PP/PEI/DP) + POP"
+      },
+      {
+        "icon": "users",
+        "text": "4 à 19 ans · 22 nationalités"
+      },
+      {
+        "icon": "home",
+        "text": "Campus 35 ha · Internat"
+      },
+      {
+        "icon": "globe",
+        "text": "Trilingue FR-EN-AR"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://admission.lesnouvellesgenerations.com",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://www.lesnouvellesgenerations.com",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "GSING se positionne en tier Premium. L'école met à disposition un simulateur officiel (année scolaire 2025-2026) qui calcule les frais selon le nombre d'enfants et envoie le détail par email.",
+    "details_html": "<strong>Frais annuels en TTC</strong> — année scolaire 2025-2026. La grille tarifaire complète n'est pas publiée publiquement sur le site officiel. Pour obtenir le détail par enfant et par service, l'école propose deux options : <ul style=\"margin:12px 0 0;padding-left:20px\"><li><a href=\"https://www.lesnouvellesgenerations.com/frais-et-tarifs/\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--secondary);font-weight:600;text-decoration:underline\">Calculer mes frais sur le simulateur officiel</a> (réponse par email)</li><li>Contacter l'admission par téléphone ou email pour un accompagnement personnalisé</li></ul>",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB Continuum avec internat en Tunisie. Les chiffres exacts sont communiqués via le simulateur officiel ou un conseiller.",
+    "cta_email": "contact@lesnouvellesgenerations.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB World",
+      "name": "IB World School",
+      "meta": "École accréditée par l'Organisation du Baccalauréat International · Code 061952",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789",
+      "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/3.png"
+    },
+    {
+      "short": "IB Cont.",
+      "name": "IB Continuum School",
+      "meta": "Continuum complet : Primaire (PP) + Collège (PEI) + Lycée (DP)",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E",
+      "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/1.png"
+    },
+    {
+      "short": "PP",
+      "name": "Programme Primaire (PYP)",
+      "meta": "Programme IB pour enfants de 3 à 12 ans",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#14B8A6",
+      "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/4.png"
+    },
+    {
+      "short": "PEI",
+      "name": "Programme d'Éducation Intermédiaire (MYP)",
+      "meta": "Programme IB pour adolescents de 11 à 16 ans",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C",
+      "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/Design-sans-titre-1.png"
+    },
+    {
+      "short": "DP",
+      "name": "Programme du Diplôme (DP)",
+      "meta": "Bac International pour 16-19 ans · Première cohorte diplômée mai 2024",
+      "gradient_start": "#C2410C",
+      "gradient_end": "#F1AB23",
+      "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/5.png"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation de Tunisie",
+      "meta": "Établissement privé agréé par le Ministère",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#0F766E",
+      "logo_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/Sans-titre-500-x-200-px-3.png"
+    }
+  ],
+  "distinction_text": "Première école IB du sud tunisien · Code IB 061952 · Première cohorte Bac IB diplômée mai 2024",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Petite Enfance (Pre-K, dès 4 ans)",
+          "Programme Primaire IB — PP/PYP (5-11 ans)",
+          "Programme d'Éducation Intermédiaire — PEI/MYP (11-16 ans)",
+          "Programme du Diplôme IB — DP (16-19 ans)",
+          "Programme d'Orientation Professionnelle — POP"
+        ]
+      },
+      {
+        "label": "Diplômes préparés",
+        "items": [
+          "IB Diploma Programme (DP)",
+          "Baccalauréat canadien (double diplôme via CECCE)",
+          "Certificat POP (orientation professionnelle IB)",
+          "Programme reconnu dans 140+ pays"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Français (langue d'enseignement)",
+          "Anglais",
+          "Arabe",
+          "Allemand",
+          "Espagnol"
+        ]
+      },
+      {
+        "label": "Matières DP (Bac IB)",
+        "items": [
+          "Maths Analyse & Approches · Maths Applications",
+          "Physique · Chimie · Biologie",
+          "Systèmes Environnementaux & Sociétés",
+          "Informatique · Technologie du Design",
+          "Gestion d'Entreprise · Théorie de la Connaissance"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "35 ha",
+        "label": "Surface campus"
+      },
+      {
+        "value": "22",
+        "label": "Nationalités"
+      },
+      {
+        "value": "9:1",
+        "label": "Ratio élèves / enseignant"
+      },
+      {
+        "value": "350",
+        "label": "Élèves (capacité 1 000)"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "library",
+      "name": "Centre de Documentation",
+      "description": "7 000 titres disponibles pour la communauté scolaire."
+    },
+    {
+      "icon_type": "labs",
+      "name": "Laboratoires",
+      "description": "Laboratoires hautement équipés pour sciences et technologies."
+    },
+    {
+      "icon_type": "pool",
+      "name": "Installations sportives",
+      "description": "Équipements dignes d'une grande université."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Cantine",
+      "description": "Restauration sur site avec hygiène et nutrition de qualité."
+    },
+    {
+      "icon_type": "transport",
+      "name": "Transport scolaire",
+      "description": "Service de transport scolaire desservant l'ensemble de l'île de Djerba et Zarzis."
+    },
+    {
+      "icon_type": "garderie",
+      "name": "Internat",
+      "description": "Hébergement disponible pour élèves éloignés de Djerba."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Espace arts et théâtre",
+      "description": "Laboratoire 'Volonté' — théâtre de l'intégration enfants à besoins spécifiques."
+    },
+    {
+      "icon_type": "infirmerie",
+      "name": "Santé scolaire",
+      "description": "Suivi médical avec partenariat hôpital régional de Djerba."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "GSING propose une vie scolaire riche entre projets sociétaux, culturels et internationaux.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Projets pédagogiques",
+        "items": [
+          "Laboratoire COVID (hôpital régional Djerba)",
+          "Laboratoire Volonté — théâtre de l'intégration",
+          "Journées académiques et artistiques"
+        ]
+      },
+      {
+        "label": "Rencontres autorités",
+        "items": [
+          "Visites d'écrivains et auteurs (Yasmina Khadra, Henry Laurens)",
+          "Conférences scientifiques (Mehdi Benna, planétologue NASA Goddard)",
+          "Échanges artistes / journalistes (Kais Melliti, Taoufik Mjaied)"
+        ]
+      },
+      {
+        "label": "Orientation",
+        "items": [
+          "Partenariat EDUTEST",
+          "Partenariat HIGHWAY International",
+          "Première élève admise à l'IHEC de Carthage (équivalence Bac IB)"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/500084261_1528610454825039_6772108741118109495_n.jpg",
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/502565907_1530340627985355_8053989288566994425_n.jpg",
+        "placeholder_label": "Vie scolaire",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/07/489213212_1485848719101213_7572487533542620044_n.jpg",
+        "placeholder_label": "Élèves",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/Photo3-1024x768-1.jpg",
+        "placeholder_label": "Infrastructure",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/Photo2-1024x683-1.jpg",
+        "placeholder_label": "Campus",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": "https://admission.lesnouvellesgenerations.com/wp-content/uploads/2025/06/Photo1-1.jpg",
+        "placeholder_label": "Campus",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": "sJT9U4ZVz64",
+    "iframe_title": "Vidéo officielle GSING — Les Nouvelles Générations Djerba",
+    "source": "Chaîne YouTube officielle Les Nouvelles Générations"
+  },
+  "contact": {
+    "phone_main": "+216 70 279 340",
+    "phone_main_label": "Standard / Admission",
+    "phone_secondary": "+216 36 015 861",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@lesnouvellesgenerations.com",
+    "email_admissions": "contact@lesnouvellesgenerations.com",
+    "map": {
+      "lat": 33.756001,
+      "lng": 10.752432,
+      "title": "GSING — Bousmayel, Ajim, Djerba"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/lesnouvellesgenerations",
+      "instagram": "https://www.instagram.com/lesnouvellesgenerations_gsi/",
+      "linkedin": "https://tn.linkedin.com/company/lesnouvellesgenerations",
+      "youtube": "https://www.youtube.com/channel/UCAKuD66GqYRY1uDqLKEfr_A",
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus principal — Bousmayel",
+      "type": "combined",
+      "street": "Km 5 Route Ajim - Houmt Souk, Bousmayel",
+      "postal_code": "4135",
+      "locality": "Ajim",
+      "region": "Médenine (Djerba)",
+      "country_code": "TN",
+      "lat": 33.756001,
+      "lng": 10.752432,
+      "phone_local": "+216 70 279 340"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Les frais détaillés ne sont pas publiés publiquement. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Un conseiller dédié explique les modalités lors d'un appel, en toute transparence."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>Continuum complet du Baccalauréat International</strong> (PP/PYP, PEI/MYP, DP) + le <strong>Programme d'Orientation Professionnelle (POP)</strong>. Code IB <strong>061952</strong>. Première école IB du sud tunisien."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelle est la tranche d'âge ?",
+      "answer_html": "L'école accueille les enfants <strong>de 4 à 19 ans</strong> : Petite Enfance, Primaire (PP), Collège (PEI), Lycée (DP), avec aussi le programme POP."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>5 langues enseignées</strong> : Allemand, Anglais, Arabe, Espagnol, Français. La <strong>langue d'enseignement principale est le Français</strong>."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Combien d'élèves et quel ratio ?",
+      "answer_html": "Environ <strong>350 élèves</strong> actuellement (capacité projetée 1 000). <strong>Ratio 9 élèves pour 1 enseignant</strong>, moyenne de <strong>17 élèves par classe</strong>. <strong>22 nationalités</strong> représentées."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "Le campus est situé à <strong>Bousmayel</strong>, sur la route Ajim - Houmt Souk (km 5), au sud-ouest de l'île de <strong>Djerba</strong>. Surface : <strong>35 hectares</strong>."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Qu'est-ce que le partenariat CECCE Canada ?",
+      "answer_html": "Signé en <strong>mars 2022</strong> avec le <strong>CECCE</strong> (Conseil des Écoles Catholiques Centre-Est, Ontario, Canada). Permet aux élèves de passer le <strong>Bac canadien en double diplôme</strong> avec leur Bac IB et d'accéder aux universités canadiennes avec les mêmes avantages qu'un élève canadien."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Y a-t-il un internat et un transport ?",
+      "answer_html": "Oui. <strong>Internat</strong> pour les élèves éloignés ou venant d'autres pays. <strong>Transport scolaire</strong> desservant l'ensemble de l'île de Djerba <strong>et Zarzis</strong>."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Première cohorte Bac IB ?",
+      "answer_html": "La <strong>première cohorte Bac IB a été diplômée en mai 2024</strong>. Une première élève a déjà été <strong>admise à l'IHEC de Carthage par équivalence</strong> grâce à son diplôme IB."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "ecole-canadienne-de-tunis",
+      "cover_text": "ECT",
+      "name": "École Canadienne de Tunis",
+      "meta": "IB + Québec · Charguia",
+      "tier": "premium"
+    },
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "ideale-college-lycee-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale Nabeul",
+      "meta": "IB PEI · Nabeul",
+      "tier": "premium"
+    }
+  ]
+}

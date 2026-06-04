@@ -1,0 +1,122 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node scripts/build-schools.mjs",
+  "outputDirectory": "public",
+  "framework": null,
+  "trailingSlash": true,
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/the-british-international-school-of-tunis-bist",
+      "destination": "/british-international-school-of-tunis",
+      "permanent": true
+    },
+    {
+      "source": "/oxford-international-school-of-tunis-oist",
+      "destination": "/oxford-international-school-of-tunis",
+      "permanent": true
+    },
+    {
+      "source": "/american-cooperative-school-of-tunis-acst",
+      "destination": "/acst",
+      "permanent": true
+    },
+    {
+      "source": "/ecole-internationale-de-carthage-eic-2",
+      "destination": "/ecole-internationale-de-carthage-eic",
+      "permanent": true
+    },
+    {
+      "source": "/ecole-internationale-de-carthage-eic-isc-carthage",
+      "destination": "/ecole-internationale-de-carthage-eic",
+      "permanent": true
+    },
+    {
+      "source": "/ecole-internationale-de-tunis-eit",
+      "destination": "/ecole-internationale-de-tunis-eit-2",
+      "permanent": true
+    },
+    {
+      "source": "/advanced-for-education-british-academy-of-tunis",
+      "destination": "/british-academy-of-tunis",
+      "permanent": true
+    },
+    {
+      "source": "/college-international-francais-jean-racine-2",
+      "destination": "/college-international-francais-jean-racine",
+      "permanent": true
+    },
+    {
+      "source": "/groupe-scolaire-international-les-nouvelles-generations",
+      "destination": "/gsing",
+      "permanent": true
+    },
+    {
+      "source": "/lycee-francais-international-de-sousse-mhamed-driss-2",
+      "destination": "/lycee-francais-international-de-sousse-mhamed-driss",
+      "permanent": true
+    },
+    {
+      "source": "/ecole-louis-pasteur-gammarth",
+      "destination": "/lycee-louis-pasteur-gammarth",
+      "permanent": true
+    },
+    {
+      "source": "/fondation-bouebdelli-ecole-louis-pasteur-gammarth",
+      "destination": "/lycee-louis-pasteur-gammarth",
+      "permanent": true
+    },
+    {
+      "source": "/homepage",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/design-system",
+      "destination": "/",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; connect-src 'self'" }
+      ]
+    },
+    {
+      "source": "/design/(.*).css",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/data/schools.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=600" }
+      ]
+    },
+    {
+      "source": "/data/schools.meta.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=600" }
+      ]
+    },
+    {
+      "source": "/(.*).xml",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/(.*).html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
+}

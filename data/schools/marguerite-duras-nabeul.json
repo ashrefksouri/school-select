@@ -1,0 +1,397 @@
+{
+  "slug": "marguerite-duras-nabeul",
+  "school_id": "tn-nabeul-marguerite-duras",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Lycée Marguerite Duras",
+    "name_short": "Marguerite Duras",
+    "alternate_names": [
+      "École Marguerite Duras Nabeul",
+      "MD Nabeul",
+      "Établissements Scolaires Marguerite Duras"
+    ],
+    "founded_date_iso": "2021-09-01",
+    "official_website": "https://margueriteduras.tn",
+    "country_code": "TN",
+    "city": "Nabeul",
+    "city_slug": "nabeul",
+    "gov": "Nabeul"
+  },
+  "classification": {
+    "tier": "premium_plus",
+    "verified": true,
+    "curriculum_types": [
+      "french_aefe"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "age_min": 3,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "Lycée Marguerite Duras Nabeul · École française AEFE",
+    "description": "École française à Nabeul. 1er degré homologué AEFE, partenariat MEN-F. Collège & Lycée autorisés autorités tunisiennes 2025. Multiculturel laïque.",
+    "og_title": "Lycée Marguerite Duras · École française AEFE Nabeul",
+    "og_description": "Partenaire AEFE. 1er degré CP-CM2 homologué Ministère Éducation Nationale française. Collège & Lycée autorisés autorités tunisiennes. Projet Tunisie-Pilote II."
+  },
+  "hero": {
+    "logo_text": "MD",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École française à Nabeul, <strong>partenaire AEFE</strong> et <strong>1er degré homologué</strong> par le Ministère de l'Éducation Nationale française. Programme officiel français · Collège & Lycée <strong>autorisés par les autorités tunisiennes (2025)</strong> · Soutenue par l'<strong>Ambassade de France</strong> et le projet Tunisie-Pilote II.",
+    "eyebrow_text": "Premium+ · École française AEFE · Cap Bon",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Rue Béchir Sfar, Nabeul"
+      },
+      {
+        "icon": "book",
+        "text": "Programme français AEFE"
+      },
+      {
+        "icon": "users",
+        "text": "De la maternelle au lycée"
+      },
+      {
+        "icon": "home",
+        "text": "Homologation AEFE en cours"
+      },
+      {
+        "icon": "globe",
+        "text": "Laïque & multiculturel"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://margueriteduras.tn",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "mailto:contact@margueriteduras.tn",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium_plus",
+    "tier_intro_text": "Tier Premium+ estimé (12-20k TND/an) selon les comparables AEFE en Tunisie.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables AEFE en Tunisie.",
+    "cta_email": "contact@margueriteduras.tn"
+  },
+  "accreditations": [
+    {
+      "short": "AEFE",
+      "name": "Agence pour l'Enseignement Français à l'Étranger",
+      "meta": "Partenaire · Homologation 2nd degré en cours",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MENJS",
+      "name": "Ministère Éducation Nationale (France)",
+      "meta": "1er degré HOMOLOGUÉ (CP-CM2)",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère Éducation Tunisie",
+      "meta": "Autorisation Collège+Lycée obtenue en 2025",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "AmbassFR",
+      "name": "Ambassade de France en Tunisie",
+      "meta": "Soutien projet Tunisie-Pilote II",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    }
+  ],
+  "distinction_text": "Partenaire AEFE · 1er degré CP-CM2 homologué Ministère Éducation Nationale française · Projet Tunisie-Pilote II",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Maternelle (PS-MS-GS)",
+          "Élémentaire (CP-CM2)",
+          "Collège (6e-3e)",
+          "Lycée (2nde-Terminale)"
+        ]
+      },
+      {
+        "label": "Diplômes préparés",
+        "items": [
+          "Baccalauréat français",
+          "Diplôme National du Brevet (DNB)",
+          "Diplômes du système français"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Français (langue d'enseignement)",
+          "Anglais",
+          "Arabe"
+        ]
+      },
+      {
+        "label": "Conformité programme",
+        "items": [
+          "Programme officiel MEN-F",
+          "Standards AEFE",
+          "Évaluations équivalentes France"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2021",
+        "label": "Année d'ouverture"
+      },
+      {
+        "value": "AEFE",
+        "label": "Partenariat officiel"
+      },
+      {
+        "value": "CP-CM2",
+        "label": "Cycle homologué"
+      },
+      {
+        "value": "TP-II",
+        "label": "Projet Tunisie-Pilote II"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque scolaire",
+      "description": "Espace lecture et ressources pédagogiques."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Arts et musique",
+      "description": "Enseignement musical et activités artistiques."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Restauration scolaire",
+      "description": "Cantine sur site."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "Numérique pédagogique",
+      "description": "Équipements TBI et outils numériques AEFE."
+    },
+    {
+      "icon_type": "infirmerie",
+      "name": "Santé scolaire",
+      "description": "Suivi santé des élèves."
+    },
+    {
+      "icon_type": "pool",
+      "name": "Installations sportives",
+      "description": "Accès aux équipements du groupe Idéales (piscine, gym)."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Une vie scolaire dynamique avec une orientation multiculturelle et internationale.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Culture et arts",
+        "items": [
+          "Théâtre",
+          "Musique",
+          "Arts plastiques",
+          "Spectacles fin d'année"
+        ]
+      },
+      {
+        "label": "Ouverture internationale",
+        "items": [
+          "Communauté multiculturelle",
+          "Échanges avec France",
+          "Standards AEFE"
+        ]
+      },
+      {
+        "label": "Multiculturel laïque",
+        "items": [
+          "Élèves de toutes nationalités",
+          "Respect des cultures",
+          "Engagement citoyen"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Bâtiment",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Classes",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Maternelle",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Bibliothèque",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Fête de fin",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Cour",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 29 718 777",
+    "phone_main_label": "Standard",
+    "phone_secondary": "+216 98 749 412",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@margueriteduras.tn",
+    "email_admissions": "secretariat@margueriteduras.tn",
+    "map": {
+      "lat": 36.4501,
+      "lng": 10.7376,
+      "title": "Lycée Marguerite Duras — Rue Béchir Sfar, Nabeul"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/margueriteduras.tn",
+      "instagram": null,
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Lycée Marguerite Duras",
+      "type": "main",
+      "street": "Rue Béchir Sfar",
+      "postal_code": "8000",
+      "locality": "Nabeul",
+      "region": "Cap Bon",
+      "country_code": "TN",
+      "lat": 36.4501,
+      "lng": 10.7376,
+      "phone_local": "+216 29 718 777"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Tier estimé <strong>Premium+ (12-20k TND/an)</strong> selon les comparables AEFE en Tunisie. Grille non publiée."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>programme officiel du Ministère de l'Éducation Nationale française</strong>, conformément aux standards <strong>AEFE</strong>."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quel est le statut AEFE ?",
+      "answer_html": "<strong>Partenaire AEFE</strong>. Le <strong>1er degré (CP-CM2) est homologué</strong> par le Ministère de l'Éducation Nationale française. L'homologation du 2nd degré est en cours."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "L'école accueille-t-elle dès la maternelle ?",
+      "answer_html": "Oui, de la <strong>maternelle (PS-MS-GS)</strong> jusqu'au <strong>lycée (Terminale)</strong>."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "L'école est-elle reconnue par les autorités tunisiennes ?",
+      "answer_html": "Oui. Le <strong>Collège & Lycée Marguerite Duras a obtenu son autorisation officielle en 2025</strong>."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quel diplôme final est préparé ?",
+      "answer_html": "Le <strong>Baccalauréat français</strong> et le <strong>DNB (Diplôme National du Brevet)</strong>, équivalents aux diplômes en France."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "L'école est-elle laïque ?",
+      "answer_html": "Oui. C'est un <strong>lycée privé laïque</strong> qui réunit des élèves de nationalité et culture multiples."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Qu'est-ce que le projet Tunisie-Pilote II ?",
+      "answer_html": "Un projet de coopération éducative franco-tunisien soutenu par l'Ambassade de France en Tunisie, dans le cadre du développement du réseau AEFE."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment contacter l'admission ?",
+      "answer_html": "Téléphone : <strong>+216 29 718 777</strong>. Email : contact@margueriteduras.tn ou secretariat@margueriteduras.tn."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "ideale-college-lycee-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale Nabeul",
+      "meta": "IB PEI · Nabeul",
+      "tier": "premium"
+    },
+    {
+      "slug": "idealeprimaire-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "École Primaire Idéale Nabeul",
+      "meta": "IB PP · Nabeul",
+      "tier": "premium"
+    },
+    {
+      "slug": "ideale-el-ghazela-tunis",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale El-Ghazela",
+      "meta": "IB candidat · Tunis",
+      "tier": "premium_plus"
+    }
+  ]
+}

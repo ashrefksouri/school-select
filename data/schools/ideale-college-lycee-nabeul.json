@@ -1,0 +1,423 @@
+{
+  "slug": "ideale-college-lycee-nabeul",
+  "school_id": "tn-nabeul-ideale-college-lycee",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Collège & Lycée Idéale Nabeul",
+    "name_short": "L'Idéale Collège-Lycée",
+    "alternate_names": [
+      "L'Idéale Nabeul",
+      "Idéale Secondaire Nabeul",
+      "Collège Lycée Idéale"
+    ],
+    "founded_date_iso": "1998-09-01",
+    "official_website": "https://lesecolesideales.com",
+    "country_code": "TN",
+    "city": "Nabeul",
+    "city_slug": "nabeul",
+    "gov": "Nabeul"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "age_min": 12,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "Idéale Collège & Lycée Nabeul · IB PEI — School Select",
+    "description": "Collège et Lycée IB autorisé PEI à Nabeul. Programme tunisien + Programme d'Éducation Intermédiaire IB. Centres DELF, Cambridge, APTIS.",
+    "og_title": "Collège & Lycée Idéale Nabeul · IB PEI autorisé",
+    "og_description": "Établissement IB PEI autorisé à Nabeul. 2 sites (Dar Chaâbene + ZI). Programme tunisien enrichi IB. Festival International de Théâtre Scolaire MARHABA."
+  },
+  "hero": {
+    "logo_text": "Idéale",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "Collège et Lycée <strong>autorisés IB pour le Programme d'Éducation Intermédiaire (PEI)</strong>, sur 2 sites à Nabeul (Dar Chaâbene + zone industrielle). Programme tunisien enrichi · Trilingue <strong>FR-EN-AR + LV3</strong> · <strong>12-18 ans</strong>. Hôte du <strong>Festival International de Théâtre Scolaire MARHABA</strong>.",
+    "eyebrow_text": "Premium · IB PEI · Cap Bon",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Nabeul (2 sites)"
+      },
+      {
+        "icon": "book",
+        "text": "IB PEI + Tunisien"
+      },
+      {
+        "icon": "users",
+        "text": "12 à 18 ans"
+      },
+      {
+        "icon": "trophy",
+        "text": "Festival MARHABA"
+      },
+      {
+        "icon": "globe",
+        "text": "Trilingue + LV3"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://lesecolesideales.com",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://lesecolesideales.com/contact",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "Tier Premium estimé (6-12k TND/an). La grille tarifaire détaillée n'est pas publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB secondaire en Tunisie.",
+    "cta_email": "contact.lycee.nab@lesecolesideales.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — PEI",
+      "meta": "Établissement autorisé Programme d'Éducation Intermédiaire",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Programme tunisien depuis 1998",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "DELF",
+      "name": "DELF / DALF",
+      "meta": "Centre de certification en langue française",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment English",
+      "meta": "Centre de certifications anglais",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    },
+    {
+      "short": "APTIS",
+      "name": "APTIS — British Council",
+      "meta": "Centre d'examens officiel",
+      "gradient_start": "#C2410C",
+      "gradient_end": "#7F1D1D"
+    }
+  ],
+  "distinction_text": "Établissement IB PEI autorisé · Hôte du Festival International de Théâtre Scolaire MARHABA",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Collège (12-15 ans)",
+          "Lycée (15-18 ans)",
+          "Programme tunisien depuis 1998",
+          "Programme IB PEI autorisé"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "Bac tunisien",
+          "Certifications DELF",
+          "Certifications Cambridge",
+          "Examens APTIS"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Français (principale)",
+          "Anglais (renforcé)",
+          "Arabe (programmes nationaux)",
+          "LV3 au choix"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Accompagnement personnalisé (langue, science)",
+          "Partenariat Educaro (école digitale)",
+          "Ouverture à l'international (Club UNESCO)",
+          "Forums métiers et stages en entreprise"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "1998",
+        "label": "Année de fondation"
+      },
+      {
+        "value": "PEI",
+        "label": "IB autorisé"
+      },
+      {
+        "value": "8",
+        "label": "Groupes de matières PEI"
+      },
+      {
+        "value": "LV3",
+        "label": "3e langue au choix"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "pool",
+      "name": "Piscine couverte",
+      "description": "Installations sportives partagées avec salle gym."
+    },
+    {
+      "icon_type": "forest",
+      "name": "Idéal Sport Center",
+      "description": "Complexe sportif du groupe Les Écoles Idéales."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Auditorium & arts",
+      "description": "Centre culturel pour théâtre, cinéma, conférences."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Restauration scolaire",
+      "description": "Cantine sur site."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "École digitale",
+      "description": "TBI, TICE et partenariat Educaro."
+    },
+    {
+      "icon_type": "library",
+      "name": "Médiathèque",
+      "description": "Espace documentation et ressources pédagogiques."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Une vie scolaire intense avec festivals, théâtre, olympiades et séjours internationaux.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Culture et arts",
+        "items": [
+          "Festival MARHABA (théâtre scolaire international)",
+          "Cinéma club",
+          "Chorale",
+          "Académie Idéale chant"
+        ]
+      },
+      {
+        "label": "Sciences et compétitions",
+        "items": [
+          "Olympiade régionale maths",
+          "Cambridge English Exams",
+          "Forums métiers"
+        ]
+      },
+      {
+        "label": "Séjours internationaux",
+        "items": [
+          "Paris (Royal)",
+          "Londres (So British)",
+          "Espagne (Joyaux d'Andalousie)",
+          "Alpes françaises",
+          "Canada (Raid)"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Collège",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Lycée",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Festival",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Auditorium",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sport",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Séjour",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 98 749 416",
+    "phone_main_label": "Lycée (GSM)",
+    "phone_secondary": "+216 72 365 955",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact.lycee.nab@lesecolesideales.com",
+    "email_admissions": "contact.lycee.nab@lesecolesideales.com",
+    "map": {
+      "lat": 36.4501,
+      "lng": 10.7376,
+      "title": "Lycée Idéale — Avenue El-Margheb El-Arabi"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/Lycee.Ideale",
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/lyc%C3%A9e-coll%C3%A8ge-priv%C3%A9-l-id%C3%A9ale-nabeul-ecoles",
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Collège",
+      "type": "secondary",
+      "street": "Avenue de l'Environnement",
+      "postal_code": "8011",
+      "locality": "Dar Chaâbene El Fehri",
+      "region": "Nabeul, Cap Bon",
+      "country_code": "TN",
+      "lat": 36.4624,
+      "lng": 10.7894,
+      "phone_local": "+216 72 365 955"
+    },
+    {
+      "order": 2,
+      "name": "Lycée",
+      "type": "secondary",
+      "street": "Avenue El-Margheb El-Arabi, ZI, Route Tunis 1km",
+      "postal_code": "8000",
+      "locality": "Nabeul",
+      "region": "Cap Bon",
+      "country_code": "TN",
+      "lat": 36.4501,
+      "lng": 10.7376,
+      "phone_local": "+216 98 749 416"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés publiquement. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>programme tunisien</strong> depuis 1998 et le <strong>Programme d'Éducation Intermédiaire IB (PEI)</strong> autorisé."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Combien y a-t-il de campus ?",
+      "answer_html": "<strong>2 campus</strong> : le Collège à Dar Chaâbene El Fehri (Avenue de l'Environnement) et le Lycée à la zone industrielle de Nabeul."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelles certifications langues sont proposées ?",
+      "answer_html": "<strong>DELF</strong> en français, <strong>Cambridge</strong> en anglais, et <strong>APTIS</strong> (British Council)."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Qu'est-ce que le festival MARHABA ?",
+      "answer_html": "Le <strong>Festival International de Théâtre Scolaire « MARHABA »</strong>, organisé par Les Écoles Idéales de Nabeul et l'association Quantara."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Y a-t-il des séjours à l'étranger ?",
+      "answer_html": "Oui : Paris, Londres, Andalousie, Alpes françaises, Canada. Jumelages avec des écoles européennes via le <strong>Club UNESCO</strong>."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Combien de groupes de matières au PEI ?",
+      "answer_html": "<strong>8 groupes de matières</strong> au PEI. En 4e et 5e années, les élèves peuvent choisir <strong>6 des 8 groupes</strong> pour plus de flexibilité."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Y a-t-il un volet professionnel ?",
+      "answer_html": "Oui : <strong>forums métiers</strong> et <strong>stages en entreprise</strong> pour les lycéens, dans le cadre de l'orientation."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Contact : <strong>+216 98 749 416</strong> ou contact.lycee.nab@lesecolesideales.com pour le lycée."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "idealeprimaire-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "École Primaire Idéale Nabeul",
+      "meta": "IB PP · Nabeul",
+      "tier": "premium"
+    },
+    {
+      "slug": "ideale-el-ghazela-tunis",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale El-Ghazela",
+      "meta": "IB candidat · Tunis",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "marguerite-duras-nabeul",
+      "cover_text": "MD",
+      "name": "Lycée Marguerite Duras",
+      "meta": "AEFE · Nabeul",
+      "tier": "premium_plus"
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "slug": "idealeprimaire-nabeul",
+  "school_id": "tn-nabeul-idealeprimaire",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "École Primaire Idéale de Nabeul",
+    "name_short": "L'Idéale Primaire",
+    "alternate_names": [
+      "Les Écoles Idéales Primaire",
+      "Idéale Primaire Nabeul"
+    ],
+    "founded_date_iso": "2002-09-01",
+    "official_website": "https://lesecolesideales.com",
+    "country_code": "TN",
+    "city": "Nabeul",
+    "city_slug": "nabeul",
+    "gov": "Nabeul"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "age_min": 6,
+    "age_max": 12
+  },
+  "seo": {
+    "title": "Idéale Primaire Nabeul · IB Primary Years — School Select",
+    "description": "École IB World autorisée à Nabeul (code 061608, oct 2023). Programme tunisien enrichi IB PP, trilingue FR-EN-AR, 2 campus à Dar Chaâbene.",
+    "og_title": "École Primaire Idéale Nabeul · IB World School",
+    "og_description": "Première école primaire du Cap Bon autorisée IB (oct 2023, code 061608). Programme tunisien + IB Primary Programme. Trilingue · 2 campus."
+  },
+  "hero": {
+    "logo_text": "Idéale",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École internationale, <strong>autorisée IB depuis octobre 2023</strong> (code 061608). <strong>Première école primaire du Cap Bon</strong> à rejoindre les écoles du monde de l'IB. Curriculum <strong>tunisien enrichi du Programme Primaire IB (PP)</strong>, sur 2 campus à Dar Chaâbene Plage.",
+    "eyebrow_text": "Premium · IB World · Cap Bon",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Dar Chaâbene Plage, Nabeul"
+      },
+      {
+        "icon": "book",
+        "text": "Curriculum IB (PP) + Tunisien"
+      },
+      {
+        "icon": "users",
+        "text": "6 à 12 ans"
+      },
+      {
+        "icon": "home",
+        "text": "2 campus (siège + annexe)"
+      },
+      {
+        "icon": "globe",
+        "text": "Trilingue FR-EN-AR"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://lesecolesideales.com",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://lesecolesideales.com/contact",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "Idéale Primaire se positionne en tier Premium estimé (6-12k TND/an). La grille tarifaire détaillée n'est pas publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission. Le groupe Idéales communique sa grille en consultation avec les familles.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB primaire en Tunisie.",
+    "cta_email": "Contact@lesecolesideales.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — Programme Primaire (PP)",
+      "meta": "École du monde autorisée depuis 03 octobre 2023 · Code 061608",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Programme tunisien depuis 1998 · Établissement privé agréé",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "DELF",
+      "name": "DELF / DALF",
+      "meta": "Certifications en français",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment English",
+      "meta": "Certifications en anglais",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    }
+  ],
+  "distinction_text": "Première école primaire du Cap Bon autorisée IB (octobre 2023)",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Primaire 1 à 6 (6-12 ans)",
+          "Programme tunisien depuis 2002",
+          "Programme IB PP autorisé depuis octobre 2023"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "IB Programme Primaire (PP)",
+          "Certifications DELF",
+          "Certifications Cambridge"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Français (principale)",
+          "Anglais (renforcé)",
+          "Arabe (programmes nationaux)"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Ateliers de remédiation",
+          "Ateliers d'excellence",
+          "Pédagogie active et individualisée",
+          "Approche transdisciplinaire IB"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2023",
+        "label": "Autorisation IB"
+      },
+      {
+        "value": "061608",
+        "label": "Code école IB"
+      },
+      {
+        "value": "25+",
+        "label": "Années d'expérience"
+      },
+      {
+        "value": "2",
+        "label": "Campus à Dar Chaâbene"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "pool",
+      "name": "Piscine couverte",
+      "description": "Installations sportives partagées avec salle gym."
+    },
+    {
+      "icon_type": "forest",
+      "name": "Idéal Sport Center",
+      "description": "Complexe sportif du groupe Les Écoles Idéales."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Auditorium & arts",
+      "description": "Centre culturel + chorale + Académie Idéale chant."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Restauration scolaire",
+      "description": "Cantine sur site."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "École digitale",
+      "description": "TBI, TICE et partenariat Educaro."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Vie scolaire riche entre apprentissage, sport et culture.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Itinéraires éducatifs",
+        "items": [
+          "Santé",
+          "Culture et Art",
+          "Citoyenneté"
+        ]
+      },
+      {
+        "label": "Sorties et découvertes",
+        "items": [
+          "Sorties pédagogiques",
+          "Classes de découverte",
+          "Apprentissage in situ"
+        ]
+      },
+      {
+        "label": "Vie sportive et culturelle",
+        "items": [
+          "Piscine couverte (groupe)",
+          "Académie Idéale chant et chorale",
+          "Spectacles fin d'année"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Siège",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Annexe",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Salle de classe",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Piscine",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Auditorium",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sport",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 72 360 214",
+    "phone_main_label": "Siège — Rue ElAkhtal",
+    "phone_secondary": "+216 98 749 402",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "Contact@lesecolesideales.com",
+    "email_admissions": "Contact@lesecolesideales.com",
+    "map": {
+      "lat": 36.4659,
+      "lng": 10.7906,
+      "title": "École Primaire Idéale — Dar Chaâbene Plage"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/Ecole.Primaire.Ideale",
+      "instagram": null,
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Siège",
+      "type": "main",
+      "street": "Rue ElAkhtal, Dar Chaâbene Plage",
+      "postal_code": "8075",
+      "locality": "Nabeul",
+      "region": "Cap Bon",
+      "country_code": "TN",
+      "lat": 36.4659,
+      "lng": 10.7906,
+      "phone_local": "+216 72 360 214"
+    },
+    {
+      "order": 2,
+      "name": "Annexe",
+      "type": "annex",
+      "street": "Rue du lac Echkeul, Dar Chaâbene Plage",
+      "postal_code": "8075",
+      "locality": "Nabeul",
+      "region": "Cap Bon",
+      "country_code": "TN",
+      "lat": 36.4671,
+      "lng": 10.7912,
+      "phone_local": "+216 72 364 500"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Les frais détaillés ne sont pas publiés publiquement. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé pour la grille exacte."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>programme tunisien</strong> depuis 2002, enrichi du <strong>Programme Primaire IB (PP)</strong> depuis octobre 2023 (code 061608)."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Trilingue FR-EN-AR</strong>. Pôle langue consolidé avec certifications DELF et Cambridge."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Combien y a-t-il de campus ?",
+      "answer_html": "<strong>2 campus</strong> à Dar Chaâbene Plage : le siège (Rue ElAkhtal) et l'annexe (Rue du lac Echkeul)."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Y a-t-il des certifications externes ?",
+      "answer_html": "Oui : <strong>DELF</strong> en français et <strong>Cambridge</strong> en anglais. Centre d'examens APTIS au sein du groupe."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "L'école dispose-t-elle d'installations sportives ?",
+      "answer_html": "Oui, mutualisées au sein du groupe : <strong>piscine couverte</strong>, <strong>salle gym</strong>, <strong>Idéal Sport Center</strong>."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Y a-t-il un volet international ?",
+      "answer_html": "Oui : ouverture à l'international via le <strong>Club UNESCO</strong> et des séjours en Europe et au Canada."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Contact : <strong>+216 72 360 214</strong> ou Contact@lesecolesideales.com. Pré-inscription possible directement à l'école."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Qui dirige l'école ?",
+      "answer_html": "Fondée en 1998 par <strong>Mourad et Asma Ghalleb</strong>. INMA Holding est entrée au capital pour renforcer les infrastructures."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "ideale-college-lycee-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale Nabeul",
+      "meta": "IB PEI · Nabeul",
+      "tier": "premium"
+    },
+    {
+      "slug": "ideale-el-ghazela-tunis",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale El-Ghazela",
+      "meta": "IB candidat · Tunis",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "marguerite-duras-nabeul",
+      "cover_text": "MD",
+      "name": "Lycée Marguerite Duras",
+      "meta": "AEFE · Nabeul",
+      "tier": "premium_plus"
+    }
+  ]
+}

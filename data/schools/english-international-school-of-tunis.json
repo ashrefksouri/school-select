@@ -1,0 +1,397 @@
+{
+  "slug": "english-international-school-of-tunis",
+  "school_id": "tn-tunis-eist",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "English International School of Tunis",
+    "name_short": "EIST",
+    "alternate_names": [
+      "EIS Tunis",
+      "EISTunis"
+    ],
+    "founded_date_iso": "2021-09-01",
+    "official_website": "https://eistunis.org",
+    "country_code": "TN",
+    "city": "La Marsa",
+    "city_slug": "la-marsa",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "age_min": 3,
+    "age_max": 16
+  },
+  "seo": {
+    "title": "EIST · English International School of Tunis",
+    "description": "École britannique à Gammarth (groupe René Descartes). EYFS + Cambridge Primary + Lower Secondary + IGCSE. 250 élèves, classes max 20, ratio 1:8.",
+    "og_title": "EIST · British curriculum · Gammarth",
+    "og_description": "British National Curriculum + Cambridge. EYFS à Year 11 (3-16 ans). Partie du Groupe René Descartes. Gammarth, La Marsa. ~250 élèves."
+  },
+  "hero": {
+    "logo_text": "EIST",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École britannique à <strong>Gammarth (La Marsa)</strong>, ouverte en <strong>septembre 2021</strong> et partie du <strong>Groupe René Descartes</strong> (1994). <strong>British National Curriculum + Cambridge</strong> de l'EYFS au IGCSE (3 à 16 ans). Environ <strong>250 élèves</strong>, classes <strong>max 20</strong>, ratio 1:8 en Early Years.",
+    "eyebrow_text": "Premium · British · Gammarth, La Marsa",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Gammarth, La Marsa"
+      },
+      {
+        "icon": "book",
+        "text": "British National + Cambridge"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 16 ans · ~250 élèves"
+      },
+      {
+        "icon": "calendar",
+        "text": "Ouvert sept. 2021"
+      },
+      {
+        "icon": "school",
+        "text": "Groupe René Descartes"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://eistunis.org",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "mailto:registration@eistunis.org",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "EIST se positionne en tier Premium (6-12k TND/an) estimé. Grille tarifaire non publiée publiquement.",
+    "details_html": "Frais et modalités à demander auprès de l'admission via registration@eistunis.org.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables British à Gammarth.",
+    "cta_email": "registration@eistunis.org"
+  },
+  "accreditations": [
+    {
+      "short": "British",
+      "name": "British National Curriculum",
+      "meta": "EYFS + Primary + Secondary",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment International Education",
+      "meta": "Cambridge Primary, Lower Secondary, IGCSE",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "Descartes",
+      "name": "Groupe René Descartes",
+      "meta": "Groupe éducatif tunisien depuis 1994",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    }
+  ],
+  "distinction_text": "Établissement britannique du Groupe René Descartes (depuis 1994) · Classes max 20 élèves",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "EYFS (Early Years 3-5 ans)",
+          "Cambridge Primary",
+          "Cambridge Lower Secondary",
+          "Cambridge IGCSE (Year 11)"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "Cambridge Primary Checkpoint",
+          "Cambridge Lower Secondary Checkpoint",
+          "Cambridge IGCSE",
+          "Préparation universités mondiales"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Anglais (langue d'enseignement)",
+          "Français (cours quotidiens)",
+          "Arabe (cours quotidiens)"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "EAL (English as Additional Language)",
+          "Classes max 20 élèves",
+          "Ratio 1:8 en Early Years",
+          "Suivi émotionnel et social"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2021",
+        "label": "Année d'ouverture"
+      },
+      {
+        "value": "~250",
+        "label": "Élèves environ"
+      },
+      {
+        "value": "20",
+        "label": "Élèves max par classe"
+      },
+      {
+        "value": "1:8",
+        "label": "Ratio Early Years"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Bâtiment redéveloppé pour l'apprentissage 21e siècle."
+    },
+    {
+      "icon_type": "labs",
+      "name": "Laboratoires",
+      "description": "Sciences pour IGCSE."
+    },
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque",
+      "description": "Espace lecture et ressources."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Arts & musique",
+      "description": "Programmes artistiques et instruments traditionnels."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Cantine",
+      "description": "Restauration sur site."
+    },
+    {
+      "icon_type": "psy",
+      "name": "Suivi émotionnel",
+      "description": "Approche holistique du bien-être."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Vie scolaire active avec sorties, assemblées et modèles ONU internationaux.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Modèles internationaux",
+        "items": [
+          "HMUN Boston 2026 (Harvard Model United Nations)",
+          "Sorties culturelles",
+          "Événements internationaux"
+        ]
+      },
+      {
+        "label": "Sorties pédagogiques",
+        "items": [
+          "Taranti Farm (élevage, oliviers)",
+          "Cité des Sciences",
+          "Découverte des traditions tunisiennes"
+        ]
+      },
+      {
+        "label": "Vie scolaire quotidienne",
+        "items": [
+          "Assemblées thématiques",
+          "Phonics et lecture",
+          "Activités d'autonomie"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Early Years",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Primary",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Secondary",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sorties",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "HMUN",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 25 904 904",
+    "phone_main_label": "Standard",
+    "phone_secondary": null,
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@eistunis.org",
+    "email_admissions": "registration@eistunis.org",
+    "map": {
+      "lat": 36.9117,
+      "lng": 10.294,
+      "title": "EIST — R23 Le Relais, Gammarth, La Marsa"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/EISTunis/",
+      "instagram": null,
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Gammarth",
+      "type": "main",
+      "street": "R23 Le Relais Gammarth",
+      "postal_code": "2078",
+      "locality": "La Marsa",
+      "region": "Gammarth",
+      "country_code": "TN",
+      "lat": 36.9117,
+      "lng": 10.294,
+      "phone_local": "+216 25 904 904"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés publiquement. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé via registration@eistunis.org."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>British National Curriculum</strong> incluant <strong>EYFS</strong>, <strong>Cambridge Primary</strong>, <strong>Cambridge Lower Secondary</strong> et <strong>Cambridge IGCSE</strong>."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelle est la tranche d'âge ?",
+      "answer_html": "De <strong>3 ans (Nursery) à 16 ans (Year 11)</strong>. Pas de Sixth Form (A Levels) à ce jour."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quel est l'effectif ?",
+      "answer_html": "Environ <strong>250 élèves</strong>. <strong>Classes de max 20 élèves</strong>. Ratio <strong>1:8 en Early Years</strong>."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Anglais</strong> est la langue d'enseignement. <strong>Français et arabe</strong> sont enseignés <strong>quotidiennement</strong>."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quel est le profil des enseignants ?",
+      "answer_html": "Tous les enseignants principaux sont des <strong>native speakers</strong> avec diplômes, qualifications pédagogiques reconnues et expérience."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Qu'est-ce que le Groupe René Descartes ?",
+      "answer_html": "Groupe éducatif tunisien <strong>fondé en 1994</strong>. EIST est ouvert en <strong>septembre 2021</strong> comme branche britannique du groupe."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Y a-t-il des activités internationales ?",
+      "answer_html": "Oui : participation à <strong>HMUN 2026 (Harvard Model United Nations) à Boston</strong>, sorties pédagogiques régulières, assemblées thématiques."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Téléphone : <strong>+216 25 904 904</strong>. Email admissions : <strong>registration@eistunis.org</strong>. Email général : contact@eistunis.org."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British COBIS · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "canopus-international-school-of-tunis",
+      "cover_text": "CIS",
+      "name": "Canopus International School of Tunis",
+      "meta": "British Cambridge · Charguia 1",
+      "tier": "premium"
+    },
+    {
+      "slug": "oxford-international-school-of-tunis",
+      "cover_text": "OIST",
+      "name": "Oxford International School of Tunis",
+      "meta": "Cambridge + American · Le Kram",
+      "tier": "premium"
+    }
+  ]
+}

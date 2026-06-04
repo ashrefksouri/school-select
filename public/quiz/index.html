@@ -1,0 +1,1502 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Quiz besoin parent · School Select</title>
+<meta name="description" content="Trouvez les écoles compatibles avec votre profil parent en 2 minutes. 8 questions, filtres transparents sur les écoles privées internationales en Tunisie. Sans classement, sans score." />
+<link rel="canonical" href="https://schoolselect.online/quiz/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="School Select" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:title" content="Quiz besoin parent · School Select" />
+<meta property="og:description" content="Trouvez les écoles compatibles avec votre profil parent en 2 minutes. 8 questions, filtres transparents sur les écoles privées internationales en Tunisie. Sans classement, sans score." />
+<meta property="og:url" content="https://schoolselect.online/quiz/" />
+<meta property="og:image" content="https://schoolselect.online/og-default.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Quiz besoin parent · School Select" />
+<meta name="twitter:description" content="Trouvez les écoles compatibles avec votre profil parent en 2 minutes. 8 questions, filtres transparents sur les écoles privées internationales en Tunisie. Sans classement, sans score." />
+<meta name="twitter:image" content="https://schoolselect.online/og-default.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@400..800&family=Inter:wght@400..700&family=JetBrains+Mono:wght@400..600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  /* Palette School Select v1.0 - ink-deep + jade */
+  --primary:#0E2A5C;--primary-dark:#0B214B;--primary-light:#1E3A6B;--primary-tint:#E8EAF0;
+  --secondary:#0F766E;--secondary-dark:#0a5853;--secondary-light:#14B8A6;--secondary-tint:#CCFBF1;
+  --text:#0E2A5C;--text-muted:#4E5C7A;--text-soft:#8A93A6;
+  --border:#E8EAF0;--border-soft:#F1F3F8;
+  --bg:#FFFFFF;--bg-offwhite:#FAF8F4;--bg-soft:#F1F3F8;
+  --amber:#F1AB23;--success:#0F766E;--danger:#E5484D;
+  --g-aplus:#0F766E;--g-a:#14B8A6;--g-bplus:#5eead4;--g-b:#F1AB23;--g-c:#E89539;
+  --display:"Fraunces",Georgia,serif;
+  --display-ui:"Inter Tight",-apple-system,BlinkMacSystemFont,sans-serif;
+  --body:"Inter",-apple-system,BlinkMacSystemFont,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+  --r-sm:8px;--r-md:12px;--r-lg:16px;--r-xl:24px;--r-full:999px;
+  --s-1:4px;--s-2:8px;--s-3:12px;--s-4:16px;--s-5:24px;--s-6:32px;--s-7:48px;--s-8:64px;
+  --sh-sm:0 1px 2px rgba(14,42,92,.06),0 1px 1px rgba(14,42,92,.04);
+  --sh-md:0 4px 12px -2px rgba(14,42,92,.08),0 2px 4px rgba(14,42,92,.04);
+  --sh-lg:0 16px 32px -8px rgba(14,42,92,.12),0 4px 8px rgba(14,42,92,.04);
+  --sh-xl:0 32px 64px -16px rgba(14,42,92,.18),0 8px 16px rgba(14,42,92,.06);
+  --ease:cubic-bezier(.22,1,.36,1);--d-fast:150ms;--d-base:250ms;--d-slow:400ms;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--body);font-size:16px;line-height:1.5;color:var(--text);background:var(--bg)}
+button{font:inherit;cursor:pointer;border:0;background:0}
+input,textarea,select{font:inherit;color:inherit}
+a{color:inherit;text-decoration:none}
+.h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:1.1}
+.h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1.15}
+.eyebrow{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted)}
+.container{max-width:1280px;margin:0 auto;padding:0 var(--s-5)}
+
+/* HEADER */
+.site-header{position:sticky;top:0;z-index:50;background:var(--primary);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}
+.header-inner{height:64px;display:flex;align-items:center;justify-content:space-between;gap:var(--s-5)}
+.logo{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:-.02em;color:#fff;display:flex;align-items:center;gap:var(--s-1)}
+.logo-dot{width:6px;height:6px;background:var(--secondary);border-radius:var(--r-full)}
+.nav-main{display:flex;gap:var(--s-5);align-items:center}
+.nav-main a{font-size:14px;font-weight:500;color:rgba(255,255,255,.85);transition:color var(--d-fast)}
+.nav-main a:hover{color:#fff}
+.nav-main a.active{color:#fff;font-weight:600}
+.lang-switch{display:flex;gap:var(--s-1);font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.1em}
+.lang-switch button{color:rgba(255,255,255,.6);padding:4px 6px;border-radius:var(--r-sm);transition:all var(--d-fast)}
+.lang-switch button.active{background:rgba(255,255,255,.18);color:#fff}
+.burger{display:none;width:40px;height:40px;border-radius:var(--r-sm);background:rgba(255,255,255,.12);align-items:center;justify-content:center;color:#fff}
+@media (max-width:900px){.nav-main{display:none}.burger{display:flex}}
+
+/* BREADCRUMB */
+.breadcrumb{background:#0A0E1A;color:#9CA3AF;font-size:13px;padding:14px 0}
+.breadcrumb-inner{display:flex;align-items:center;gap:var(--s-2);flex-wrap:wrap}
+.breadcrumb a{color:#9CA3AF;transition:color var(--d-fast)}
+.breadcrumb a:hover{color:#fff}
+.breadcrumb .crumb-current{color:#fff;font-weight:500}
+.breadcrumb svg{width:14px;height:14px;opacity:.5}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--s-2);font-weight:600;font-size:14px;padding:10px 18px;border-radius:var(--r-sm);transition:all var(--d-fast);border:1px solid transparent;white-space:nowrap;cursor:pointer}
+.btn-primary{background:var(--secondary);color:#fff}
+.btn-primary:hover{background:var(--secondary-dark);transform:translateY(-1px);box-shadow:var(--sh-md)}
+.btn-primary:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none}
+.btn-dark{background:var(--text);color:#fff}
+.btn-dark:hover{background:#000}
+.btn-outline{border-color:var(--border);color:var(--text);background:#fff}
+.btn-outline:hover{border-color:var(--text)}
+.btn-ghost{color:var(--text-muted)}
+.btn-ghost:hover{color:var(--text);background:var(--bg-soft)}
+.btn-lg{padding:16px 28px;font-size:16px}
+.btn svg{width:16px;height:16px;flex:0 0 16px}
+
+/* PHASES */
+.phase{display:none;animation:fadeIn .5s var(--ease)}
+.phase.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+/* PHASE 1 — INTRO */
+.intro{min-height:calc(100vh - 64px - 44px);background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);color:#fff;display:flex;align-items:center;justify-content:center;padding:64px var(--s-5);position:relative;overflow:hidden;text-align:center}
+.intro::before{content:"";position:absolute;width:600px;height:600px;background:radial-gradient(circle,rgba(0,190,153,.18) 0%,transparent 60%);top:-200px;right:-200px}
+.intro::after{content:"";position:absolute;width:500px;height:500px;background:radial-gradient(circle,rgba(91,138,240,.2) 0%,transparent 60%);bottom:-150px;left:-150px}
+.intro-inner{position:relative;z-index:1;max-width:760px}
+.intro-eye{display:inline-block;background:rgba(0,190,153,.2);color:#fff;padding:6px 14px;border-radius:var(--r-full);font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:var(--s-5);border:1px solid rgba(0,190,153,.4)}
+.intro h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:clamp(36px,6vw,60px);margin-bottom:var(--s-5)}
+.intro p.lead{color:rgba(255,255,255,.9);font-size:clamp(16px,2vw,19px);line-height:1.6;margin-bottom:var(--s-6);max-width:600px;margin-left:auto;margin-right:auto}
+.intro-trust{display:flex;justify-content:center;gap:var(--s-5);margin-bottom:var(--s-6);flex-wrap:wrap;color:rgba(255,255,255,.85);font-size:14px;font-family:var(--mono)}
+.intro-trust span{display:inline-flex;align-items:center;gap:6px}
+.intro-trust span::before{content:"✓";color:var(--secondary-light);font-weight:bold}
+.btn-start{background:#fff;color:var(--primary);font-size:17px;padding:18px 32px;font-weight:700}
+.btn-start:hover{background:var(--secondary);color:#fff;transform:translateY(-2px);box-shadow:0 16px 32px rgba(0,0,0,.2)}
+
+.intro-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-5);margin-top:var(--s-8);padding-top:var(--s-7);border-top:1px solid rgba(255,255,255,.18)}
+@media (max-width:900px){.intro-steps{grid-template-columns:1fr;gap:var(--s-4)}}
+.step{text-align:left}
+.step-num{width:48px;height:48px;border-radius:var(--r-full);display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:700;font-size:20px;margin-bottom:var(--s-3);color:#fff}
+.step:nth-child(1) .step-num{background:rgba(255,255,255,.18)}
+.step:nth-child(2) .step-num{background:var(--secondary)}
+.step:nth-child(3) .step-num{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4)}
+.step h4{font-family:var(--display);font-weight:600;font-size:16px;margin-bottom:var(--s-2);color:#fff}
+.step p{color:rgba(255,255,255,.75);font-size:13px;line-height:1.6}
+
+.intro-foot{margin-top:var(--s-7);font-size:12px;color:rgba(255,255,255,.5);font-style:italic}
+
+/* PHASE 2 — QUESTIONS */
+.q-progress{position:sticky;top:64px;z-index:30;background:#fff;border-bottom:1px solid var(--border);padding:14px 0}
+.q-progress-inner{display:flex;align-items:center;gap:var(--s-4);justify-content:space-between}
+.q-back,.q-quit{padding:6px 12px;font-size:13px;color:var(--text-muted);border-radius:var(--r-sm);transition:all var(--d-fast);background:0}
+.q-back:hover,.q-quit:hover{color:var(--text);background:var(--bg-soft)}
+.q-progress-mid{flex:1;max-width:480px;text-align:center}
+.q-counter{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:var(--s-1);font-weight:600}
+.q-counter strong{color:var(--secondary-dark)}
+.q-bar{height:4px;background:var(--bg-soft);border-radius:var(--r-full);overflow:hidden}
+.q-bar-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--secondary));border-radius:var(--r-full);transition:width var(--d-slow) var(--ease);width:0}
+
+.questions{padding:var(--s-7) var(--s-5);min-height:calc(100vh - 64px - 60px - 44px)}
+.q-card{max-width:760px;margin:0 auto}
+.q-eye{margin-bottom:var(--s-3)}
+.q-card h2{font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:clamp(24px,3.5vw,34px);line-height:1.15;margin-bottom:var(--s-3)}
+.q-card p.q-sub{color:var(--text-muted);font-size:15px;line-height:1.6;margin-bottom:var(--s-6);font-style:italic}
+.q-foot{display:flex;justify-content:space-between;align-items:center;margin-top:var(--s-7);padding-top:var(--s-5);border-top:1px solid var(--border-soft);gap:var(--s-3);flex-wrap:wrap}
+.q-foot-note{color:var(--text-soft);font-size:12px;font-style:italic;flex:1}
+
+/* OPTION CARDS */
+.opts-grid{display:grid;gap:var(--s-3);margin-bottom:var(--s-3)}
+.opts-grid.cols-2{grid-template-columns:repeat(2,1fr)}
+.opts-grid.cols-3{grid-template-columns:repeat(3,1fr)}
+.opts-grid.cols-4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:760px){.opts-grid.cols-3,.opts-grid.cols-4{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:500px){.opts-grid{grid-template-columns:1fr !important}}
+
+.opt{position:relative;padding:18px;border:2px solid var(--border);border-radius:var(--r-md);cursor:pointer;transition:all var(--d-base) var(--ease);background:#fff;text-align:left}
+.opt:hover{border-color:var(--primary-light);background:var(--primary-tint);transform:translateY(-2px);box-shadow:var(--sh-sm)}
+.opt.selected{border-color:var(--primary);background:var(--primary-tint);box-shadow:var(--sh-md)}
+.opt.selected::after{content:"✓";position:absolute;top:10px;right:10px;width:24px;height:24px;background:var(--secondary);color:#fff;border-radius:var(--r-full);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px}
+.opt-icon{font-size:32px;margin-bottom:var(--s-2);display:block}
+.opt-title{font-weight:600;font-size:16px;margin-bottom:var(--s-1)}
+.opt-desc{font-size:13px;color:var(--text-muted);line-height:1.5}
+
+/* CHIPS MULTI */
+.chips-wrap{display:flex;flex-wrap:wrap;gap:var(--s-2);margin-bottom:var(--s-3)}
+.chip{padding:10px 16px;border:1px solid var(--border);border-radius:var(--r-full);background:#fff;font-size:14px;font-weight:500;cursor:pointer;transition:all var(--d-fast);user-select:none}
+.chip:hover{border-color:var(--primary);background:var(--primary-tint)}
+.chip.selected{background:var(--primary);color:#fff;border-color:var(--primary);font-weight:600}
+
+/* SLIDER */
+.slider-wrap{padding:var(--s-5) 0}
+.slider-display{text-align:center;margin-bottom:var(--s-5)}
+.slider-value{font-family:var(--display);font-weight:700;font-size:clamp(40px,8vw,72px);color:var(--primary);letter-spacing:-.03em;line-height:1}
+.slider-suffix{font-family:var(--display);font-weight:600;color:var(--text-muted);margin-left:var(--s-2);font-size:24px}
+.slider-meta{color:var(--text-muted);font-size:13px;margin-top:var(--s-2);font-family:var(--mono)}
+.slider-input{width:100%;-webkit-appearance:none;appearance:none;background:transparent;cursor:pointer}
+.slider-input::-webkit-slider-runnable-track{height:6px;background:linear-gradient(to right,var(--primary) 0%,var(--primary) var(--val,33%),var(--bg-soft) var(--val,33%),var(--bg-soft) 100%);border-radius:var(--r-full)}
+.slider-input::-moz-range-track{height:6px;background:var(--bg-soft);border-radius:var(--r-full)}
+.slider-input::-webkit-slider-thumb{-webkit-appearance:none;width:24px;height:24px;background:var(--primary);border-radius:var(--r-full);margin-top:-9px;border:3px solid #fff;box-shadow:var(--sh-md);cursor:grab}
+.slider-input::-moz-range-thumb{width:24px;height:24px;background:var(--primary);border-radius:var(--r-full);border:3px solid #fff;box-shadow:var(--sh-md);cursor:grab}
+.slider-marks{display:flex;justify-content:space-between;margin-top:var(--s-3);font-size:11px;color:var(--text-soft);font-family:var(--mono)}
+
+/* LIKERT */
+.likert{display:flex;flex-direction:column;gap:var(--s-2)}
+.likert-row{display:grid;grid-template-columns:200px 1fr;gap:var(--s-3);align-items:center;padding:14px 16px;background:var(--bg-offwhite);border-radius:var(--r-md);border:1px solid var(--border-soft)}
+.likert-row.answered{background:var(--primary-tint);border-color:var(--primary-light)}
+@media (max-width:680px){.likert-row{grid-template-columns:1fr;gap:var(--s-2)}}
+.likert-label{font-weight:500;font-size:14px;display:flex;align-items:center;gap:var(--s-2)}
+.likert-label-icon{font-size:18px}
+.likert-scale{display:flex;justify-content:space-between;align-items:center;gap:var(--s-1);position:relative}
+.likert-scale-end{position:absolute;font-size:10px;color:var(--text-soft);font-family:var(--mono);text-transform:uppercase;letter-spacing:.05em;top:-2px}
+.likert-scale-end.left{left:0}
+.likert-scale-end.right{right:0}
+.likert-scale .lr-buttons{display:flex;gap:6px;margin-top:18px;flex:1;justify-content:space-between;width:100%}
+.likert-btn{flex:1;height:36px;border-radius:var(--r-sm);border:1px solid var(--border);background:#fff;font-weight:600;font-size:14px;color:var(--text-muted);transition:all var(--d-fast);cursor:pointer}
+.likert-btn:hover{border-color:var(--primary);color:var(--primary)}
+.likert-btn.selected{background:var(--primary);color:#fff;border-color:var(--primary);transform:scale(1.05)}
+
+/* PHASE 3 — CALC */
+.calc-screen{min-height:calc(100vh - 64px - 44px);background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);color:#fff;display:flex;align-items:center;justify-content:center;padding:var(--s-5);text-align:center}
+.calc-inner{max-width:480px}
+.calc-logo{width:80px;height:80px;background:rgba(255,255,255,.1);border-radius:var(--r-full);display:flex;align-items:center;justify-content:center;margin:0 auto var(--s-5);animation:pulse 2s var(--ease) infinite}
+.calc-logo svg{width:40px;height:40px;color:#fff}
+@keyframes pulse{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(0,190,153,.4)}50%{transform:scale(1.05);box-shadow:0 0 0 24px rgba(0,190,153,0)}}
+.calc-msg{font-family:var(--display);font-weight:600;font-size:22px;margin-bottom:var(--s-3);min-height:32px;transition:opacity .3s}
+.calc-dots{display:inline-flex;gap:8px}
+.calc-dot{width:8px;height:8px;border-radius:var(--r-full);background:var(--secondary);animation:bounce 1.2s ease-in-out infinite}
+.calc-dot:nth-child(2){animation-delay:.2s}
+.calc-dot:nth-child(3){animation-delay:.4s}
+@keyframes bounce{0%,80%,100%{transform:scale(.7);opacity:.5}40%{transform:scale(1);opacity:1}}
+
+/* PHASE 4 — RESULTS */
+.results-hero{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);color:#fff;padding:var(--s-7) 0 var(--s-7);text-align:center;position:relative;overflow:hidden}
+.results-hero::before{content:"";position:absolute;width:600px;height:600px;background:radial-gradient(circle,rgba(0,190,153,.15) 0%,transparent 60%);top:-200px;right:-200px}
+.results-hero .hero-eye{display:inline-block;color:rgba(255,255,255,.7);margin-bottom:var(--s-4)}
+.results-hero h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;font-size:clamp(28px,4vw,44px);margin-bottom:var(--s-3);max-width:760px;margin-left:auto;margin-right:auto;position:relative;z-index:1}
+.results-hero p{color:rgba(255,255,255,.9);max-width:600px;margin:0 auto var(--s-5);font-size:16px;line-height:1.5;position:relative;z-index:1}
+.results-stats{display:flex;justify-content:center;gap:var(--s-5);font-family:var(--mono);font-size:13px;color:rgba(255,255,255,.85);flex-wrap:wrap;position:relative;z-index:1}
+.results-stats span strong{color:#fff;font-weight:700;font-size:18px}
+
+/* TOP RESULT */
+.top-result{padding:var(--s-7) 0;background:var(--bg-offwhite)}
+.top-result-eye{margin-bottom:var(--s-2)}
+.top-result h2{font-family:var(--display);font-weight:700;font-size:clamp(24px,3vw,32px);margin-bottom:var(--s-5)}
+.top-card{background:#fff;border-radius:var(--r-xl);box-shadow:var(--sh-xl);overflow:hidden;display:grid;grid-template-columns:5fr 7fr;border:1px solid var(--border)}
+@media (max-width:900px){.top-card{grid-template-columns:1fr}}
+.top-photo{position:relative;background:linear-gradient(135deg,#5B8AF0,#2F6EEB);min-height:340px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--display);font-weight:800;font-size:64px}
+.top-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.top-photo .top-partner{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(90deg,var(--secondary),var(--secondary-dark));color:#fff;padding:8px 16px;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-align:center;z-index:2}
+.top-info{padding:var(--s-6)}
+.match-banner{display:flex;align-items:center;gap:var(--s-4);padding-bottom:var(--s-4);border-bottom:1px solid var(--border-soft);margin-bottom:var(--s-4)}
+.match-circle{flex:0 0 72px;height:72px;border-radius:var(--r-full);background:linear-gradient(135deg,var(--secondary),var(--secondary-dark));color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;font-size:22px;box-shadow:var(--sh-md)}
+.match-text h3{font-family:var(--display);font-weight:700;font-size:18px;margin-bottom:var(--s-1)}
+.match-text p{color:var(--text-muted);font-size:13px;line-height:1.5}
+.top-name{font-family:var(--display);font-weight:700;font-size:clamp(22px,3vw,28px);letter-spacing:-.02em;margin-bottom:var(--s-2);display:flex;align-items:center;gap:var(--s-2)}
+.verified-mini{width:20px;height:20px;background:var(--primary);color:#fff;border-radius:var(--r-full);display:inline-flex;align-items:center;justify-content:center;font-size:11px}
+.top-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:var(--s-3)}
+.tag-pill{padding:4px 10px;background:var(--primary-tint);color:var(--primary);font-size:12px;font-weight:600;border-radius:var(--r-full)}
+.tag-pill.partner{background:var(--secondary-tint);color:var(--secondary-dark)}
+.top-meta{display:flex;flex-direction:column;gap:6px;margin-bottom:var(--s-4);font-size:14px;color:var(--text-muted)}
+.top-meta span{display:flex;align-items:center;gap:var(--s-2)}
+.why-box{background:var(--primary-tint);padding:16px;border-radius:var(--r-md);margin-bottom:var(--s-4)}
+.why-box .why-eye{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--secondary-dark);margin-bottom:var(--s-2)}
+.why-list{list-style:none;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.why-list li{display:flex;gap:8px;line-height:1.5}
+.why-list li::before{content:"✓";color:var(--secondary-dark);font-weight:bold;flex:0 0 16px}
+.top-actions{display:flex;gap:var(--s-2);flex-wrap:wrap}
+
+/* OTHER RESULTS */
+.others-section{padding:var(--s-7) 0}
+.others-section h2{font-family:var(--display);font-weight:700;font-size:clamp(22px,2.8vw,28px);margin-bottom:var(--s-2)}
+.others-section .sub{color:var(--text-muted);font-size:14px;margin-bottom:var(--s-5)}
+.others-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s-4)}
+@media (max-width:900px){.others-grid{grid-template-columns:1fr}}
+
+.res-card{background:#fff;border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;transition:all var(--d-base) var(--ease)}
+.res-card:hover{transform:translateY(-2px);box-shadow:var(--sh-lg)}
+.res-card-photo{position:relative;height:160px;background:var(--bg-soft);overflow:hidden}
+.res-card-photo img{width:100%;height:100%;object-fit:cover}
+.res-card-photo .partner-strip{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(90deg,var(--secondary),var(--secondary-dark));color:#fff;padding:4px;text-align:center;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.14em}
+.res-card-body{padding:var(--s-4)}
+.res-card-name{font-family:var(--display);font-weight:700;font-size:16px;margin-bottom:var(--s-1);display:flex;align-items:center;gap:6px}
+.res-card-meta{font-size:12px;color:var(--text-muted);font-family:var(--mono);margin-bottom:var(--s-3)}
+.res-card-why{font-size:13px;color:var(--text-muted);line-height:1.5;margin-bottom:var(--s-3);background:var(--bg-offwhite);padding:10px 12px;border-radius:var(--r-sm);border-left:3px solid var(--primary)}
+.res-card-foot{display:flex;justify-content:space-between;gap:var(--s-2);padding-top:var(--s-3);border-top:1px solid var(--border-soft)}
+.res-card-foot .btn{flex:1}
+.icon-btn{width:36px;height:36px;border:1px solid var(--border);border-radius:var(--r-sm);background:#fff;color:var(--text-muted);display:inline-flex;align-items:center;justify-content:center;transition:all var(--d-fast);cursor:pointer}
+.icon-btn:hover{background:var(--primary-tint);color:var(--primary);border-color:var(--primary-light)}
+
+/* CTA COMPARE */
+.cta-compare{padding:var(--s-7) 0;background:linear-gradient(135deg,var(--secondary) 0%,var(--secondary-dark) 100%);color:#fff;text-align:center}
+.cta-compare h2{font-family:var(--display);font-weight:700;font-size:clamp(22px,3vw,32px);margin-bottom:var(--s-3);color:#fff}
+.cta-compare p{color:rgba(255,255,255,.9);margin-bottom:var(--s-4);max-width:600px;margin-left:auto;margin-right:auto;font-size:15px}
+.cta-compare .btn-dark{background:#fff;color:var(--text)}
+.cta-compare .btn-dark:hover{background:var(--text);color:#fff}
+
+/* RECAP */
+.recap{padding:var(--s-6) 0}
+.recap-card{max-width:760px;margin:0 auto;background:#fff;padding:var(--s-6);border-radius:var(--r-lg);border:1px solid var(--border);box-shadow:var(--sh-sm)}
+.recap-card h3{font-family:var(--display);font-weight:700;font-size:20px;margin-bottom:var(--s-4)}
+.recap-list{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3);margin-bottom:var(--s-4)}
+@media (max-width:680px){.recap-list{grid-template-columns:1fr}}
+.recap-list li{display:flex;gap:var(--s-3);align-items:start;font-size:14px;line-height:1.5}
+.recap-list li .ri-icon{font-size:20px;flex:0 0 24px}
+.recap-list li strong{display:block;color:var(--text-muted);font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-family:var(--mono);margin-bottom:2px}
+
+/* MULTI CTA (réutilisé) */
+.multi-cta{padding:var(--s-7) 0;background:linear-gradient(135deg,#fff 0%,var(--primary-tint) 100%)}
+.multi-cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-7);align-items:start}
+@media (max-width:900px){.multi-cta-grid{grid-template-columns:1fr;gap:var(--s-5)}}
+.multi-cta-text h2{font-family:var(--display);font-weight:700;font-size:clamp(24px,3vw,34px);letter-spacing:-.02em;line-height:1.15;margin-bottom:var(--s-4)}
+.multi-cta-text p{color:var(--text-muted);font-size:16px;line-height:1.6;margin-bottom:var(--s-4)}
+.bullet-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:var(--s-3)}
+.bullet-list li{display:flex;gap:var(--s-3);font-size:14px;align-items:start}
+.bullet-list li::before{content:"✓";flex:0 0 22px;height:22px;border-radius:var(--r-full);background:var(--secondary-tint);color:var(--secondary-dark);font-weight:bold;display:flex;align-items:center;justify-content:center;font-size:12px}
+.form-card{background:#fff;padding:var(--s-5);border-radius:var(--r-lg);box-shadow:var(--sh-lg);border:1px solid var(--border)}
+.form-card h4{font-family:var(--display);font-weight:700;font-size:18px;margin-bottom:var(--s-3)}
+.school-checks{margin-bottom:var(--s-4);max-height:200px;overflow-y:auto}
+.school-check{display:flex;align-items:center;gap:var(--s-2);padding:8px 10px;border-radius:var(--r-sm);font-size:13px;margin-bottom:4px;background:var(--bg-offwhite)}
+.field{margin-bottom:var(--s-3)}
+.field label{display:block;font-size:13px;font-weight:500;margin-bottom:var(--s-1)}
+.field input,.field textarea,.field select{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--r-sm);background:#fff;font-size:14px;transition:all var(--d-fast)}
+.field input:focus,.field textarea:focus,.field select:focus{outline:0;border-color:var(--primary);box-shadow:0 0 0 3px rgba(47,110,235,.12)}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3)}
+.footnote{font-size:12px;color:var(--text-soft);margin-top:var(--s-3);line-height:1.5}
+
+/* SAVE/SHARE */
+.save-section{padding:var(--s-6) 0;background:var(--bg-offwhite)}
+.save-grid{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--s-4)}
+.save-grid h3{font-family:var(--display);font-weight:700;font-size:18px;margin-bottom:4px}
+.save-grid p{color:var(--text-muted);font-size:13px}
+.save-buttons{display:flex;gap:var(--s-2);flex-wrap:wrap}
+
+/* OTHER OPTIONS */
+.options-section{padding:var(--s-7) 0}
+.options-section h3{font-family:var(--display);font-weight:700;font-size:24px;text-align:center;margin-bottom:var(--s-5)}
+.options-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-4);max-width:1080px;margin:0 auto}
+@media (max-width:900px){.options-grid{grid-template-columns:1fr}}
+.option-card-bot{background:#fff;border:1px solid var(--border);border-radius:var(--r-lg);padding:var(--s-5);text-align:center;transition:all var(--d-base) var(--ease)}
+.option-card-bot:hover{transform:translateY(-2px);box-shadow:var(--sh-lg);border-color:var(--primary-light)}
+.option-card-bot .oc-icon{width:56px;height:56px;border-radius:var(--r-md);background:var(--primary-tint);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:24px;margin:0 auto var(--s-3)}
+.option-card-bot h4{font-family:var(--display);font-weight:700;font-size:17px;margin-bottom:var(--s-2)}
+.option-card-bot p{color:var(--text-muted);font-size:14px;margin-bottom:var(--s-4);line-height:1.5}
+
+/* FOOTER */
+.site-footer{background:#0A0E1A;color:#9CA3AF;padding:var(--s-8) 0 var(--s-5);font-size:14px}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1.5fr;gap:var(--s-6);padding-bottom:var(--s-6);border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:var(--s-5)}
+@media (max-width:900px){.foot-grid{grid-template-columns:1fr 1fr;gap:var(--s-5)}}
+.foot-col h5{font-family:var(--display);font-weight:700;color:#fff;font-size:14px;margin-bottom:var(--s-3)}
+.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:var(--s-2)}
+.foot-col a{color:#9CA3AF;font-size:13px;transition:color var(--d-fast)}
+.foot-col a:hover{color:#fff}
+.foot-brand{font-family:var(--display);font-weight:800;font-size:22px;color:#fff;margin-bottom:var(--s-3);display:flex;align-items:center;gap:6px}
+.foot-brand .logo-dot{background:var(--secondary)}
+.foot-brand-desc{color:#9CA3AF;font-size:13px;line-height:1.6;margin-bottom:var(--s-4);max-width:280px}
+.foot-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--s-3);font-size:12px;color:#6B7280}
+.foot-bottom-links{display:flex;gap:var(--s-4)}
+
+/* TOAST */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--text);color:#fff;padding:12px 20px;border-radius:var(--r-md);font-size:14px;font-weight:500;box-shadow:var(--sh-xl);z-index:90;opacity:0;transition:all var(--d-base) var(--ease);pointer-events:none;display:flex;align-items:center;gap:var(--s-2)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* MODAL QUITTER */
+.modal-back{position:fixed;inset:0;background:rgba(3,9,21,.5);backdrop-filter:blur(4px);z-index:80;display:none;align-items:center;justify-content:center;padding:var(--s-4)}
+.modal-back.show{display:flex}
+.modal-quit{background:#fff;border-radius:var(--r-lg);max-width:440px;width:100%;padding:var(--s-6);text-align:center;box-shadow:var(--sh-xl)}
+.modal-quit h4{font-family:var(--display);font-weight:700;font-size:20px;margin-bottom:var(--s-3)}
+.modal-quit p{color:var(--text-muted);margin-bottom:var(--s-5);font-size:14px}
+.modal-quit-actions{display:flex;gap:var(--s-3);justify-content:center}
+.hidden{display:none !important}
+
+.breadcrumb,nav.breadcrumb,.breadcrumbs{display:none !important}
+
+
+/* ════════════════════════════════════════════════════════════════════════════
+   WORLDCLASS PATCH — Quiz design refresh
+   Aligné sur le design system School Select v1.0
+   ════════════════════════════════════════════════════════════════════════════ */
+
+/* Body : font-weight standardisé */
+body{ font-feature-settings: "ss01" on, "cv11" on; }
+
+/* ━━━ TITRES : Fraunces avec letter-spacing serré ━━━ */
+.h1, .intro h1, .results-hero h1, .calc-screen h2, .q-card h2, h1, h2 {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  letter-spacing: -.025em !important;
+  line-height: 1.05 !important;
+}
+.h2, h3 { letter-spacing: -.018em !important; }
+
+/* Italique Fraunces sur les <em> */
+.h1 em, .h2 em, .intro h1 em, .results-hero h1 em, h1 em, h2 em {
+  font-style: italic;
+  font-variation-settings: 'opsz' 144;
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+/* ━━━ LOGO HEADER : reste en Inter Tight (pas Fraunces) ━━━ */
+.logo {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  font-size: 19px !important;
+  letter-spacing: -.015em !important;
+}
+.logo em {
+  font-style: italic;
+  font-variation-settings: 'opsz' 144;
+  color: var(--secondary-light);
+}
+
+/* ━━━ HEADER : ink-deep marine au lieu de bleu vif ━━━ */
+.site-header { background: var(--text); }
+
+/* Nav items garde Inter Tight pour UI */
+.nav-main a { font-family: var(--display-ui); }
+.lang-switch { font-family: var(--mono); }
+
+/* ━━━ HERO INTRO : éditorial, pas SaaS ━━━ */
+.intro {
+  background: linear-gradient(135deg, #0E2A5C 0%, #1E3A6B 60%, #0F766E 140%) !important;
+  position: relative;
+}
+.intro::after {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse at 80% 20%, rgba(20,184,166,.22) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 80%, rgba(255,255,255,.05) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+.intro > * { position: relative; z-index: 1; }
+
+.intro h1 {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  font-size: clamp(40px, 6vw, 68px) !important;
+  letter-spacing: -.035em !important;
+  line-height: 0.98 !important;
+}
+
+.intro-eye {
+  background: rgba(20,184,166,.16) !important;
+  border-color: rgba(20,184,166,.35) !important;
+  color: #5eead4 !important;
+  font-weight: 600;
+}
+
+.intro-trust span::before { color: var(--secondary-light) !important; }
+.intro-trust { font-family: var(--mono) !important; letter-spacing: .04em; }
+
+.btn-start {
+  background: #fff !important;
+  color: var(--text) !important;
+  font-family: var(--display-ui) !important;
+  font-weight: 600 !important;
+  padding: 18px 36px !important;
+  letter-spacing: -.005em;
+  transition: all var(--d-base) var(--ease) !important;
+}
+.btn-start:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0,0,0,.18) !important;
+}
+
+/* ━━━ QUESTION CARDS ━━━ */
+.q-counter { font-family: var(--mono) !important; font-weight: 600; letter-spacing: .12em; }
+.q-bar { background: var(--border) !important; height: 3px; }
+.q-bar-fill {
+  background: var(--text) !important;
+  background: linear-gradient(90deg, var(--text), var(--secondary)) !important;
+}
+
+.q-card h2 {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  font-size: clamp(28px, 3.6vw, 44px) !important;
+  letter-spacing: -.028em !important;
+  line-height: 1.1 !important;
+  margin-bottom: 14px;
+}
+.q-card p.q-sub {
+  font-family: var(--body) !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  color: var(--text-muted) !important;
+}
+
+.q-back, .q-quit {
+  font-family: var(--display-ui);
+  letter-spacing: -.005em;
+}
+
+/* Options : cards plus aérées, hover plus doux */
+.q-options label, .q-options .opt, .opt-card, .option-card {
+  transition: all var(--d-base) var(--ease) !important;
+  border-radius: 12px !important;
+  border-width: 1.5px !important;
+}
+.q-options label:hover, .q-options .opt:hover, .opt-card:hover, .option-card:hover {
+  border-color: var(--text-muted) !important;
+  background: var(--bg-offwhite) !important;
+  transform: translateX(2px);
+}
+.q-options label.selected, .q-options .opt.selected, .opt-card.selected, .option-card.selected,
+.q-options input:checked + label {
+  border-color: var(--text) !important;
+  background: var(--text) !important;
+  color: #fff !important;
+}
+
+/* ━━━ CALC SCREEN ━━━ */
+.calc-screen {
+  background: var(--bg-offwhite) !important;
+}
+.calc-screen h2 {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  letter-spacing: -.025em !important;
+}
+.calc-msg {
+  font-family: var(--mono) !important;
+  letter-spacing: .08em;
+  color: var(--text-muted) !important;
+}
+
+/* ━━━ RESULTS HERO ━━━ */
+.results-hero {
+  background: var(--bg-offwhite) !important;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+.results-hero .hero-eye {
+  font-family: var(--mono) !important;
+  font-weight: 600;
+  letter-spacing: .14em;
+  color: var(--secondary) !important;
+}
+.results-hero h1 {
+  font-family: var(--display) !important;
+  font-weight: 400 !important;
+  font-size: clamp(36px, 5vw, 56px) !important;
+  letter-spacing: -.03em !important;
+  color: var(--text) !important;
+}
+.results-hero p {
+  color: var(--text-muted) !important;
+}
+.results-hero::before {
+  display: none !important;
+}
+.results-hero .hero-trust {
+  color: var(--text-muted) !important;
+}
+.results-hero .hero-trust strong {
+  color: var(--text) !important;
+}
+.results-hero .hero-trust .ri-icon {
+  color: var(--secondary) !important;
+}
+.results-hero .results-stats {
+  color: var(--text-muted) !important;
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: .04em;
+}
+.results-hero .results-stats span strong {
+  color: var(--text) !important;
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 20px;
+}
+.results-hero .results-stats span {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+/* ━━━ TOP RESULT CARD ━━━ */
+.top-result, .others-section, .cta-compare, .recap, .multi-cta, .save-section {
+  border-color: var(--border) !important;
+}
+.top-card, .other-card {
+  border-radius: 16px !important;
+  border-color: var(--border) !important;
+  transition: all var(--d-base) var(--ease) !important;
+}
+.top-card:hover, .other-card:hover {
+  border-color: var(--secondary) !important;
+  box-shadow: 0 12px 32px rgba(14,42,92,.08) !important;
+  transform: translateY(-2px);
+}
+
+
+/* ━━━ BOUTONS ━━━ */
+.btn { font-family: var(--display-ui) !important; font-weight: 600 !important; letter-spacing: -.005em; transition: all var(--d-base) var(--ease) !important; }
+.btn-dark { background: var(--text) !important; }
+.btn-dark:hover { background: var(--secondary) !important; transform: translateY(-1px); box-shadow: 0 6px 16px rgba(15,118,110,.25) !important; }
+.btn-outline { border: 1.5px solid var(--border) !important; }
+.btn-outline:hover { border-color: var(--text) !important; background: var(--bg-offwhite) !important; }
+
+/* CTA dark sections */
+.cta-compare, .save-section {
+  background: var(--text) !important;
+  color: #fff !important;
+}
+.cta-compare h2, .save-section h2 {
+  color: #fff !important;
+}
+.cta-compare .btn-dark, .save-section .btn-dark {
+  background: #fff !important;
+  color: var(--text) !important;
+}
+.cta-compare .btn-dark:hover, .save-section .btn-dark:hover {
+  background: var(--secondary-light) !important;
+  color: var(--text) !important;
+}
+
+/* Recap section */
+.recap { background: var(--bg-offwhite) !important; }
+.recap-list { font-family: var(--body); }
+
+/* ━━━ EYEBROW global ━━━ */
+.eyebrow {
+  font-family: var(--mono) !important;
+  font-weight: 600 !important;
+  letter-spacing: .14em !important;
+  color: var(--text-muted) !important;
+}
+
+/* ━━━ MOBILE refinements ━━━ */
+@media(max-width: 768px) {
+  .intro h1 { font-size: clamp(32px, 8vw, 44px) !important; }
+  .q-card h2 { font-size: clamp(24px, 6vw, 32px) !important; }
+  .results-hero h1 { font-size: clamp(28px, 7vw, 40px) !important; }
+}
+
+/* ━━━ ANIMATIONS douces ━━━ */
+.phase { transition: opacity var(--d-slow) var(--ease); }
+
+</style>
+<link rel="stylesheet" href="/design/chrome.css" />
+</head>
+<body>
+<header class="ss-header">
+  <div class="ss-header__inner">
+    <a class="ss-brand" href="/">School<em>·</em>Select</a>
+    <nav class="ss-nav">
+      <a href="/ecoles/">Écoles</a>
+      <a href="/comparer/">Comparer</a>
+      <a href="/quiz/" class="is-active">Quiz</a>
+      <a href="/blog/">Blog</a>
+      <a href="/a-propos/">À propos</a>
+    </nav>
+    <div class="ss-lang">
+      <a href="#" class="is-active">FR</a>
+      <span class="sep">/</span>
+      <a href="#">AR</a>
+    </div>
+  </div>
+</header>
+
+
+<!-- HEADER -->
+<!-- BREADCRUMB -->
+<nav class="breadcrumb">
+  <div class="container">
+    <div class="breadcrumb-inner">
+      <a href="/">Accueil</a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      <span class="crumb-current">Quiz besoin parent</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ PHASE 1 — INTRO ============ -->
+<div class="phase active" id="phase1">
+  <section class="intro">
+    <div class="intro-inner">
+      <span class="intro-eye">Outil exclusif · 2 minutes</span>
+      <h1>Trouvez l'école idéale pour votre <em>enfant</em></h1>
+      <p class="lead">8 questions sur votre enfant et vos critères. Nos filtres parcourent les 17 écoles privées internationales de Tunisie et vous montrent celles compatibles avec votre profil. Sans score, sans classement — vous décidez.</p>
+      <div class="intro-trust">
+        <span>Gratuit, sans engagement</span>
+        <span>100% anonyme avant l'envoi</span>
+        <span>Résultats en 2 min</span>
+      </div>
+      <button class="btn btn-start" id="startBtn">
+        Démarrer le quiz
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+
+      <div class="intro-steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h4>Répondez à 8 questions</h4>
+          <p>Sur le profil de votre enfant, vos critères et vos valeurs.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h4>Nos filtres parcourent 17 écoles</h4>
+          <p>Filtrage factuel sur curriculum, niveau, localisation, langues.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h4>Découvrez les écoles compatibles</h4>
+          <p>Liste filtrée selon vos critères, avec explication des correspondances. Aucun classement, aucun score.</p>
+        </div>
+      </div>
+      <div class="intro-foot">Filtres transparents basés sur des critères factuels : curriculum, niveau, localisation, langues. Aucune note ni classement. Données mises à jour en mai 2026.</div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PHASE 2 — QUESTIONS ============ -->
+<div class="phase" id="phase2">
+  <div class="q-progress">
+    <div class="container">
+      <div class="q-progress-inner">
+        <button class="q-back" id="qBackBtn">← Précédent</button>
+        <div class="q-progress-mid">
+          <div class="q-counter">QUESTION <strong><span id="qCurrent">1</span></strong> / 8</div>
+          <div class="q-bar"><div class="q-bar-fill" id="qBarFill"></div></div>
+        </div>
+        <button class="q-quit" id="qQuitBtn">× Quitter</button>
+      </div>
+    </div>
+  </div>
+  <div class="questions">
+    <div class="container">
+      <div class="q-card" id="qCard"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PHASE 3 — CALC ============ -->
+<div class="phase" id="phase3">
+  <section class="calc-screen">
+    <div class="calc-inner">
+      <div class="calc-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      </div>
+      <div class="calc-msg" id="calcMsg">Analyse de votre profil...</div>
+      <div class="calc-dots"><span class="calc-dot"></span><span class="calc-dot"></span><span class="calc-dot"></span></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PHASE 4 — RESULTS ============ -->
+<div class="phase" id="phase4">
+
+  <section class="results-hero">
+    <div class="container">
+      <span class="hero-eye eyebrow">VOS RÉSULTATS</span>
+      <h1>Écoles compatibles avec votre profil</h1>
+      <p>Liste filtrée selon vos 8 réponses sur les 17 écoles privées internationales de Tunisie. <strong>School Select ne classe pas et ne note pas les écoles.</strong></p>
+      <div class="results-stats">
+        <span><strong id="statTotal">17</strong> écoles analysées</span>
+        <span><strong id="statMatch">—</strong> compatibles avec votre profil</span>
+        <span><strong>Sans</strong> classement ni note</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="others-section">
+    <div class="container">
+      <h2>Vos écoles compatibles</h2>
+      <p class="sub">Toutes les écoles ci-dessous respectent vos critères factuels (niveau, curriculum, région, langues). Elles sont présentées sans ordre de préférence.</p>
+      <div class="others-grid" id="othersGrid"></div>
+    </div>
+  </section>
+
+  <section class="cta-compare">
+    <div class="container">
+      <h2>Comparez ces écoles côte à côte</h2>
+      <p>Tableau détaillé avec curriculum, niveaux, langues, région. Le comparateur retient jusqu'à 4 écoles de votre sélection.</p>
+      <a href="#" class="btn btn-dark btn-lg" id="goCompareBtn">
+        Ouvrir le comparateur →
+      </a>
+    </div>
+  </section>
+
+  <section class="recap">
+    <div class="container">
+      <div class="recap-card">
+        <h3>Récapitulatif de vos critères</h3>
+        <ul class="recap-list" id="recapList"></ul>
+        <button class="btn btn-outline" id="restartBtn">Modifier mes réponses →</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="multi-cta">
+    <div class="container">
+      <div class="multi-cta-grid">
+        <div class="multi-cta-text">
+          <span class="eyebrow" style="color:var(--secondary-dark);margin-bottom:16px;display:inline-block">RECEVEZ DES RÉPONSES SOUS 24H</span>
+          <h2>Demandez des informations aux écoles cochées d'un coup</h2>
+          <p>Une seule demande envoyée à toutes les écoles que vous sélectionnez. Réponses directement par email ou téléphone.</p>
+          <ul class="bullet-list">
+            <li>Vos données partagées uniquement avec les écoles cochées</li>
+            <li>Plusieurs écoles contactées en 30 secondes</li>
+            <li>Réponses sous 24h en moyenne</li>
+            <li>100% gratuit, sans engagement</li>
+          </ul>
+        </div>
+        <div class="form-card">
+          <h4>Demander aux écoles sélectionnées</h4>
+          <div class="school-checks" id="multiChecks"></div>
+          <div class="field"><label>Nom complet</label><input type="text" placeholder="Prénom Nom" /></div>
+          <div class="field-row">
+            <div class="field"><label>Téléphone</label><input type="tel" placeholder="+216 XX XXX XXX" /></div>
+            <div class="field"><label>Email</label><input type="email" placeholder="vous@email.com" /></div>
+          </div>
+          <div class="field"><label>Année de rentrée</label><select><option>2026 - 2027</option><option>2027 - 2028</option><option>2028 - 2029</option></select></div>
+          <div class="field"><label>Message (optionnel)</label><textarea rows="3" placeholder="Ex : Je souhaite organiser une visite cet été."></textarea></div>
+          <button class="btn btn-primary btn-lg" style="width:100%">Envoyer ma demande aux écoles cochées</button>
+          <p class="footnote">Vos données restent confidentielles. RGPD conforme.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="save-section">
+    <div class="container">
+      <div class="save-grid">
+        <div>
+          <h3>Sauvegardez ou partagez vos résultats</h3>
+          <p>Conservez vos résultats pour plus tard, ou partagez-les avec votre conjoint(e).</p>
+        </div>
+        <div class="save-buttons">
+          <button class="btn btn-outline" id="copyLinkBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            Copier le lien
+          </button>
+          <button class="btn btn-outline" onclick="window.print()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Imprimer
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="options-section">
+    <div class="container">
+      <h3>Vous voulez explorer autrement ?</h3>
+      <div class="options-grid">
+        <div class="option-card-bot">
+          <div class="oc-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8'/><path d='M21 3v5h-5'/><path d='M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16'/><path d='M3 21v-5h5'/></svg></div>
+          <h4>Refaire le quiz</h4>
+          <p>Modifiez vos réponses ou recommencez avec un autre profil.</p>
+          <button class="btn btn-outline" id="restartBtn2">Refaire le quiz →</button>
+        </div>
+        <div class="option-card-bot">
+          <div class="oc-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M14 22v-4a2 2 0 1 0-4 0v4'/><path d='m18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10'/><path d='M18 5v17'/><path d='m4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6'/><path d='M6 5v17'/><circle cx='12' cy='9' r='2'/></svg></div>
+          <h4>Voir toutes les écoles</h4>
+          <p>Explorez la liste complète des 17 écoles avec filtres avancés.</p>
+          <a href="/ecoles" class="btn btn-outline">Voir l'annuaire →</a>
+        </div>
+        <div class="option-card-bot">
+          <div class="oc-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z'/><path d='m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z'/><path d='M7 21h10'/><path d='M12 3v18'/><path d='M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2'/></svg></div>
+          <h4>Comparer manuellement</h4>
+          <p>Sélectionnez vous-même les écoles à comparer côte à côte.</p>
+          <a href="/comparer" class="btn btn-outline">Ouvrir le comparateur →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<!-- MODAL QUITTER -->
+<div class="modal-back" id="modalQuit">
+  <div class="modal-quit">
+    <h4>Voulez-vous vraiment quitter ?</h4>
+    <p>Vos réponses seront perdues. Vous êtes à <span id="quitProgress">25</span>%, plus que <span id="quitRemain">6</span> questions.</p>
+    <div class="modal-quit-actions">
+      <button class="btn btn-primary" id="resumeBtn">Continuer le quiz</button>
+      <button class="btn btn-ghost" id="confirmQuitBtn">Quitter</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg><span id="toastMsg">Sauvegardé</span></div>
+
+<script>
+/* ============ DATA — chargé depuis schools.json ============ */
+let SCHOOLS = [];
+
+// ════ Mapping schools.json → schema quiz (n, cur, region, langs, etc.) ════
+const QUIZ_CUR_MAP = {
+  'IB': 'IB',
+  'Français': 'FR',
+  'Britannique': 'UK',
+  'Américain': 'US',
+  'Bilingue': 'BIL',
+  'Tunisien premium': 'BIL',
+  'Tunisien': 'BIL'
+};
+
+function getInitials(name) {
+  const stopwords = new Set(['de','la','le','les','des','du','et','à','au','aux','d','l','en']);
+  const words = name.split(/[\s\-'\u2019]+/);
+  let out = '';
+  for (const w of words) {
+    if (!stopwords.has(w.toLowerCase()) && w) out += w[0].toUpperCase();
+    if (out.length >= 2) break;
+  }
+  return out.slice(0, 2) || 'EC';
+}
+
+function adaptSchool(s, idx) {
+  // Map schools.json entry → schema quiz (uniquement champs réellement présents)
+  return {
+    id: idx + 1,
+    n: s.name,
+    city: s.city,
+    region: s.gov,
+    cur: QUIZ_CUR_MAP[s.curriculum] || 'BIL',
+    curriculumTypes: Array.isArray(s.curriculum_types) ? s.curriculum_types : [],
+    levels: s.levels || [],
+    langs: s.langues || [],
+    slug: s.slug,
+    initials: getInitials(s.name),
+    founded: s.founded || null,
+    verification: s.verification || '',
+  };
+}
+
+// Bloquer le bouton "Commencer" tant que SCHOOLS pas chargé
+function blockUntilLoaded() {
+  const btn = document.getElementById('startBtn');
+  if (btn) {
+    btn.disabled = true;
+    btn.style.opacity = '.5';
+    btn.style.cursor = 'wait';
+    const origText = btn.textContent;
+    btn.textContent = 'Chargement des écoles…';
+    return { btn, origText };
+  }
+  return null;
+}
+
+function unblockStart(blocked) {
+  if (blocked && blocked.btn) {
+    blocked.btn.disabled = false;
+    blocked.btn.style.opacity = '';
+    blocked.btn.style.cursor = '';
+    blocked.btn.textContent = blocked.origText;
+  }
+}
+
+const __blocked = blockUntilLoaded();
+
+fetch('/data/schools.json')
+  .then(r => r.json())
+  .then(data => {
+    SCHOOLS = data.map(adaptSchool);
+    console.log('✓ Quiz: ' + SCHOOLS.length + ' écoles chargées depuis schools.json');
+    unblockStart(__blocked);
+  })
+  .catch(err => {
+    console.error('Failed to load schools.json:', err);
+    if (__blocked && __blocked.btn) {
+      __blocked.btn.textContent = 'Erreur — recharger la page';
+      __blocked.btn.style.cursor = 'not-allowed';
+    }
+  });
+
+const CUR_LABELS={IB:"Baccalauréat International (IB)",FR:"Curriculum Français (AEFE)",UK:"Curriculum Britannique",US:"Curriculum Américain",BIL:"Bilingue FR/EN",NAT:"National Tunisien"};
+// Présentation des curriculum_types (codes data-driven → label/icône humains).
+// Seule la PRÉSENTATION est statique ; la liste des curricula proposés est générée
+// depuis les écoles réelles (voir distinctCurricula()).
+const CURRICULUM_TYPE_LABELS={ib:"International Baccalaureate (IB)",british:"Britannique (Cambridge / Pearson)",french_aefe:"Français (AEFE)",french:"Français",quebec:"Québécois",american:"Américain",bilingual:"Bilingue",tunisian:"Système tunisien"};
+const CURRICULUM_TYPE_ICONS={ib:"🌐",british:"🇬🇧",french_aefe:"🇫🇷",french:"🇫🇷",quebec:"🍁",american:"🇺🇸",bilingual:"🗣️",tunisian:"🇹🇳"};
+const CURRICULUM_TYPE_ORDER=["ib","british","french_aefe","french","american","quebec","bilingual","tunisian"];
+// Curricula réellement présents dans le catalogue (agrégé depuis curriculum_types[]).
+function distinctCurricula(){
+  const set=new Set();
+  for(const s of SCHOOLS) for(const c of (s.curriculumTypes||[])) set.add(c);
+  return [...set].sort((a,b)=>{const ia=CURRICULUM_TYPE_ORDER.indexOf(a),ib=CURRICULUM_TYPE_ORDER.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib);});
+}
+// Gouvernorats réellement présents (agrégé depuis gov propre), triés alphabétiquement.
+function distinctGovs(){
+  const set=new Set();
+  for(const s of SCHOOLS) if(s.region) set.add(s.region);
+  return [...set].sort((a,b)=>a.localeCompare(b,'fr'));
+}
+const LEVEL_LABELS={maternelle:"Maternelle",primaire:"Primaire",college:"Collège",lycee:"Lycée"};
+const PROFILE_LABELS={academique:"Académique & studieux",sportif:"Énergique & sportif",creatif:"Créatif & artistique",sociable:"Sociable & équilibré"};
+const OBJ_LABELS={tunisien:"Universités tunisiennes",francais:"Universités françaises",anglo:"Universités anglo-saxonnes",mix:"Mix universités internationales",unsure:"Pas encore décidé"};
+
+/* ============ STATE ============ */
+let answers={
+  niveau:null,
+  curriculum:null,
+  regions:[],
+  budget:15000,
+  profil:null,
+  priorites:{sport:null,arts:null,intl:null,stem:null,social:null},
+  objectif:null,
+  criteres:[]
+};
+let currentQ=1;
+const totalQ=8;
+
+/* ============ NAV ============ */
+function showPhase(n){
+  document.querySelectorAll(".phase").forEach(p=>p.classList.remove("active"));
+  document.getElementById("phase"+n).classList.add("active");
+  window.scrollTo(0,0);
+}
+
+document.getElementById("startBtn").onclick=()=>{
+  showPhase(2);
+  renderQuestion();
+};
+
+document.getElementById("qBackBtn").onclick=()=>{
+  if(currentQ>1){currentQ--;renderQuestion()}
+};
+
+document.getElementById("qQuitBtn").onclick=()=>{
+  document.getElementById("quitProgress").textContent=Math.round((currentQ-1)/totalQ*100);
+  document.getElementById("quitRemain").textContent=totalQ-currentQ+1;
+  document.getElementById("modalQuit").classList.add("show");
+};
+document.getElementById("resumeBtn").onclick=()=>document.getElementById("modalQuit").classList.remove("show");
+document.getElementById("confirmQuitBtn").onclick=()=>{
+  resetQuiz();
+  document.getElementById("modalQuit").classList.remove("show");
+  showPhase(1);
+};
+
+function resetQuiz(){
+  answers={niveau:null,curriculum:null,regions:[],budget:15000,profil:null,priorites:{sport:null,arts:null,intl:null,stem:null,social:null},objectif:null,criteres:[]};
+  currentQ=1;
+}
+
+document.getElementById("restartBtn").onclick=()=>{resetQuiz();showPhase(1)};
+document.getElementById("restartBtn2").onclick=()=>{resetQuiz();showPhase(1)};
+
+/* ============ QUESTIONS RENDERING ============ */
+function renderQuestion(){
+  document.getElementById("qCurrent").textContent=currentQ;
+  document.getElementById("qBarFill").style.width=(currentQ/totalQ*100)+"%";
+  document.getElementById("qBackBtn").style.visibility=currentQ>1?"visible":"hidden";
+
+  const card=document.getElementById("qCard");
+
+  if(currentQ===1){
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 1 / 8</div>
+      <h2>À quel niveau scolaire votre enfant entrera-t-il ?</h2>
+      <p class="q-sub">Sélectionnez le niveau qu'il commencera à la rentrée 2026-2027.</p>
+      <div class="opts-grid cols-4">
+        ${[{v:"maternelle",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><path d='M8 14s1.5 2 4 2 4-2 4-2'/><line x1='9' x2='9.01' y1='9' y2='9'/><line x1='15' x2='15.01' y1='9' y2='9'/></svg>",t:"Maternelle",d:"3 - 6 ans"},{v:"primaire",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/><path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/></svg>",t:"Primaire",d:"6 - 11 ans"},{v:"college",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M14 22v-4a2 2 0 1 0-4 0v4'/><path d='m18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10'/><path d='M18 5v17'/><path d='m4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6'/><path d='M6 5v17'/><circle cx='12' cy='9' r='2'/></svg>",t:"Collège",d:"11 - 15 ans"},{v:"lycee",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M22 10v6M2 10l10-5 10 5-10 5z'/><path d='M6 12v5c3 3 9 3 12 0v-5'/></svg>",t:"Lycée",d:"15 - 18 ans"}].map(o=>`
+          <div class="opt ${answers.niveau===o.v?'selected':''}" data-val="${o.v}">
+            <span class="opt-icon">${o.i}</span>
+            <div class="opt-title">${o.t}</div>
+            <div class="opt-desc">${o.d}</div>
+          </div>
+        `).join("")}
+      </div>
+      <p class="q-foot-note">Notre base contient 17 écoles couvrant tous les niveaux.</p>
+      ${renderFoot()}
+    `;
+    bindOptSingle("niveau");
+  }
+  else if(currentQ===2){
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 2 / 8</div>
+      <h2>Quel programme pédagogique privilégiez-vous ?</h2>
+      <p class="q-sub">Si vous hésitez, sélectionnez "Je ne suis pas sûr".</p>
+      <div class="opts-grid cols-3">
+        ${distinctCurricula().map(code=>({v:code,i:CURRICULUM_TYPE_ICONS[code]||"🎓",t:CURRICULUM_TYPE_LABELS[code]||code,d:""}))
+          .concat([{v:"unsure",i:"❓",t:"Indifférent / Pas sûr",d:"L'algo se basera sur d'autres critères"}])
+          .map(o=>`
+          <div class="opt ${answers.curriculum===o.v?'selected':''}" data-val="${o.v}">
+            <span class="opt-icon">${o.i}</span>
+            <div class="opt-title">${o.t}</div>
+            <div class="opt-desc">${o.d}</div>
+          </div>
+        `).join("")}
+      </div>
+      ${renderFoot()}
+    `;
+    bindOptSingle("curriculum");
+  }
+  else if(currentQ===3){
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 3 / 8</div>
+      <h2>Dans quelle région cherchez-vous une école ?</h2>
+      <p class="q-sub">Vous pouvez sélectionner plusieurs régions. L'algo priorisera ces zones.</p>
+      <div class="chips-wrap">
+        ${/* Chips générés depuis les gouvernorats réels (distinctGovs).
+             Compteurs intentionnellement retirés (évite la fausse impression de
+             richesse sur un petit catalogue). Pour les réintroduire data-driven :
+             calculer SCHOOLS.filter(s=>s.region===g).length au moment de la génération. */''}
+        ${distinctGovs().map(g=>`
+          <div class="chip ${answers.regions.includes(g)?'selected':''}" data-val="${g}">${g}</div>
+        `).join("")}
+      </div>
+      <p class="q-foot-note">Toutes les régions sélectionnables si vous êtes ouvert à un déménagement.</p>
+      ${renderFoot()}
+    `;
+    bindChipMulti("regions");
+  }
+  else if(currentQ===4){
+    const pct=Math.round((answers.budget-5000)/25000*100);
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 4 / 8</div>
+      <h2>Quel budget annuel maximum êtes-vous prêt à consacrer ?</h2>
+      <p class="q-sub">Estimez les frais de scolarité par enfant et par année.</p>
+      <div class="slider-wrap">
+        <div class="slider-display">
+          <span class="slider-value" id="budgetVal">${answers.budget.toLocaleString("fr-FR")}</span><span class="slider-suffix">TND/an</span>
+          <div class="slider-meta">Soit environ ${Math.round(answers.budget/12).toLocaleString("fr-FR")} TND/mois</div>
+        </div>
+        <input type="range" min="5000" max="30000" step="500" value="${answers.budget}" class="slider-input" id="budgetSlider" style="--val:${pct}%" />
+        <div class="slider-marks">
+          <span>5 000</span><span>12 500</span><span>20 000</span><span>30 000</span>
+        </div>
+      </div>
+      <p class="q-foot-note">Le budget renseigné est informatif : les frais ne figurent pas dans la fiche des écoles, vérifiez-les directement auprès de l'établissement.</p>
+      ${renderFoot(true)}
+    `;
+    document.getElementById("budgetSlider").oninput=(e)=>{
+      answers.budget=parseInt(e.target.value);
+      document.getElementById("budgetVal").textContent=answers.budget.toLocaleString("fr-FR");
+      document.querySelector(".slider-meta").textContent=`Soit environ ${Math.round(answers.budget/12).toLocaleString("fr-FR")} TND/mois`;
+      const pct=Math.round((answers.budget-5000)/25000*100);
+      e.target.style.setProperty("--val",pct+"%");
+    };
+  }
+  else if(currentQ===5){
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 5 / 8</div>
+      <h2>Comment décririez-vous le profil de votre enfant ?</h2>
+      <p class="q-sub">Choisissez la description qui s'en rapproche le plus.</p>
+      <div class="opts-grid cols-2">
+        ${[
+          {v:"academique",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'/></svg>",t:"Académique & studieux",d:"Il aime apprendre, lit beaucoup, performe bien à l'école."},
+          {v:"sportif",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M6 9H4.5a2.5 2.5 0 0 1 0-5H6'/><path d='M18 9h1.5a2.5 2.5 0 0 0 0-5H18'/><path d='M4 22h16'/><path d='M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22'/><path d='M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22'/><path d='M18 2H6v7a6 6 0 0 0 12 0V2Z'/></svg>",t:"Énergique & sportif",d:"Il a besoin de bouger, fait du sport, aime les activités de groupe."},
+          {v:"creatif",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='13.5' cy='6.5' r='.5' fill='currentColor'/><circle cx='17.5' cy='10.5' r='.5' fill='currentColor'/><circle cx='8.5' cy='7.5' r='.5' fill='currentColor'/><circle cx='6.5' cy='12.5' r='.5' fill='currentColor'/><path d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z'/></svg>",t:"Créatif & artistique",d:"Il dessine, joue de la musique, aime les arts."},
+          {v:"sociable",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='m11 17 2 2a1 1 0 1 0 3-3'/><path d='m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4'/><path d='m21 3 1 11h-2'/><path d='M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3'/><path d='M3 4h8'/></svg>",t:"Sociable & équilibré",d:"Il est polyvalent, aime les relations sociales, équilibré partout."}
+        ].map(o=>`
+          <div class="opt ${answers.profil===o.v?'selected':''}" data-val="${o.v}">
+            <span class="opt-icon">${o.i}</span>
+            <div class="opt-title">${o.t}</div>
+            <div class="opt-desc">${o.d}</div>
+          </div>
+        `).join("")}
+      </div>
+      ${renderFoot()}
+    `;
+    bindOptSingle("profil");
+  }
+  else if(currentQ===6){
+    const rows=[
+      {k:"sport",l:"Sports et activité physique",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><polyline points='22 12 18 12 15 21 9 3 6 12 2 12'/></svg>"},
+      {k:"arts",l:"Arts et créativité",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M10 11h.01'/><path d='M14 6h.01'/><path d='M18 6h.01'/><path d='M6.5 13.1h.01'/><path d='M22 5c0 9-4 12-6 12s-6-3-6-12c0-2 2-3 6-3s6 1 6 3'/><path d='M17.4 9.9c-.8.8-2 .8-2.8 0'/><path d='M10.1 7.1C9 7.2 7.7 7.7 6 8.6c-3.5 2-4.7 3.9-3.7 5.6 4.5 7.8 9.5 8.4 11.2 7.4.9-.5 1.9-2.1 1.9-4.7'/><path d='M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4'/></svg>"},
+      {k:"intl",l:"Ouverture internationale",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><path d='M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20'/><path d='M2 12h20'/></svg>"},
+      {k:"stem",l:"Sciences et technologies",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2'/><path d='M6.453 15h11.094'/><path d='M8.5 2h7'/></svg>"},
+      {k:"social",l:"Vie sociale et soft skills",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M7.9 20A9 9 0 1 0 4 16.1L2 22Z'/></svg>"}
+    ];
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 6 / 8</div>
+      <h2>Quelle importance accordez-vous à chaque aspect ?</h2>
+      <p class="q-sub">1 = pas important du tout · 5 = très important.</p>
+      <div class="likert">
+        ${rows.map(r=>`
+          <div class="likert-row ${answers.priorites[r.k]?'answered':''}" data-key="${r.k}">
+            <div class="likert-label"><span class="likert-label-icon">${r.i}</span>${r.l}</div>
+            <div class="likert-scale">
+              <span class="likert-scale-end left">Pas important</span>
+              <span class="likert-scale-end right">Très important</span>
+              <div class="lr-buttons">
+                ${[1,2,3,4,5].map(n=>`<button class="likert-btn ${answers.priorites[r.k]===n?'selected':''}" data-val="${n}">${n}</button>`).join("")}
+              </div>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+      <p class="q-foot-note">Ces priorités sont informatives — School Select ne classe pas les écoles selon ces critères, mais elles vous aideront à choisir parmi les écoles compatibles.</p>
+      ${renderFoot(true)}
+    `;
+    document.querySelectorAll(".likert-row").forEach(row=>{
+      const key=row.dataset.key;
+      row.querySelectorAll(".likert-btn").forEach(btn=>{
+        btn.onclick=()=>{
+          answers.priorites[key]=parseInt(btn.dataset.val);
+          row.querySelectorAll(".likert-btn").forEach(b=>b.classList.remove("selected"));
+          btn.classList.add("selected");
+          row.classList.add("answered");
+          updateNextBtn();
+        };
+      });
+    });
+  }
+  else if(currentQ===7){
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 7 / 8</div>
+      <h2>Quels sont vos objectifs post-bac pour votre enfant ?</h2>
+      <p class="q-sub">Cela influence le choix du curriculum et du programme.</p>
+      <div class="opts-grid cols-2">
+        ${[
+          {v:"tunisien",i:"🇹🇳",t:"Universités tunisiennes",d:"IHEC, Polytechnique, Médecine, Sciences..."},
+          {v:"francais",i:"🇫🇷",t:"Universités françaises",d:"Sciences Po, HEC, INSA, Sorbonne..."},
+          {v:"anglo",i:"🇬🇧",t:"Universités anglo-saxonnes",d:"Oxford, Cambridge, Harvard, MIT, McGill..."},
+          {v:"mix",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><path d='M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20'/><path d='M2 12h20'/></svg>",t:"Mix universités internationales",d:"Pas de préférence géographique."},
+          {v:"unsure",i:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><path d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'/><line x1='12' x2='12.01' y1='17' y2='17'/></svg>",t:"Pas encore décidé",d:"L'algo proposera des écoles polyvalentes."}
+        ].map(o=>`
+          <div class="opt ${answers.objectif===o.v?'selected':''}" data-val="${o.v}">
+            <span class="opt-icon">${o.i}</span>
+            <div class="opt-title">${o.t}</div>
+            <div class="opt-desc">${o.d}</div>
+          </div>
+        `).join("")}
+      </div>
+      ${renderFoot()}
+    `;
+    bindOptSingle("objectif");
+  }
+  else if(currentQ===8){
+    card.innerHTML=`
+      <div class="q-eye eyebrow">QUESTION 8 / 8</div>
+      <h2>Y a-t-il des critères spécifiques importants pour vous ?</h2>
+      <p class="q-sub">Cochez tout ce qui s'applique. Vous pouvez ne rien cocher.</p>
+      <div class="chips-wrap">
+        ${[
+          {v:"internat",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M14 22v-4a2 2 0 1 0-4 0v4'/><path d='m18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10'/><path d='M18 5v17'/><path d='m4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6'/><path d='M6 5v17'/><circle cx='12' cy='9' r='2'/></svg> Internat possible"},
+          {v:"transport",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M8 6v6'/><path d='M15 6v6'/><path d='M2 12h19.6'/><path d='M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3'/><circle cx='7' cy='18' r='2'/><path d='M9 18h5'/><circle cx='16' cy='18' r='2'/></svg> Transport scolaire"},
+          {v:"cantine",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2'/><path d='M7 2v20'/><path d='M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7'/></svg> Cantine sur place"},
+          {v:"bourses",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M22 10v6M2 10l10-5 10 5-10 5z'/><path d='M6 12v5c3 3 9 3 12 0v-5'/></svg> Bourses ou aides"},
+          {v:"prek",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M9 12h.01'/><path d='M15 12h.01'/><path d='M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5'/><path d='M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1'/></svg> Maternelle dès 2 ans"},
+          {v:"garderie",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><polyline points='12 6 12 12 16 14'/></svg> Garderie périscolaire"},
+          {v:"piscine",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1'/><path d='M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1'/><path d='M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1'/></svg> Piscine"},
+          {v:"ratio",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0z'/><path d='m14.5 12.5 2-2'/><path d='m11.5 9.5 2-2'/><path d='m8.5 6.5 2-2'/><path d='m17.5 15.5 2-2'/></svg> Effectif réduit (≤16)"},
+          {v:"intl",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><path d='M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20'/><path d='M2 12h20'/></svg> Programmes d'échange"},
+          {v:"sport",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M6 9H4.5a2.5 2.5 0 0 1 0-5H6'/><path d='M18 9h1.5a2.5 2.5 0 0 0 0-5H18'/><path d='M4 22h16'/><path d='M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22'/><path d='M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22'/><path d='M18 2H6v7a6 6 0 0 0 12 0V2Z'/></svg> Forte offre sport"},
+          {v:"art",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='13.5' cy='6.5' r='.5' fill='currentColor'/><circle cx='17.5' cy='10.5' r='.5' fill='currentColor'/><circle cx='8.5' cy='7.5' r='.5' fill='currentColor'/><circle cx='6.5' cy='12.5' r='.5' fill='currentColor'/><path d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z'/></svg> Forte offre art"},
+          {v:"science",l:"<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2'/><path d='M6.453 15h11.094'/><path d='M8.5 2h7'/></svg> Forte offre science"}
+        ].map(o=>`
+          <div class="chip ${answers.criteres.includes(o.v)?'selected':''}" data-val="${o.v}">${o.l}</div>
+        `).join("")}
+      </div>
+      <p class="q-foot-note">Cette question est optionnelle. Cliquez "Voir mes résultats" même si vous ne cochez rien.</p>
+      ${renderFoot(true,"Voir mes résultats →")}
+    `;
+    bindChipMulti("criteres");
+  }
+  bindFoot();
+  updateNextBtn();
+}
+
+function renderFoot(alwaysActive=false,nextLabel="Suivant →"){
+  return `
+    <div class="q-foot">
+      <div class="q-foot-note">${alwaysActive?'Vous pouvez avancer sans répondre.':'Sélectionnez une option pour continuer.'}</div>
+      <button class="btn btn-primary" id="qNextBtn" ${alwaysActive?'':'disabled'}>${nextLabel}</button>
+    </div>
+  `;
+}
+
+function bindOptSingle(key){
+  document.querySelectorAll(".opt").forEach(o=>{
+    o.onclick=()=>{
+      answers[key]=o.dataset.val;
+      document.querySelectorAll(".opt").forEach(x=>x.classList.remove("selected"));
+      o.classList.add("selected");
+      updateNextBtn();
+    };
+  });
+}
+
+function bindChipMulti(key){
+  document.querySelectorAll(".chip").forEach(c=>{
+    c.onclick=()=>{
+      const v=c.dataset.val;
+      const idx=answers[key].indexOf(v);
+      if(idx>=0)answers[key].splice(idx,1);
+      else answers[key].push(v);
+      c.classList.toggle("selected");
+      updateNextBtn();
+    };
+  });
+}
+
+function bindFoot(){
+  const btn=document.getElementById("qNextBtn");
+  if(btn) btn.onclick=()=>{
+    if(currentQ<totalQ){currentQ++;renderQuestion()}
+    else runCalc();
+  };
+}
+
+function updateNextBtn(){
+  const btn=document.getElementById("qNextBtn");
+  if(!btn) return;
+  let valid=false;
+  if(currentQ===1) valid=!!answers.niveau;
+  else if(currentQ===2) valid=!!answers.curriculum;
+  else if(currentQ===3) valid=answers.regions.length>0;
+  else if(currentQ===4) valid=true;
+  else if(currentQ===5) valid=!!answers.profil;
+  else if(currentQ===6) valid=Object.values(answers.priorites).every(v=>v!=null);
+  else if(currentQ===7) valid=!!answers.objectif;
+  else if(currentQ===8) valid=true;
+  btn.disabled=!valid;
+}
+
+/* Keyboard nav */
+document.addEventListener("keydown",(e)=>{
+  if(document.getElementById("phase2").classList.contains("active")){
+    if(e.key==="ArrowRight"||e.key==="Enter"){
+      const btn=document.getElementById("qNextBtn");
+      if(btn && !btn.disabled) btn.click();
+    } else if(e.key==="ArrowLeft" && currentQ>1){
+      document.getElementById("qBackBtn").click();
+    } else if(e.key==="Escape"){
+      document.getElementById("qQuitBtn").click();
+    }
+  }
+});
+
+/* ============ CALC ============ */
+function runCalc(){
+  showPhase(3);
+  const msgs=["Analyse de votre profil...","Comparaison avec les écoles...","Application des filtres factuels...","Préparation de vos résultats..."];
+  let i=0;
+  const el=document.getElementById("calcMsg");
+  el.textContent=msgs[0];
+  const intv=setInterval(()=>{
+    i++;
+    if(i>=msgs.length){clearInterval(intv);return}
+    el.style.opacity=0;
+    setTimeout(()=>{el.textContent=msgs[i];el.style.opacity=1},150);
+  },800);
+  // Finalize : attend SCHOOLS si pas encore chargé
+  let __retries = 0;
+  function finalize(){
+    if (!SCHOOLS || SCHOOLS.length === 0) {
+      __retries++;
+      if (__retries > 50) {
+        // 10 secondes d'attente : abandonner et afficher message
+        clearInterval(intv);
+        document.getElementById('calcMsg').textContent = 'Erreur de chargement. Rechargez la page.';
+        return;
+      }
+      // re-essayer dans 200ms
+      setTimeout(finalize, 200);
+      return;
+    }
+    clearInterval(intv);
+    const results = filterSchools();
+    renderResults(results);
+    showPhase(4);
+  }
+  setTimeout(finalize, 3000);
+}
+
+// Filtre factuel : aucun score, aucun classement.
+// Retourne toutes les écoles compatibles avec les critères durs de l'utilisateur.
+function filterSchools(){
+  return SCHOOLS.filter(s=>{
+    // Niveau scolaire (éliminatoire)
+    if(answers.niveau && !s.levels.includes(answers.niveau)) return false;
+
+    // Curriculum — match strict sur curriculum_types réel (aucune substitution).
+    // answers.curriculum est un code de curriculum_types (ib, british, …) ou "unsure".
+    if(answers.curriculum && answers.curriculum!=="unsure"){
+      if(!(s.curriculumTypes||[]).includes(answers.curriculum)) return false;
+    }
+
+    // Région — si l'utilisateur a coché des régions, on filtre dessus
+    if(answers.regions && answers.regions.length>0 && !answers.regions.includes(s.region)) return false;
+
+    return true;
+  });
+}
+
+/* ============ RESULTS RENDER ============ */
+function renderResults(results){
+  // Compteur en haut de la page de résultats
+  const statTotal = document.getElementById("statTotal");
+  const statMatch = document.getElementById("statMatch");
+  if (statTotal) statTotal.textContent = SCHOOLS.length;
+  if (statMatch) statMatch.textContent = results.length;
+
+  if(results.length===0){
+    document.getElementById("othersGrid").innerHTML=`
+      <div style="grid-column:1/-1;padding:48px;text-align:center;color:var(--text-muted);background:#fff;border:1px solid var(--border);border-radius:var(--r-md)">
+        <h3 style="font-family:var(--display);color:var(--text);margin-bottom:8px">Aucune école ne correspond à vos critères</h3>
+        <p>Essayez avec d'autres critères : élargissez les régions, choisissez « Pas sûr(e) » pour le curriculum, ou consultez l'annuaire complet.</p>
+      </div>`;
+    return;
+  }
+
+  // Liste à plat, ordre alphabétique — School Select ne classe pas.
+  const sorted = [...results].sort((a,b) => a.n.localeCompare(b.n, 'fr'));
+
+  document.getElementById("othersGrid").innerHTML = sorted.map(s => {
+    const why = buildWhy(s);
+    return `
+      <div class="res-card">
+        <div class="res-card-photo" style="background:linear-gradient(135deg,#5B8AF0,#2F6EEB)">
+          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--display);font-weight:700;font-size:32px">${s.initials}</div>
+        </div>
+        <div class="res-card-body">
+          <div class="res-card-name">${s.n} ${s.verification?`<span class="verified-mini">${s.verification}</span>`:''}</div>
+          <div class="res-card-meta">${s.city||'—'} · ${CUR_LABELS[s.cur]||s.cur}</div>
+          <div class="res-card-why">${why.join(' · ')}</div>
+          <div class="res-card-foot">
+            <a href="${s.slug?'/'+s.slug:'/ecoles'}" class="btn btn-outline">Voir la fiche →</a>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  // CTA Compare URL — jusqu'à 4 écoles
+  const ids = sorted.slice(0,4).map(r=>r.id).join(",");
+  document.getElementById("goCompareBtn").href = `/comparer?ids=${ids}`;
+
+  // Recap
+  document.getElementById("recapList").innerHTML=`
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/><path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/></svg></span><div><strong>Niveau</strong>${LEVEL_LABELS[answers.niveau]||"—"}</div></li>
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><path d='M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20'/><path d='M2 12h20'/></svg></span><div><strong>Curriculum</strong>${answers.curriculum==="unsure"?"Indifférent":(CURRICULUM_TYPE_LABELS[answers.curriculum]||answers.curriculum||"—")}</div></li>
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M20 10c0 7-8 13-8 13s-8-6-8-13a8 8 0 0 1 16 0z'/><circle cx='12' cy='10' r='3'/></svg></span><div><strong>Régions</strong>${answers.regions.join(", ")||"Toutes"}</div></li>
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><rect width='20' height='12' x='2' y='6' rx='2'/><circle cx='12' cy='12' r='2'/><path d='M6 12h.01M18 12h.01'/></svg></span><div><strong>Budget</strong>${answers.budget.toLocaleString("fr-FR")} TND/an</div></li>
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/><circle cx='12' cy='7' r='4'/></svg></span><div><strong>Profil enfant</strong>${PROFILE_LABELS[answers.profil]||"—"}</div></li>
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><circle cx='12' cy='12' r='10'/><circle cx='12' cy='12' r='6'/><circle cx='12' cy='12' r='2'/></svg></span><div><strong>Priorités fortes</strong>${getStrongPrios()}</div></li>
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M22 10v6M2 10l10-5 10 5-10 5z'/><path d='M6 12v5c3 3 9 3 12 0v-5'/></svg></span><div><strong>Objectif post-bac</strong>${OBJ_LABELS[answers.objectif]||"—"}</div></li>
+    <li><span class="ri-icon"><svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='display:inline-block;vertical-align:-0.15em;flex-shrink:0'><path d='M14 22v-4a2 2 0 1 0-4 0v4'/><path d='m18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10'/><path d='M18 5v17'/><path d='m4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6'/><path d='M6 5v17'/><circle cx='12' cy='9' r='2'/></svg></span><div><strong>Critères</strong>${answers.criteres.length||"Aucun"}${answers.criteres.length?' cochés':''}</div></li>
+  `;
+
+  // Multi checks
+  document.getElementById("multiChecks").innerHTML=sorted.map(s=>`
+    <label class="school-check">
+      <input type="checkbox" checked />
+      <span>${s.n}</span>
+    </label>
+  `).join("");
+}
+
+function getStrongPrios(){
+  const pretty={sport:"Sport",arts:"Arts",intl:"International",stem:"STEM",social:"Social"};
+  const strong=Object.entries(answers.priorites).filter(([k,v])=>v>=4).map(([k])=>pretty[k]);
+  return strong.length?strong.join(", "):"Aucune marquée";
+}
+
+function buildWhy(s){
+  // Énumération neutre des correspondances avec les filtres — pas de jugement qualitatif.
+  const why=[];
+  if(answers.niveau && s.levels.includes(answers.niveau)) why.push(`Niveau ${LEVEL_LABELS[answers.niveau]}`);
+  if(answers.curriculum && answers.curriculum!=="unsure" && (s.curriculumTypes||[]).includes(answers.curriculum)) why.push(`Curriculum ${CURRICULUM_TYPE_LABELS[answers.curriculum]||answers.curriculum}`);
+  else if(answers.curriculum==="unsure" && s.cur) why.push(`Curriculum ${CUR_LABELS[s.cur]||s.cur}`);
+  if(answers.regions && answers.regions.includes(s.region)) why.push(`Région ${s.region}`);
+  if((s.langs||[]).length) why.push(`Langues : ${s.langs.slice(0,3).join(', ')}`);
+  return why.slice(0,4);
+}
+
+/* ============ COPY/SHARE ============ */
+function showToast(msg){
+  document.getElementById("toastMsg").textContent=msg;
+  document.getElementById("toast").classList.add("show");
+  setTimeout(()=>document.getElementById("toast").classList.remove("show"),2500);
+}
+document.getElementById("copyLinkBtn").onclick=()=>{
+  navigator.clipboard.writeText(window.location.href);
+  showToast("Lien copié");
+};
+</script>
+<footer class="ss-footer">
+  <div class="ss-footer__inner">
+    <div>
+      <a class="ss-foot-brand" href="/">School<em>·</em>Select</a>
+      <p>L'annuaire éditorial indépendant des écoles privées internationales en Tunisie. 17 écoles vérifiées, mises à jour trimestrielles.</p>
+    </div>
+    <div>
+      <h5>Naviguer</h5>
+      <ul>
+        <li><a href="/ecoles/">Toutes les écoles</a></li>
+        <li><a href="/comparer/">Comparer</a></li>
+        <li><a href="/quiz/">Quiz orientation</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Par curriculum</h5>
+      <ul>
+        <li><a href="/ecoles/?cur=IB">IB</a></li>
+        <li><a href="/ecoles/?cur=Fran%C3%A7ais">Français</a></li>
+        <li><a href="/ecoles/?cur=Britannique">Britannique</a></li>
+        <li><a href="/ecoles/?cur=Am%C3%A9ricain">Américain</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>À propos</h5>
+      <ul>
+        <li><a href="/a-propos/">L'éditorial</a></li>
+        <li><a href="/contact/">Nous contacter</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Légal</h5>
+      <ul>
+        <li><a href="/mentions-legales/">Mentions légales</a></li>
+        <li><a href="/confidentialite/">Confidentialité</a></li>
+        <li><a href="/cgu/">CGU</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ss-footer__bottom">
+    <span>© 2026 School Select · Tunis</span>
+    <span>Données vérifiées · Mai 2026</span>
+  </div>
+</footer>
+</body>
+</html>

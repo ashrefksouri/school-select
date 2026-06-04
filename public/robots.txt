@@ -1,0 +1,10 @@
+# School Select — robots.txt
+# https://schoolselect.online
+
+User-agent: *
+Allow: /
+Disallow: /_trash_p1/
+Disallow: /scripts/
+Disallow: /data/
+
+Sitemap: https://schoolselect.online/sitemap.xml

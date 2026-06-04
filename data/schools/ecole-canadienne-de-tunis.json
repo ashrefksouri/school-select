@@ -1,0 +1,425 @@
+{
+  "slug": "ecole-canadienne-de-tunis",
+  "school_id": "tn-tunis-ect",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "École Canadienne de Tunis",
+    "name_short": "ECT",
+    "alternate_names": [
+      "Ecole Canadienne de Tunis",
+      "ECT Tunis",
+      "Canadian School Tunis"
+    ],
+    "founded_date_iso": "2014-09-01",
+    "official_website": "https://ec-tunis.com",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "quebec",
+      "ib"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "age_min": 3,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "ECT · École Canadienne de Tunis — School Select",
+    "description": "École IB World à Charguia. Programme québécois enrichi IB (PYP/MYP/DP). Partenariat Collège Boréal. 2 campus à Tunis, trilingue FR-EN-AR.",
+    "og_title": "École Canadienne de Tunis (ECT) · IB World School",
+    "og_description": "École du monde IB depuis 2018 (code 051892). Programme québécois enrichi IB. 2 campus Charguia. Partenariat Collège Boréal pour post-secondaire."
+  },
+  "hero": {
+    "logo_text": "ECT",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École internationale, <strong>IB World School depuis 2018</strong> (code 051892). Programme <strong>québécois enrichi IB</strong> (PYP · MYP · DP), <strong>2 campus à Charguia</strong>. Trilingue FR-EN-AR · Partenariat <strong>Collège Boréal</strong> (Canada) pour le post-secondaire.",
+    "eyebrow_text": "Premium · IB World · Charguia",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "2 campus Charguia, Tunis"
+      },
+      {
+        "icon": "book",
+        "text": "Programme québécois + IB"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 18 ans"
+      },
+      {
+        "icon": "globe",
+        "text": "Trilingue FR-EN-AR"
+      },
+      {
+        "icon": "school",
+        "text": "Partenariat Collège Boréal"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://ec-tunis.com/contact/",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://ec-tunis.com",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "ECT se positionne en tier Premium (6-12k TND/an) estimé. La grille tarifaire complète n'est pas publiée publiquement ; un simulateur en ligne est disponible sur le site officiel.",
+    "details_html": "Frais de dossier <strong>100 DT</strong> (gratuit pour Maternelle / Préscolaire / Primaire 1). Grille tarifaire à demander via le simulateur en ligne ou auprès de l'admission.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB Tunisie. Simulateur officiel sur ec-tunis.com/simulateur-frais/",
+    "cta_email": "contact@ec-tunis.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — Continuum PYP/MYP/DP",
+      "meta": "École du monde depuis 26 janvier 2018 · Code 051892",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "Québec",
+      "name": "Programme québécois (MEES)",
+      "meta": "Ministère de l'Éducation et de l'Enseignement supérieur du Québec",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "Boréal",
+      "name": "Collège Boréal (Ontario, Canada)",
+      "meta": "Partenariat exclusif Tunisie · Post-secondaire depuis sept 2024",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    }
+  ],
+  "distinction_text": "Seule école IB World School francophone à Tunis avec partenariat Collège Boréal",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Maternelle (3-5 ans)",
+          "Préscolaire",
+          "Primaire 1 à 6",
+          "Secondaire (MYP/PEI)",
+          "Préuniversitaire (Diploma/DP)",
+          "Post-secondaire via Collège Boréal"
+        ]
+      },
+      {
+        "label": "Diplômes préparés",
+        "items": [
+          "IB Diploma Programme (DP)",
+          "Programme québécois (DES)",
+          "Techniques administration affaires (Boréal)",
+          "Techniques systèmes informatiques (Boréal)"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Français (langue principale)",
+          "Anglais (renforcé)",
+          "Arabe (langue locale)"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Centre de santé (médical + psychologique)",
+          "Tutorat et groupes d'étude",
+          "Accompagnement orientation post-secondaire",
+          "Centre informatique"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2014",
+        "label": "Année de fondation"
+      },
+      {
+        "value": "2",
+        "label": "Campus à Charguia"
+      },
+      {
+        "value": "IB",
+        "label": "World School depuis 2018"
+      },
+      {
+        "value": "3-18",
+        "label": "Tranche d'âge accueillie"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "cantine",
+      "name": "Cafétéria",
+      "description": "Édifice moderne avec restauration sur site."
+    },
+    {
+      "icon_type": "labs",
+      "name": "Laboratoires",
+      "description": "Sciences et informatique aux standards IB."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Amphithéâtre",
+      "description": "Espace pour spectacles, conférences et activités culturelles."
+    },
+    {
+      "icon_type": "infirmerie",
+      "name": "Centre de santé",
+      "description": "Suivi médical et psychologique des élèves."
+    },
+    {
+      "icon_type": "psy",
+      "name": "Accompagnement psy",
+      "description": "Suivi pédopsychologique intégré."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "Centre informatique",
+      "description": "Salles informatiques équipées pour le cursus numérique."
+    },
+    {
+      "icon_type": "garderie",
+      "name": "Salles de jeux",
+      "description": "Espaces dédiés aux plus jeunes."
+    },
+    {
+      "icon_type": "pool",
+      "name": "Installations sportives",
+      "description": "Terrains de football, piscines couvertes (à venir)."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "ECT propose un large éventail d'activités extrascolaires intégrées au cursus pédagogique.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Arts et culture",
+        "items": [
+          "Arts plastiques",
+          "Musique",
+          "Théâtre",
+          "Activités culturelles à l'amphithéâtre"
+        ]
+      },
+      {
+        "label": "Sport et bien-être",
+        "items": [
+          "Football (terrains dédiés)",
+          "Natation (piscines à venir)",
+          "Premiers secours / SAMU"
+        ]
+      },
+      {
+        "label": "Sciences et nature",
+        "items": [
+          "Clubs de lecture",
+          "Jardinage",
+          "Ateliers scientifiques"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus A",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Campus B",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Cafétéria",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Amphithéâtre",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Sport",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Boréal",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 53 340 090",
+    "phone_main_label": "Admission (Mme Géraldine)",
+    "phone_secondary": "+216 71 206 027",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@ec-tunis.com",
+    "email_admissions": "contact@ec-tunis.com",
+    "map": {
+      "lat": 36.8313383,
+      "lng": 10.207502,
+      "title": "École Canadienne de Tunis — Campus B (admission)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ectunis",
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/ectunis",
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89cole_canadienne_de_Tunis"
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus A — Maternelle & Primaire",
+      "type": "primary",
+      "street": "1 Rue de l'énergie solaire, Charguia 1",
+      "postal_code": "2035",
+      "locality": "Tunis",
+      "region": "Tunis",
+      "country_code": "TN",
+      "lat": 36.8361477,
+      "lng": 10.2068644,
+      "phone_local": null
+    },
+    {
+      "order": 2,
+      "name": "Campus B — Admission & Secondaire",
+      "type": "secondary",
+      "street": "1 Rue du Commerce, Charguia 1",
+      "postal_code": "2035",
+      "locality": "Tunis",
+      "region": "Tunis",
+      "country_code": "TN",
+      "lat": 36.8313383,
+      "lng": 10.207502,
+      "phone_local": "+216 71 206 027"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Les frais détaillés ne sont pas publiés publiquement. Tier estimé <strong>Premium (6-12k TND/an)</strong> selon les niveaux. Frais de dossier <strong>100 DT</strong> (gratuit Maternelle/Préscolaire/Primaire 1). Simulateur officiel sur le site."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le programme <strong>québécois enrichi du Baccalauréat International</strong> (Continuum complet PYP, MYP, DP). ECT est École du monde IB depuis 2018 (code 051892)."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "ECT est <strong>trilingue FR-EN-AR</strong>. Le français est la langue principale d'enseignement, l'anglais est renforcé, et l'arabe est la langue locale obligatoire."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Combien y a-t-il de campus ?",
+      "answer_html": "<strong>2 campus</strong> à Charguia 1, Tunis : Campus A (Maternelle + Primaire) au 1 Rue de l'énergie solaire, et Campus B (Admission + Secondaire) au 1 Rue du Commerce."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Qu'est-ce que le partenariat avec le Collège Boréal ?",
+      "answer_html": "Depuis septembre 2024, ECT a un <strong>partenariat exclusif avec le Collège Boréal</strong> (Ontario, Canada). Les diplômés peuvent suivre un parcours post-secondaire canadien (Techniques administration des affaires, Techniques systèmes informatiques) sans quitter la Tunisie."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "L'école accueille-t-elle dès la maternelle ?",
+      "answer_html": "Oui, ECT accueille les enfants <strong>dès 3 ans</strong> (maternelle), puis le préscolaire, le primaire (6 années), le secondaire (MYP/PEI) et le préuniversitaire (IB Diploma)."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Y a-t-il un service de santé ?",
+      "answer_html": "Oui. ECT dispose d'un <strong>centre de santé</strong> intégré avec suivi médical et accompagnement psychologique des élèves."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Comment contacter l'admission ?",
+      "answer_html": "Téléphone admission : <strong>(+216) 53 340 090</strong> (Mme Géraldine). Standard : (+216) 71 206 027. Email : contact@ec-tunis.com."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Y a-t-il un internat ou résidences étudiantes ?",
+      "answer_html": "Pas d'internat actuellement. Des <strong>résidences étudiantes sont prévues pour 2028</strong> selon les communications officielles."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "gsing",
+      "cover_text": "GSING",
+      "name": "Groupe Scolaire International Les Nouvelles Générations",
+      "meta": "IB · Djerba",
+      "tier": "premium"
+    },
+    {
+      "slug": "ideale-college-lycee-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale Nabeul",
+      "meta": "IB PEI · Nabeul",
+      "tier": "premium"
+    }
+  ]
+}

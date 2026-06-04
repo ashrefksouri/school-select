@@ -1,0 +1,366 @@
+{
+  "slug": "takiacademy-international-school-sousse",
+  "school_id": "tn-sousse-takiacademy",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Takiacademy International School of Sousse",
+    "name_short": "TakiAcademy",
+    "alternate_names": [
+      "Taki Academy School",
+      "TakiAcademy Sousse",
+      "تقي أكاديمي سكول",
+      "Collège & Lycée TakiAcademy"
+    ],
+    "founded_date_iso": "2020-09-01",
+    "official_website": "https://www.facebook.com/takiacademy.school",
+    "country_code": "TN",
+    "city": "Sousse",
+    "city_slug": "sousse",
+    "gov": "Sousse"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "ib",
+      "tunisian"
+    ],
+    "languages": [
+      "ar",
+      "fr",
+      "en"
+    ],
+    "age_min": 12,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "Takiacademy International School Sousse · IB DP",
+    "description": "Collège & lycée privé IB candidat (DP) à Sousse. Branche de Takiacademy, plateforme e-learning leader en Tunisie. Sahloul + Khzama Ouest.",
+    "og_title": "Takiacademy International School · IB DP · Sousse",
+    "og_description": "Collège et lycée privé Sousse. Programme du Diplôme IB. Branche éducative du groupe Takiacademy. Code IB 062913. Sahloul 4 et Khzama Ouest."
+  },
+  "hero": {
+    "logo_text": "Taki",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "<strong>Collège et lycée privé</strong> à Sousse, branche éducative du groupe <strong>Takiacademy</strong> (leader e-learning en Tunisie). Programme du <strong>Diplôme du Baccalauréat International (DP)</strong>. Code IB 062913 · Sahloul 4 · Adresse de l'excellence (عنوان التّميّز).",
+    "eyebrow_text": "Premium · IB DP · Sousse",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Sahloul 4 + Khzama Ouest, Sousse"
+      },
+      {
+        "icon": "book",
+        "text": "IB Diploma Programme (DP)"
+      },
+      {
+        "icon": "users",
+        "text": "Collège + Lycée (12-18 ans)"
+      },
+      {
+        "icon": "school",
+        "text": "Branche Takiacademy"
+      },
+      {
+        "icon": "globe",
+        "text": "AR-FR-EN"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://www.facebook.com/takiacademy.school",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "tel:+21628001055",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "Takiacademy School se positionne en tier Premium estimé (6-12k TND/an). La grille tarifaire n'est pas publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables IB DP à Sousse.",
+    "cta_email": "contact@takiacademy.com"
+  },
+  "accreditations": [
+    {
+      "short": "IB",
+      "name": "International Baccalaureate — Diploma Programme",
+      "meta": "Programme du Diplôme · Code 062913",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé · Collège & Lycée",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    }
+  ],
+  "distinction_text": "Branche éducative de Takiacademy, plateforme e-learning leader en Tunisie",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Collège (12-15 ans)",
+          "Lycée (15-18 ans)",
+          "Programme tunisien officiel",
+          "Programme IB DP"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "Baccalauréat tunisien",
+          "IB Diploma Programme (DP)"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Arabe",
+          "Français",
+          "Anglais"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Accès plateforme Takiacademy e-learning",
+          "Coaching scolaire",
+          "Préparation examens nationaux et IB"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "062913",
+        "label": "Code école IB"
+      },
+      {
+        "value": "DP",
+        "label": "Programme IB autorisé"
+      },
+      {
+        "value": "16K+",
+        "label": "Communauté Facebook"
+      },
+      {
+        "value": "Excell.",
+        "label": "Slogan : Excellence"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "E-learning Takiacademy",
+      "description": "Accès intégré à la plateforme Takiacademy."
+    },
+    {
+      "icon_type": "byod",
+      "name": "BYOD / Numérique",
+      "description": "Outils numériques intégrés au cursus."
+    },
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque",
+      "description": "Ressources scolaires."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Cantine",
+      "description": "Restauration sur site."
+    },
+    {
+      "icon_type": "labs",
+      "name": "Laboratoires",
+      "description": "Équipements pour sciences et technologies."
+    }
+  ],
+  "clubs": {
+    "state": "empty",
+    "description_html": "Takiacademy School propose des activités extrascolaires en lien avec sa double identité éducative (physique + e-learning). Liste détaillée non publiée publiquement.",
+    "cta": null,
+    "cards": []
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus Sahloul",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Campus Khzama",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Classes",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Numérique",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Laboratoires",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Vie scolaire",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 28 001 055",
+    "phone_main_label": "Standard",
+    "phone_secondary": null,
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@takiacademy.com",
+    "email_admissions": "contact@takiacademy.com",
+    "map": {
+      "lat": 35.82,
+      "lng": 10.6,
+      "title": "Takiacademy School — Sahloul 4, Sousse"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/takiacademy.school",
+      "instagram": "https://www.instagram.com/takiacademy.school/",
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Sahloul",
+      "type": "main",
+      "street": "Lot AFH 125, Sahloul",
+      "postal_code": "4054",
+      "locality": "Sousse",
+      "region": "Sahloul",
+      "country_code": "TN",
+      "lat": 35.82,
+      "lng": 10.6,
+      "phone_local": "+216 28 001 055"
+    },
+    {
+      "order": 2,
+      "name": "Campus Khzama Ouest",
+      "type": "annex",
+      "street": "BP 40 bureau La Poste Khzama Ouest",
+      "postal_code": "4071",
+      "locality": "Sousse",
+      "region": "Khzama",
+      "country_code": "TN",
+      "lat": 35.8311,
+      "lng": 10.5856,
+      "phone_local": null
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>programme officiel tunisien</strong> et le <strong>Programme du Diplôme IB (DP)</strong>. Code école IB 062913."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quels niveaux sont enseignés ?",
+      "answer_html": "<strong>Collège et lycée</strong>, soit environ 12 à 18 ans."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quel est le lien avec Takiacademy ?",
+      "answer_html": "Takiacademy School est la <strong>branche éducative physique</strong> du groupe Takiacademy, plateforme e-learning leader en Tunisie. Les élèves bénéficient d'un accès intégré."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Combien y a-t-il de campus ?",
+      "answer_html": "<strong>2 sites</strong> à Sousse : Sahloul 4 (Lot AFH 125) et Khzama Ouest (BP 40)."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Trilingue arabe-français-anglais</strong>."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Quel diplôme final est préparé ?",
+      "answer_html": "Le <strong>Baccalauréat tunisien</strong> et l'<strong>IB Diploma Programme</strong>."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Quel est le slogan de l'école ?",
+      "answer_html": "<em>« عنوان التّميّز »</em> — <strong>Adresse de l'excellence</strong>."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment contacter l'école ?",
+      "answer_html": "Téléphone : <strong>+216 28 001 055</strong>. Email : contact@takiacademy.com. Facebook : @takiacademy.school."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "john-dewey-school-sousse",
+      "cover_text": "JDS",
+      "name": "John Dewey School de Sousse",
+      "meta": "IB World · Sahloul 4",
+      "tier": "premium"
+    },
+    {
+      "slug": "gsing",
+      "cover_text": "GSING",
+      "name": "Groupe Scolaire International Les Nouvelles Générations",
+      "meta": "IB Continuum · Djerba",
+      "tier": "premium"
+    },
+    {
+      "slug": "ideale-college-lycee-nabeul",
+      "cover_text": "L'Idé.",
+      "name": "Collège & Lycée Idéale Nabeul",
+      "meta": "IB PEI · Nabeul",
+      "tier": "premium"
+    }
+  ]
+}

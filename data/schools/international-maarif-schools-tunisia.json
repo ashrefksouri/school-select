@@ -1,0 +1,409 @@
+{
+  "slug": "international-maarif-schools-tunisia",
+  "school_id": "tn-tunis-imst",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "International Maarif Schools of Tunisia",
+    "name_short": "IMST",
+    "alternate_names": [
+      "Tunisia Maarif Schools",
+      "Maarif Tunisia",
+      "المعارف الدولية سكول"
+    ],
+    "founded_date_iso": "2017-09-01",
+    "official_website": "https://tn.maarifschool.org",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "languages": [
+      "en",
+      "ar",
+      "fr",
+      "tr"
+    ],
+    "age_min": 3,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "IMST · International Maarif Schools of Tunisia",
+    "description": "École internationale Cambridge à Tunis. Fondation turque Maarif (466 écoles, 55 pays). 2 campus : Lac 3 + Charguia 2 Ariana. 3-18 ans.",
+    "og_title": "IMST · International Maarif Schools (Cambridge)",
+    "og_description": "École Cambridge accréditée à Tunis. Fondation publique turque Maarif (466 écoles, 55 pays). 2 campus. Cursus complet maternelle → lycée."
+  },
+  "hero": {
+    "logo_text": "IMST",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École internationale, <strong>accréditée Cambridge</strong>, fondée en 2017. Partie de la <strong>Fondation Maarif turque</strong> (466 écoles dans 55 pays). <strong>2 campus à Tunis</strong> : Primary & Middle aux Berges du Lac 3, Secondary à Charguia 2 Ariana. Curriculum Cambridge Primary et Secondary, langue d'enseignement anglais.",
+    "eyebrow_text": "Premium · British (Cambridge) · Lac 3 + Ariana",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Lac 3 + Charguia 2, Tunis"
+      },
+      {
+        "icon": "book",
+        "text": "Cambridge Primary + Secondary"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 18 ans"
+      },
+      {
+        "icon": "home",
+        "text": "2 campus"
+      },
+      {
+        "icon": "globe",
+        "text": "Réseau global 55 pays"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://tn.maarifschool.org",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://tn.maarifschool.org/contact-us/",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "IMST se positionne en tier Premium (6-12k TND/an) estimé. Grille tarifaire non publiée publiquement.",
+    "details_html": "Frais et modalités à demander directement auprès de l'admission. Programme de bourses possible (à vérifier).",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables Cambridge à Tunis.",
+    "cta_email": "info@maarifschool.org"
+  },
+  "accreditations": [
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment International Education",
+      "meta": "Fully accredited · Cambridge Primary + Secondary",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "Maarif",
+      "name": "Turkish Maarif Foundation",
+      "meta": "Fondation publique non-profit · 466 écoles dans 55 pays",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    }
+  ],
+  "distinction_text": "Partie du réseau mondial de la Fondation Maarif turque (466 écoles dans 55 pays)",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Kindergarten (3-5 ans)",
+          "Primary School",
+          "Middle School",
+          "Secondary School (jusqu'à 18 ans)"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "Cambridge Primary",
+          "Cambridge Lower Secondary",
+          "Cambridge IGCSE (planifié/en cours)",
+          "Préparation universités internationales"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Anglais (langue d'enseignement)",
+          "Arabe",
+          "Français",
+          "Turc (option)"
+        ]
+      },
+      {
+        "label": "Pédagogie",
+        "items": [
+          "Student Support Programme (SSP)",
+          "Programme international centré sur l'élève",
+          "Inquiry-based practice",
+          "Formation continue enseignants"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2017",
+        "label": "Année de fondation"
+      },
+      {
+        "value": "466",
+        "label": "Écoles dans le réseau"
+      },
+      {
+        "value": "55",
+        "label": "Pays présence Maarif"
+      },
+      {
+        "value": "2",
+        "label": "Campus à Tunis"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "transport",
+      "name": "School Bus",
+      "description": "Service de transport scolaire."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Canteen",
+      "description": "Restauration sur site."
+    },
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Outils numériques pour Cambridge."
+    },
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque",
+      "description": "Ressources documentaires Cambridge."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Arts & musique",
+      "description": "Activités créatives intégrées."
+    },
+    {
+      "icon_type": "psy",
+      "name": "Student Support Programme",
+      "description": "Accompagnement personnalisé et conseil."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "IMST organise des sorties pédagogiques, événements et activités extrascolaires.",
+    "cta": {
+      "url": "https://tn.maarifschool.org/photo-gallery/",
+      "label": "Voir la galerie"
+    },
+    "cards": [
+      {
+        "label": "Sorties pédagogiques",
+        "items": [
+          "Field trips",
+          "Visites culturelles",
+          "Sciences appliquées (Cité des Sciences)"
+        ]
+      },
+      {
+        "label": "Événements scolaires",
+        "items": [
+          "Featured news",
+          "Photo & video gallery",
+          "Annonces régulières"
+        ]
+      },
+      {
+        "label": "Vie internationale",
+        "items": [
+          "Cours de turc",
+          "Réseau Maarif mondial",
+          "Échanges multicultures"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus Lac 3",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Campus Ariana",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Kindergarten",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Classes",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Field trips",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Events",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 70 747 046",
+    "phone_main_label": "Standard Primary & Middle (Lac 3)",
+    "phone_secondary": null,
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "info@maarifschool.org",
+    "email_admissions": "info@maarifschool.org",
+    "map": {
+      "lat": 36.8459,
+      "lng": 10.2756,
+      "title": "IMST Primary & Middle — Lac 3, Tunis"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/maariftn/",
+      "instagram": null,
+      "linkedin": null,
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Primary & Middle School",
+      "type": "primary",
+      "street": "4 Rue Socrate, ZI Kheireddine",
+      "postal_code": "2015",
+      "locality": "Tunis",
+      "region": "Lac 3",
+      "country_code": "TN",
+      "lat": 36.8459,
+      "lng": 10.2756,
+      "phone_local": "+216 70 747 046"
+    },
+    {
+      "order": 2,
+      "name": "Secondary School",
+      "type": "secondary",
+      "street": "22 Rue de l'Usine, Charguia 2",
+      "postal_code": "2035",
+      "locality": "Ariana",
+      "region": "Charguia",
+      "country_code": "TN",
+      "lat": 36.85,
+      "lng": 10.21,
+      "phone_local": null
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>curriculum Cambridge International</strong> (Primary et Secondary). Matières principales : anglais, maths, sciences. Pleinement accrédité par Cambridge."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Qu'est-ce que la Fondation Maarif ?",
+      "answer_html": "La <strong>Turkish Maarif Foundation</strong> est une fondation publique non-profit turque opérant <strong>466 écoles dans 55 pays</strong>. IMST est le membre tunisien de ce réseau."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Combien y a-t-il de campus ?",
+      "answer_html": "<strong>2 campus à Tunis</strong> : Primary & Middle School aux Berges du Lac 3 (4 Rue Socrate, ZI Kheireddine) et Secondary à Charguia 2 Ariana (22 Rue de l'Usine)."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quelle est la tranche d'âge ?",
+      "answer_html": "De la <strong>maternelle (Kindergarten 3-5 ans)</strong> au <strong>lycée (jusqu'à 18 ans)</strong>."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Anglais</strong> est la langue d'enseignement principale. Arabe, français et <strong>turc (option)</strong> également enseignés."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Y a-t-il un service de transport ?",
+      "answer_html": "Oui, <strong>School Bus</strong> et <strong>Canteen</strong> sont disponibles."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Y a-t-il un soutien personnalisé ?",
+      "answer_html": "Oui, un <strong>Student Support Programme (SSP)</strong> au primaire et au secondaire."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Téléphone : <strong>+216 70 747 046</strong>. Pré-inscription possible sur le site officiel tn.maarifschool.org."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British COBIS · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "canopus-international-school-of-tunis",
+      "cover_text": "CIS",
+      "name": "Canopus International School of Tunis",
+      "meta": "British Cambridge · Charguia 1",
+      "tier": "premium"
+    },
+    {
+      "slug": "oxford-international-school-of-tunis",
+      "cover_text": "OIST",
+      "name": "Oxford International School of Tunis",
+      "meta": "Cambridge + American · Le Kram",
+      "tier": "premium"
+    }
+  ]
+}

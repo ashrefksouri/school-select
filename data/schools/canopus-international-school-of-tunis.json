@@ -1,0 +1,372 @@
+{
+  "slug": "canopus-international-school-of-tunis",
+  "school_id": "tn-tunis-cis",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Canopus International School of Tunis",
+    "name_short": "CIS Tunis",
+    "alternate_names": [
+      "CIS Tunis",
+      "CIST",
+      "CIS International School of Tunis",
+      "Canopus International School"
+    ],
+    "founded_date_iso": "2015-09-01",
+    "official_website": "https://cistunis.tn",
+    "country_code": "TN",
+    "city": "Tunis",
+    "city_slug": "tunis",
+    "gov": "Tunis"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "age_min": 3,
+    "age_max": 18
+  },
+  "seo": {
+    "title": "CIS Tunis · Canopus International School — School Select",
+    "description": "École internationale britannique à Charguia 1. Cambridge International + Pearson Edexcel. EYFS à Upper Secondary (3-18 ans). Centre d'examens officiel.",
+    "og_title": "CIS Tunis · Canopus International School (British)",
+    "og_description": "École anglophone à Charguia 1. Cambridge Primary, Lower Secondary, IGCSE, A Level. Accrédité Cognia (USA), Cambridge, Pearson Edexcel."
+  },
+  "hero": {
+    "logo_text": "CIS",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "École internationale britannique à Charguia 1, accréditée <strong>Cognia (USA)</strong>, <strong>Cambridge International</strong> et <strong>Pearson Edexcel</strong>. Cursus complet de l'<strong>EYFS (3-4 ans) au Upper Secondary (15-18 ans)</strong>. <strong>Centre d'examens officiel</strong> Cambridge et Edexcel.",
+    "eyebrow_text": "Premium · British · Charguia 1, Tunis",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Charguia 1, Tunis"
+      },
+      {
+        "icon": "book",
+        "text": "English curriculum (Cambridge)"
+      },
+      {
+        "icon": "users",
+        "text": "3 à 18 ans (EYFS → Upper Sec.)"
+      },
+      {
+        "icon": "trophy",
+        "text": "Centre Cambridge + Edexcel"
+      },
+      {
+        "icon": "globe",
+        "text": "Cognia · Cambridge · Edexcel"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://cistunis.tn/admissions-2/",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "https://cistunis.tn/contact-us/",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "CIS Tunis se positionne en tier Premium (6-12k TND/an) estimé. Selon le site officiel, les frais sont publiés en ligne et un tarif spécial est appliqué pour les inscriptions précoces.",
+    "details_html": "Frais publiés sur le site officiel (à la rubrique Admissions). <strong>Réduction spéciale pour inscription précoce</strong>. Inscription ouverte annuellement.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables British curriculum à Tunis.",
+    "cta_email": "contact@cistunis.tn"
+  },
+  "accreditations": [
+    {
+      "short": "Cognia",
+      "name": "Cognia (USA)",
+      "meta": "Accrédité · Réseau global d'établissements",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment International",
+      "meta": "Registered Cambridge International School + Centre d'examens",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "Pearson",
+      "name": "Pearson Edexcel",
+      "meta": "Centre d'examens officiel · IGCSE & A Levels",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Reconnu pour matières françaises, arabes, éd. islamique, histoire-géo TN",
+      "gradient_start": "#1B4789",
+      "gradient_end": "#0F766E"
+    }
+  ],
+  "distinction_text": "École à curriculum anglais accréditée Cognia (USA), Cambridge International et Pearson Edexcel",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "EYFS — Early Years Foundation Stage (3-4 ans)",
+          "Primary Education (5-11 ans)",
+          "Lower Secondary (12-14 ans)",
+          "Upper Secondary (15-18 ans)"
+        ]
+      },
+      {
+        "label": "Diplômes préparés",
+        "items": [
+          "Cambridge Primary",
+          "Cambridge Lower Secondary",
+          "IGCSE (Cambridge / Pearson Edexcel)",
+          "A Levels (Cambridge / Pearson Edexcel)"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Anglais (langue d'enseignement)",
+          "Français (programme TN)",
+          "Arabe (programme TN)"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "Préparation Cambridge / Edexcel",
+          "Suivi pédagogique standardisé",
+          "Accès universités internationales",
+          "Équilibre programme britannique + ancrage TN"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "Cognia",
+        "label": "Accréditation USA"
+      },
+      {
+        "value": "Cambridge",
+        "label": "Centre d'examens"
+      },
+      {
+        "value": "Edexcel",
+        "label": "IGCSE & A Levels"
+      },
+      {
+        "value": "3-18",
+        "label": "Tranche d'âge complète"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Équipement pédagogique standard Cambridge."
+    },
+    {
+      "icon_type": "labs",
+      "name": "Laboratoires",
+      "description": "Sciences et technologies pour IGCSE/A Level."
+    },
+    {
+      "icon_type": "library",
+      "name": "Library",
+      "description": "Centre de documentation et ressources."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Arts & créativité",
+      "description": "Programmes artistiques intégrés au curriculum."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Cantine",
+      "description": "Restauration sur site."
+    }
+  ],
+  "clubs": {
+    "state": "empty",
+    "description_html": "CIS Tunis propose un programme d'activités extrascolaires et événements (Exams Center, Gallery, Our Feed). La liste détaillée n'est pas publiée publiquement.",
+    "cta": {
+      "url": "https://cistunis.tn/our-feed/",
+      "label": "Voir l'actualité"
+    },
+    "cards": []
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "EYFS",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Primary",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Secondary",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Exams Center",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Labs",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 26 066 667",
+    "phone_main_label": "Standard / Admissions",
+    "phone_secondary": "+216 36 034 444",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@cistunis.tn",
+    "email_admissions": "contact@cistunis.tn",
+    "map": {
+      "lat": 36.8347,
+      "lng": 10.2086,
+      "title": "CIS Tunis — Charguia 1"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/CISTunis/",
+      "instagram": "https://www.instagram.com/cistunis/",
+      "linkedin": "https://tn.linkedin.com/company/cistunis",
+      "youtube": "https://www.youtube.com/channel/UCid7jN6PtBhA7VoOjG2y-6A",
+      "tiktok": null,
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_schools_in_Tunisia"
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Charguia 1",
+      "type": "combined",
+      "street": "Charguia 1",
+      "postal_code": "2035",
+      "locality": "Tunis",
+      "region": "Tunis",
+      "country_code": "TN",
+      "lat": 36.8347,
+      "lng": 10.2086,
+      "phone_local": "+216 36 034 444"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Les frais sont <strong>publiés sur le site officiel</strong> (rubrique Admissions). Tier estimé <strong>Premium (6-12k TND/an)</strong>. Réduction spéciale pour inscription précoce."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "Le <strong>curriculum britannique</strong> (English curriculum) : Cambridge Primary, Lower Secondary, IGCSE, A Levels. Également Pearson Edexcel pour les qualifications IGCSE et A Level."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quelles sont les accréditations ?",
+      "answer_html": "<strong>4 accréditations majeures</strong> : Cognia (USA), Cambridge Assessment International Education, Pearson Edexcel, et reconnaissance du Ministère de l'Éducation tunisien."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelle est la tranche d'âge accueillie ?",
+      "answer_html": "De <strong>3 à 18 ans</strong> : EYFS (3-4), Primary (5-11), Lower Secondary (12-14), Upper Secondary (15-18)."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "L'école est-elle un centre d'examens ?",
+      "answer_html": "Oui. CIS Tunis est <strong>centre d'examens officiel Cambridge et Pearson Edexcel</strong> pour les IGCSE et A Levels."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "L'<strong>anglais est la langue principale d'enseignement</strong>. Le français et l'arabe sont enseignés selon les programmes tunisiens, ainsi que l'éducation islamique et l'histoire-géographie."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "Au <strong>Charguia 1, Tunis</strong>. Quartier d'affaires international à proximité de l'aéroport Tunis-Carthage."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Quel est le slogan de l'école ?",
+      "answer_html": "<strong>INTEGRITY ● LEADERSHIP ● EXCELLENCE</strong>"
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Téléphone : <strong>+216 26 066 667</strong> ou <strong>+216 36 034 444</strong>. Inscriptions ouvertes annuellement avec <strong>réduction spéciale pour inscription précoce</strong>."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "british-international-school-of-tunis",
+      "cover_text": "BIST",
+      "name": "The British International School of Tunis",
+      "meta": "British COBIS · La Soukra / Le Kram",
+      "tier": "premium_plus"
+    },
+    {
+      "slug": "british-academy-of-tunis",
+      "cover_text": "BAT",
+      "name": "British Academy of Tunis",
+      "meta": "IB Continuum · Berges du Lac 1",
+      "tier": "premium"
+    },
+    {
+      "slug": "international-franco-british-school",
+      "cover_text": "IFBS",
+      "name": "International Franco-British School",
+      "meta": "Bilingue FR-UK · La Marsa",
+      "tier": "premium"
+    }
+  ]
+}

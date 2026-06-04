@@ -1,0 +1,387 @@
+{
+  "slug": "pristini-international-school",
+  "school_id": "tn-sousse-pristini",
+  "version_data": "1.0.0",
+  "identity": {
+    "name_full": "Pristini International School",
+    "name_short": "Pristini",
+    "alternate_names": [
+      "Pristini Sousse",
+      "Pristini Knowledge Group",
+      "Pristini International Primary School"
+    ],
+    "founded_date_iso": "2020-09-01",
+    "official_website": "https://pristini-international.tn",
+    "country_code": "TN",
+    "city": "Sousse",
+    "city_slug": "sousse",
+    "gov": "Sousse"
+  },
+  "classification": {
+    "tier": "premium",
+    "verified": true,
+    "curriculum_types": [
+      "british"
+    ],
+    "languages": [
+      "en",
+      "ar",
+      "fr"
+    ],
+    "age_min": 5,
+    "age_max": 19
+  },
+  "seo": {
+    "title": "Pristini International School Sousse · Cambridge",
+    "description": "Première école Cambridge accréditée de Sousse. 5-19 ans, primaire + secondaire. IGCSE + O Level + A Level. Partenariat Collège de Paris. Novation City.",
+    "og_title": "Pristini · Première école Cambridge Sousse",
+    "og_description": "First Cambridge-accredited school in Sousse. Primary + Secondary (5-19 ans). Partenariat Collège de Paris (80 campus). Novation City Hammam Maarouf."
+  },
+  "hero": {
+    "logo_text": "Pristini",
+    "image_url": null,
+    "image_tag": "Photo officielle",
+    "tagline_html": "<strong>Première école Cambridge-accréditée de Sousse</strong>, fondée en 2020 et partie du <strong>Pristini Knowledge Group</strong>. Cursus complet de <strong>5 à 19 ans</strong> : primaire + secondaire (IGCSE, O Level, A Level). Située à <strong>Novation City</strong> (Pôle technologique Hammam Maarouf). <strong>Partenariat Collège de Paris</strong> (80 campus mondialement).",
+    "eyebrow_text": "Premium · Cambridge · Novation City Sousse",
+    "tags": [
+      {
+        "icon": "location",
+        "text": "Novation City, Hammam Maarouf, Sousse"
+      },
+      {
+        "icon": "book",
+        "text": "Cambridge International (1er Sousse)"
+      },
+      {
+        "icon": "users",
+        "text": "5 à 19 ans"
+      },
+      {
+        "icon": "trophy",
+        "text": "Partenariat Collège de Paris"
+      },
+      {
+        "icon": "globe",
+        "text": "Multilingue EN-AR-FR"
+      }
+    ],
+    "cta_primary": {
+      "url": "https://pristini-international.tn",
+      "label": "Demander un devis"
+    },
+    "cta_secondary": {
+      "url": "mailto:contact@pristini-international.tn",
+      "label": "Visiter l'école"
+    }
+  },
+  "fees": {
+    "tier_active": "premium",
+    "tier_intro_text": "Pristini se positionne en tier Premium (6-12k TND/an) estimé. Grille tarifaire non publiée publiquement.",
+    "details_html": "Frais et modalités à demander auprès de l'admission.",
+    "publication_status": "non_published",
+    "note": "Tier estimé d'après les comparables Cambridge à Sousse.",
+    "cta_email": "contact@pristini-international.tn"
+  },
+  "accreditations": [
+    {
+      "short": "Cambridge",
+      "name": "Cambridge Assessment International Education",
+      "meta": "Première école Cambridge-accréditée de Sousse · IGCSE + O Level + A Level",
+      "gradient_start": "#0E2A5C",
+      "gradient_end": "#1B4789"
+    },
+    {
+      "short": "MEN-TN",
+      "name": "Ministère de l'Éducation tunisien",
+      "meta": "Établissement privé agréé",
+      "gradient_start": "#7F1D1D",
+      "gradient_end": "#C2410C"
+    },
+    {
+      "short": "CDP",
+      "name": "Collège de Paris (partenariat)",
+      "meta": "Partenariat depuis 2023 · 80 campus mondialement",
+      "gradient_start": "#0F766E",
+      "gradient_end": "#0E2A5C"
+    }
+  ],
+  "distinction_text": "Première école Cambridge-accréditée de Sousse · Partenariat Collège de Paris (80 campus)",
+  "programme": {
+    "cards": [
+      {
+        "label": "Cycles enseignés",
+        "items": [
+          "Primary (5-11 ans)",
+          "Lower Secondary (11-14 ans)",
+          "Upper Secondary (14-16 ans)",
+          "Sixth Form (16-19 ans)"
+        ]
+      },
+      {
+        "label": "Diplômes / certifications",
+        "items": [
+          "IGCSE (70+ matières au choix)",
+          "O Levels (50+ matières)",
+          "A Levels",
+          "Cambridge Primary Checkpoint"
+        ]
+      },
+      {
+        "label": "Langues",
+        "items": [
+          "Anglais (langue d'enseignement principale)",
+          "Arabe (langue d'instruction)",
+          "Français (langue d'acquisition)",
+          "DELF B1 visé fin de 3e"
+        ]
+      },
+      {
+        "label": "Soutien spécialisé",
+        "items": [
+          "DNL (disciplines non linguistiques)",
+          "Approche multilingue / multiculturelle",
+          "Partenariat universités (Collège de Paris)",
+          "Preuves projet AI"
+        ]
+      }
+    ]
+  },
+  "pedagogy": {
+    "facts": [
+      {
+        "value": "2020",
+        "label": "Année de fondation"
+      },
+      {
+        "value": "1er",
+        "label": "Cambridge à Sousse"
+      },
+      {
+        "value": "70+",
+        "label": "IGCSE au choix"
+      },
+      {
+        "value": "80",
+        "label": "Campus Collège de Paris"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon_type": "smart_class",
+      "name": "Classes connectées",
+      "description": "Technologies intégrées + School of AI."
+    },
+    {
+      "icon_type": "labs",
+      "name": "Laboratoires",
+      "description": "Sciences pour IGCSE et A Levels."
+    },
+    {
+      "icon_type": "library",
+      "name": "Bibliothèque",
+      "description": "Ressources Cambridge multilingues."
+    },
+    {
+      "icon_type": "music_art",
+      "name": "Arts & créativité",
+      "description": "Programmes artistiques intégrés."
+    },
+    {
+      "icon_type": "cantine",
+      "name": "Restauration",
+      "description": "Cantine sur site."
+    }
+  ],
+  "clubs": {
+    "state": "filled",
+    "description_html": "Pristini propose des activités extrascolaires variées, dont la School of AI et des hackathons.",
+    "cta": null,
+    "cards": [
+      {
+        "label": "Sciences & technologie",
+        "items": [
+          "Pristini School of AI",
+          "Hackathons (Start It Up AI)",
+          "Partenariat ARSII"
+        ]
+      },
+      {
+        "label": "International",
+        "items": [
+          "Partenariat Collège de Paris (80 campus)",
+          "Échanges internationaux",
+          "International Peace Day"
+        ]
+      },
+      {
+        "label": "Vie scolaire",
+        "items": [
+          "Événements culturels",
+          "Activités multilingues",
+          "Programmes étudiants"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "items": [
+      {
+        "image_url": null,
+        "placeholder_label": "Campus",
+        "gradient_start": "#0E2A5C",
+        "gradient_end": "#1B4789"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Primary",
+        "gradient_start": "#1B4789",
+        "gradient_end": "#0F766E"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Secondary",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#0E2A5C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "School of AI",
+        "gradient_start": "#7F1D1D",
+        "gradient_end": "#C2410C"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Hackathon",
+        "gradient_start": "#C2410C",
+        "gradient_end": "#7F1D1D"
+      },
+      {
+        "image_url": null,
+        "placeholder_label": "Partenariats",
+        "gradient_start": "#0F766E",
+        "gradient_end": "#1B4789"
+      }
+    ]
+  },
+  "video": {
+    "youtube_id": null,
+    "iframe_title": null,
+    "source": null
+  },
+  "contact": {
+    "phone_main": "+216 98 770 088",
+    "phone_main_label": "Standard",
+    "phone_secondary": "+216 70 222 022",
+    "office_hours": "Lundi-Vendredi 8h-17h",
+    "email_main": "contact@pristini-international.tn",
+    "email_admissions": "contact@pristini-international.tn",
+    "map": {
+      "lat": 35.8311,
+      "lng": 10.5856,
+      "title": "Pristini — Novation City, Hammam Maarouf, Sousse"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/PristiniInternationalSchool/",
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/pristini-international-school",
+      "youtube": null,
+      "tiktok": null,
+      "wikipedia": null
+    }
+  },
+  "campuses": [
+    {
+      "order": 1,
+      "name": "Campus Novation City",
+      "type": "combined",
+      "street": "Novation City - Pôle technologique - Hammam Maarouf",
+      "postal_code": "4000",
+      "locality": "Sousse",
+      "region": "Sahel",
+      "country_code": "TN",
+      "lat": 35.8311,
+      "lng": 10.5856,
+      "phone_local": "+216 98 770 088"
+    }
+  ],
+  "faq": [
+    {
+      "order": 1,
+      "open": true,
+      "question": "Quels sont les frais de scolarité ?",
+      "answer_html": "Frais non publiés. Tier estimé <strong>Premium (6-12k TND/an)</strong>. Contact admission recommandé."
+    },
+    {
+      "order": 2,
+      "open": false,
+      "question": "Quel curriculum est enseigné ?",
+      "answer_html": "<strong>Curriculum Cambridge International</strong>. Première école Cambridge-accréditée de Sousse."
+    },
+    {
+      "order": 3,
+      "open": false,
+      "question": "Quels diplômes sont préparés ?",
+      "answer_html": "<strong>IGCSE</strong> (parmi 70+ matières), <strong>O Levels</strong> (parmi 50+ matières), <strong>A Levels</strong>."
+    },
+    {
+      "order": 4,
+      "open": false,
+      "question": "Quelle est la tranche d'âge ?",
+      "answer_html": "De <strong>5 à 19 ans</strong> : primaire + secondaire complet jusqu'à Sixth Form."
+    },
+    {
+      "order": 5,
+      "open": false,
+      "question": "Quelles langues sont enseignées ?",
+      "answer_html": "<strong>Anglais</strong> est la langue d'enseignement. <strong>Arabe</strong> langue d'instruction. <strong>Français</strong> langue d'acquisition (DELF B1 visé fin de 3e). Programme multilingue avec DNL."
+    },
+    {
+      "order": 6,
+      "open": false,
+      "question": "Qu'est-ce que le Pristini Knowledge Group ?",
+      "answer_html": "Complexe éducatif privé <strong>fondé en 2020</strong> à Sousse, comprenant Pristini International School, Pristini International Primary School et <strong>Pristini School of AI</strong>."
+    },
+    {
+      "order": 7,
+      "open": false,
+      "question": "Quels sont les partenariats ?",
+      "answer_html": "<strong>Collège de Paris</strong> (signé en 2023) : 80 campus mondiaux, double opportunités. Aussi : <strong>Association ARSII</strong> (recherche & innovation en informatique)."
+    },
+    {
+      "order": 8,
+      "open": false,
+      "question": "Où est situé le campus ?",
+      "answer_html": "<strong>Novation City - Pôle technologique - Hammam Maarouf, Sousse (4000)</strong>."
+    },
+    {
+      "order": 9,
+      "open": false,
+      "question": "Comment s'inscrire ?",
+      "answer_html": "Téléphone : <strong>+216 98 770 088</strong> ou +216 70 222 022. Email : contact@pristini-international.tn."
+    }
+  ],
+  "similar_schools": [
+    {
+      "slug": "john-dewey-school-sousse",
+      "cover_text": "JDS",
+      "name": "John Dewey School de Sousse",
+      "meta": "IB World · Sahloul 4",
+      "tier": "premium"
+    },
+    {
+      "slug": "takiacademy-international-school-sousse",
+      "cover_text": "Taki",
+      "name": "Takiacademy International School of Sousse",
+      "meta": "IB DP · Sahloul Sousse",
+      "tier": "premium"
+    },
+    {
+      "slug": "gsing",
+      "cover_text": "GSING",
+      "name": "Groupe Scolaire International Les Nouvelles Générations",
+      "meta": "IB Continuum · Djerba",
+      "tier": "premium"
+    }
+  ]
+}
